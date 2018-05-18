@@ -1,0 +1,61 @@
+<!--pages/index/prize.wxml-->
+<view class='bottomtab'>
+    <!--活动首页-->
+    <view class='forprizebg' style='background:url(../../images/activebg.jpg) center center no-repeat;'>
+        <view class='tabli samepadding'>
+            <text class='activename'>开心大转盘</text>
+            <view class='activetime'>
+                <text>抽奖结束时间剩余 \n <text class='times'>{{countDownHour}}小时{{countDownMinute}}分钟{{countDownSecond}}秒</text></text>
+            </view> 
+            <navigator url='pricetip' class='activetip'>
+                <image src='../../images/prizetip.png' class='topimg'></image>
+            </navigator>
+            <swiper class='prizeuser' autoplay="true" current="0" interval="2000" duration="500" circular="true" vertical="true">
+                <view class='prizeuserinner'>
+                    <block>
+                        <swiper-item>
+                            <text class='useitem'>恭喜用户153*******2356抽中了三等奖</text>
+                        </swiper-item>
+                        <swiper-item>
+                            <text class='useitem'>恭喜用户153*******5598抽中了五等奖</text>
+                        </swiper-item>
+                        <swiper-item>
+                            <text class='useitem'>恭喜用户153*******2356抽中了三等奖</text>
+                        </swiper-item>
+                    </block>
+                </view>
+            </swiper>
+            <view class="container-out">  
+            <view  
+            class="circle" wx:for="{{circleList}}"  
+            style="top:{{item.topCircle}}rpx;left:{{item.leftCircle}}rpx;background-color: {{(index%2==0)?colorCircleFirst:colorCircleSecond}};"></view>  
+            <view class="container-in">  
+                <view class="content-out" wx:for="{{awardList}}" style="top:{{item.topAward}}rpx;left:{{item.leftAward}}rpx;background-color: {{(index==indexSelect)?colorAwardSelect:colorAwardDefault}};">  
+                <image class="award-image" src="{{item.imageAward}}"></image>  
+                </view>  
+                <view class="start-btn" bindtap="startGame" style=" background-color:{{isRunning?'#e7930a':'#ffe400'}}">
+                    <image src='../../images/brginprize.png' class='award-image'></image>
+                </view>  
+            </view>  
+            </view>
+            <text class='prizetimes'>您还有<text>6</text>次抽奖机会</text>
+            <view class='share'>
+                <text>邀请好友来抽奖</text>
+                <navigator class='left10'>去分享</navigator>
+            </view>
+        </view>
+    </view>
+    <!--中奖提醒-->
+    <view class="tabli prizepop {{hadprize?'':'hide'}}" bindtap='closeprize' style='background:url(../../images/blackbg.png) top left;'>
+        <view class='succ'>中奖啦！</view>
+        <image class='succimg' src='../../images/gift.png'></image>
+        <view class='succprize'>恭喜您，抽中了<text>二等奖</text></view>
+        <text class='succprize'>我们会尽快和您联系，请您保持手机畅通！</text>
+    </view>
+    <!--未中提醒-->
+    <view class="tabli prizepop {{unprize?'':'hide'}}" bindtap='closenoprize' style='background:url(../../images/blackbg.png) top left;'>
+        <image class='failimg' src='../../images/noprize.png'></image>
+    </view>
+</view>
+
+

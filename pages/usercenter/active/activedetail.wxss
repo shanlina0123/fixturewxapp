@@ -1,0 +1,18 @@
+/* pages/usercenter/active/activedetail.wxss */
+.detailname,.detailtime{
+    text-align: center;
+    height: 40rpx;
+    line-height: 40rpx;
+    margin: 10rpx 0;
+}
+.activeimg{
+    width: 100%;
+}
+.signname{
+    color: #fff;
+    text-align: center;
+    padding:15rpx 0;
+    border-radius: 8rpx;
+    background-color: #1E9FFF;
+    margin: 20rpx auto;
+}

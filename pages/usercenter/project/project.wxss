@@ -1,0 +1,39 @@
+/* pages/usercenter/project/project.wxss */
+.projectli{
+    background-color: #eee;
+    padding:0 20rpx;
+    margin: 20rpx 0;
+}
+.leftimgwrap{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.projectimg{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: 0;
+    z-index: 1
+}
+.projectstate{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 5rpx;
+    color: #fff;
+    z-index: 5
+}
+.projectright{
+    width: 65%;
+}
+.projectright view{
+    margin-bottom: 15rpx;
+}
+.projectright view:first-child{
+    margin-top: 15rpx;
+}
+.projectright view text{
+    margin-right: 15rpx;
+}

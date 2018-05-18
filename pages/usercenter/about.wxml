@@ -1,0 +1,15 @@
+<!--pages/usercenter/about.wxml-->
+<view class='ceontent samepadding'>
+    <image src='../../images/logo.png' class='logo'></image>
+    <text class='comname'>熊先森</text>
+    <view class='companytext'>
+        这里是公司简介
+    </view>
+    <view class='comaddr'>
+        公司地址：
+        <view>陕西省西安市未央区龙首原印象城0706</view>
+    </view>
+    <view class='comphone'>
+        联系电话：029-15689478
+    </view>
+</view>

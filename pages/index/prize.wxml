@@ -7,7 +7,7 @@
             <view class='activetime'>
                 <text>抽奖结束时间剩余 \n <text class='times'>{{countDownHour}}小时{{countDownMinute}}分钟{{countDownSecond}}秒</text></text>
             </view> 
-            <navigator url='pricetip' class='activetip'>
+            <navigator url='pricetip' class='activetip' hover-class="none">
                 <image src='../../images/prizetip.png' class='topimg'></image>
             </navigator>
             <swiper class='prizeuser' autoplay="true" current="0" interval="2000" duration="500" circular="true" vertical="true">

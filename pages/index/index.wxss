@@ -4,7 +4,8 @@
     display: block;
     font-size: 36rpx;
     text-align: center;
-    padding: 30rpx 0;
+    padding: 20rpx 0;
+    background-color: #fff;
 }
 
 .buttonwrap {
@@ -15,13 +16,14 @@
 .centerbtn {
     display: inline-block;
     width: 31%;
-    height: 80rpx;
-    line-height: 80rpx;
-    color: #fff;
     margin-left: 3.5%;
     text-align: center;
-    background-color: #eb7221;
-    border-radius: 5px;
+}
+.topicon{
+    display: block;
+    width:64rpx;
+    height: 64rpx;
+    margin: 10rpx auto;
 }
 
 .centerbtn:first-child {

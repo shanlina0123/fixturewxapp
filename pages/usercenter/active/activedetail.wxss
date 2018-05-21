@@ -1,6 +1,13 @@
 /* pages/usercenter/active/activedetail.wxss */
-.detailname,.detailtime{
+.detailname{
     text-align: center;
+    height: 40rpx;
+    line-height: 40rpx;
+    margin: 10rpx 0;
+    font-size: 30rpx;
+    font-weight: bold;
+}
+.detailtime{
     height: 40rpx;
     line-height: 40rpx;
     margin: 10rpx 0;
@@ -8,11 +15,11 @@
 .activeimg{
     width: 100%;
 }
-.signname{
+.submitBtn{
     color: #fff;
     text-align: center;
     padding:15rpx 0;
     border-radius: 8rpx;
-    background-color: #1E9FFF;
+    background-color: #eb7221;
     margin: 20rpx auto;
 }

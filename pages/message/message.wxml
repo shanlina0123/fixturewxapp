@@ -14,7 +14,7 @@
         </view> 
         <view class='noticeli clearfix'>
             <image src='../../images/uhead.png' class='uhead fl'></image>
-            <view class='rightnotice left15 fl'>
+            <view class='rightnotice fl'>
                 <view class='noticename'>小田评论了599的装修真的超值？呵呵呵呵小田评论了599的装修真的超值？</view>
                 <view class='timewrap'>
                     <image src='../../images/smsg.png' class='msgimg'></image>
@@ -25,7 +25,7 @@
         </view>
         <view class='noticeli clearfix'>
             <image src='../../images/uhead.png' class='uhead fl'></image>
-            <view class='rightnotice left15 fl'>
+            <view class='rightnotice fl'>
                 <view class='noticename'>小田评论了599的装修真的超值？呵呵呵呵小田评论了599的装修真的超值？</view>
                 <view class='timewrap'>
                     <image src='../../images/smsg.png' class='msgimg'></image>

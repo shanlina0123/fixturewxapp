@@ -42,6 +42,18 @@ Page({
         inputisshow: false
     })
   },
+  /**删除自己的评论 */
+  deletetext:function(){
+    wx.showModal({
+        title: '确认删除吗？',
+    })
+  },
+  /** */
+  bindconfirm:function(){
+      this.setData({
+          inputisshow: false
+      })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

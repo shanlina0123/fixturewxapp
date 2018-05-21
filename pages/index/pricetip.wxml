@@ -42,7 +42,7 @@
                 <view><text>奖品：</text>开心刮刮乐</view>
                 <view><text>中奖时间：</text>2018-01-01 15:02:30</view>
             </view>
-            <view class='noprize'>暂无中奖记录，祝您好运！</view>
+            <view class='noprize'>暂无中奖/抽奖记录，祝您好运！</view>
         </view>
     </view>
 </view>

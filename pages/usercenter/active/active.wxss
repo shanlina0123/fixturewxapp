@@ -3,7 +3,9 @@
     position: relative;
 }
 .activeli{
-    padding: 10rpx 0;
+    padding-bottom: 10rpx;
+    background-color: #fff;
+    margin-top: 20rpx;
 }
 .activeimg{
     width: 100%;

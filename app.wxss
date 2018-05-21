@@ -1,16 +1,15 @@
 /**app.wxss**/
 /**公用样式**/
 page{height:100%}
+view{font-size: 28rpx}
 .wrap{
     background-color: #F0F0F0;
     position: relative;
     width: 100%;
-    height: 100%;
 }
-view{font-size: 12px}
-.samepadding{padding:0 20rpx;}
-.left15{margin-left: 15rpx;}
-.left10{margin-left: 10rpx;}
+.samepadding{padding:0 20rpx}
+.left15{margin-left: 15rpx}
+.left10{margin-left: 10rpx}
 .fl{float: left}
 .fr{float: right}
 .clearfix:before,
@@ -42,7 +41,7 @@ view{font-size: 12px}
     width: 665rpx;
     border: 1px solid #e2e2e2;
     padding: 10px;
-    height: 150rpx;
+    height: 300rpx;
     line-height: 30rpx;
     border-radius: 10rpx;
 }
@@ -56,7 +55,7 @@ view{font-size: 12px}
 .ustate{
     color: #1E9FFF;
     padding: 0 10rpx;
-    margin-top: 30rpx;
+    margin-left: 10rpx;
     border: 1px solid #1E9FFF;
     border-radius: 3px;
 }
@@ -82,6 +81,7 @@ view{font-size: 12px}
 .rightnotice{
     width: 83%;
     padding-bottom: 10rpx;
+    padding-left: 15rpx;
     border-bottom: 1px solid #e2e2e2;
 }
 .noticename{
@@ -105,14 +105,21 @@ view{font-size: 12px}
 }
 /**带点赞的评论列表**/
 .itemul {
-    padding: 20rpx;
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
     background-color: #fff;
+    margin-bottom: 20rpx;
 }
 .itemli{
     margin-bottom: 10rpx;
 }
 .rightname{
     margin-left: 20rpx;
+    margin-top: 12rpx;
+}
+.rightonename{
+    margin-left: 20rpx;
+    margin-top: 26rpx;
 }
 
 .bottomname{
@@ -141,12 +148,20 @@ view{font-size: 12px}
     text-align: right;
 }
 .handelimage{
-    width: 32rpx;
-    height: 32rpx;
+    width:64rpx;
+    height: 64rpx;
+}
+.textcontent{
+    display: block;
+    max-width: 88%;
+}
+.deletetext{
+    background-color: #fff;
+    padding: 5rpx 8rpx;
 }
 .iconwrap{
     position: absolute;
-    width: 140rpx;
+    width: 150rpx;
     right: 60rpx;
     top: -5rpx;
     background-color: #000;
@@ -154,9 +169,9 @@ view{font-size: 12px}
     opacity: .7
 }
 .iconwrap .zan{
-    width: 50rpx;
-    height: 50rpx;
-    padding: 0 10rpx;
+    width: 60rpx;
+    height: 60rpx;
+    margin-left: 10rpx;
 }
 .activewrap{
     margin: 10rpx;
@@ -178,24 +193,28 @@ view{font-size: 12px}
 .zaninput{
     padding:0 10rpx;
     width: 81%;
-    height: 40rpx;
-    line-height: 40rpx;
+    height: 60rpx;
+    line-height: 60rpx;
     border: 1px solid #eee;
     border-radius: 5rpx;
 }
 .send{
-    padding: 11rpx 20rpx;
+    width: 95rpx;
+    height: 60rpx;
+    line-height: 60rpx;
     color: #fff;
+    text-align: center;
+    border-radius: 5px;
     background-color: #1E9FFF;
 }
 .discusstext{
     background-color: #eee;
-    padding: 5rpx 10rpx;
+    padding: 5rpx 10rpx 0 10px;
 }
 .textitem{
     padding: 5rpx;
 }
-.textnam{
+.textname{
     color: #1E9FFF
 }
 /**定义12种工地状况的颜色**/

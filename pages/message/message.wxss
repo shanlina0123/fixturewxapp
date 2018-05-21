@@ -8,6 +8,7 @@
 }
 .askright{
     margin-left: 16rpx;
+    margin-top: 12rpx;
 }
 .noticetitle{
     padding: 20rpx; 
@@ -17,8 +18,8 @@
 .rightbtn{
     display: inline-block;
     width: 150rpx;
-    height: 50rpx;
-    line-height: 50rpx;
+    height: 60rpx;
+    line-height: 60rpx;
     color: #fff;
     margin-left: 3.5%;
     text-align: center;

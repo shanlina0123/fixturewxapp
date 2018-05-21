@@ -1,4 +1,7 @@
 /* pages/usercenter/project/projectdetail.wxss */
+.detailcontent{
+    padding-bottom: 80rpx;
+}
 .bannerwrap{
     position: relative;
 }
@@ -16,7 +19,7 @@
     left: 30rpx;
 }
 .bottom .addr{
-    padding:0 10rpx;
+    padding:5rpx 10rpx;
     background-color:#fff;
 }
 .bottonbtns{
@@ -33,7 +36,7 @@
     right: 30rpx;
     bottom: 20rpx;
     color: #fff;
-    padding: 7rpx 12rpx;
+    padding: 10rpx 20rpx;
     border-radius: 3px;
     background-color: #e2e2e2;
 }
@@ -77,9 +80,7 @@
 .tabbtn text{
     margin-left: 10rpx;
 }
-.topname{
-    margin-top: 25rpx;
-}
+
 .hide{
   display: none
 }
@@ -122,19 +123,17 @@
     width: 100%;
     top: 30rpx;
     right: 0;
-    text-align: right
+    text-align: right;
 }
-
-
-
-
-
-
 
 /**底部操作按钮**/
 .bottombtns{
+    position: fixed;
+    width: 94%;
+    bottom: 0;
+    left: 0;
     padding: 20rpx;
-    margin: 20rpx 0;
+    background-color: #fff;
 }
 .leftcompany{
     height: 64rpx;
@@ -149,7 +148,7 @@
 .bottombtn{
     color: #fff;
     background-color: #1e9fff;
-    padding: 15rpx;
+    padding: 15rpx 30rpx;
     border-radius: 4rpx;
     margin-left: 15rpx;
 }

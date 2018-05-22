@@ -41,7 +41,7 @@
         <view class='tabcontent samepadding'>
             <view class="tabitem {{selected1?'':hide}}">
                 <view class='flowitemwarp'>
-                    <view class='flowwrap clearfix'  style='background: url(../../../images/rightbg.png) 98% 10rpx no-repeat'>
+                    <view class='flowwrap clearfix'  style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAuCAYAAAAsnen7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACb0lEQVRIx63X32vXVRzH8cdkFWFivOcSwabQTWRDSS+8EbzSiSBSIGhkI7oz7FJI8W8wdjmZjAxCL7QiRoIX6YVeJOnWhXSRQ4Noa4eGGzGYq4vv2fbx27a+P86Bw/t83p/zfZ4X7y+cz/vVkVIaxEeYyfMXPMQPuBkRk1oYHSmlSWxa5f0zfI8hXIuIhWbAffgAGxB4E10r7P0Zn0XEtw2BV0qmlF7HQbyHA1hXef0VPomIqabBdYdsw3mcRGdO/4qjETHWMrhywC58gbdzahqHIuJOW+AMfwmXcLwC3x8R9+v3rmuCKyLm8D4Gcmojvk4pdbcFzvB/8Cm+zKkeDLdVirqyvIg7eCen+iNi6YCWwRnei3t4AX/gjYiYbakUdWUZw+f5cTNOF1GcVXdhHK/gd/RExHxbirPqKQzmxy042nYpKuNiZX2sSCkqJRlFL56iu5Ri+C7HDdhdEny7st5bEvxjZb2zGDgiJrB4R28vqRge57i1NHg6x1dLg2dzfLk0eGmUBq/P8e/S4I05/lUa3JPjb8XAKaXXLDc64yUV76msH5QE76us75YEH85xBveKgFNKb6ndxTASEXOlFH9cWV+l3Mf0kdoFX+5jijMZCgMRMd+24pTSDvykZMOSW6zhDIUzi9CWwSmlDjVfsjunRqp9W0vgDL2g1s7CE3xYv6+zCeZi4z2EEzk1jSMrWbaGwSmlnbjsv1bh/kr7GzU359BfEfJIzdyMrva7tezYAbyLPs//F1dwKiL+XEtQR0rpoGUD2WVtA3k2Ir5ppHT/Z3kXcEOtm2zK8nbiuppJn83zYZ631Ez6RKOw6vgXgLy4NkXttAoAAAAASUVORK5CYII=) 98% 10rpx no-repeat'>
                         <view class='flow fl on'>
                             <text class='number'>1</text>
                             <text class='flowtext'>签约</text>
@@ -67,27 +67,27 @@
                             <text class='flowtext'>油漆</text>
                         </view>
                         <view class='flow fl'>
-                            <text class='number'>7</text>
+                            <text class='number'>12</text>
                             <text class='flowtext'>签约</text>
                         </view>
                         <view class='flow fl'>
-                            <text class='number'>8</text>
+                            <text class='number'>11</text>
                             <text class='flowtext'>设计</text>
                         </view>
                         <view class='flow fl'>
-                            <text class='number'>9</text>
+                            <text class='number'>10</text>
                             <text class='flowtext'>拆改</text>
                         </view>
                         <view class='flow fl'>
-                            <text class='number'>10</text>
+                            <text class='number'>9</text>
                             <text class='flowtext'>水电</text>
                         </view>
                         <view class='flow fl'>
-                            <text class='number'>11</text>
+                            <text class='number'>8</text>
                             <text class='flowtext'>泥木</text>
                         </view>
                         <view class='flow fl'>
-                            <text class='number'>12</text>
+                            <text class='number'>7</text>
                             <text class='flowtext'>油漆</text>
                         </view>
                     </view>

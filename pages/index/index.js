@@ -42,16 +42,22 @@ Page({
         inputisshow: false
     })
   },
-  /**删除自己的评论 */
-  deletetext:function(){
-    wx.showModal({
-        title: '确认删除吗？',
-    })
-  },
-  /** */
+  /**删除评论 */
+//   deletetext:function(){
+//     wx.showModal({
+//         title: '确认删除吗？',
+//     })
+//   },
+  /** 键盘上完成按钮的回调*/
   bindconfirm:function(){
       this.setData({
           inputisshow: false
+      })
+  },
+  /**回复和删除评论*/
+  backtext:function(){
+      this.setData({
+          inputisshow: true
       })
   },
   /**
@@ -59,6 +65,32 @@ Page({
    */
   onLoad: function (options) {
     
+  },
+  //触摸开始时间
+  touchStartTime:0,
+  // 触摸结束时间
+  touchEndTime:0,
+  /// 按钮触摸开始触发的事件
+  mytouchstart: function (e) {
+      this.touchStartTime = e.timeStamp
+  },
+  /// 按钮触摸结束触发的事件
+  mytouchend: function (e) {
+      this.touchEndTime = e.timeStamp
+  },
+  /// 单击
+  backtext: function (e) {
+      var that = this;
+      var times = parseInt(that.touchEndTime) - parseInt(that.touchStartTime);
+      if (times<350){
+          that.setData({
+              inputisshow: true
+          })
+      }else{
+          wx.showModal({
+              title: '确认删除吗？',
+          })
+      }
   },
 
   /**

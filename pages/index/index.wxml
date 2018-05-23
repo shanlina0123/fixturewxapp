@@ -46,9 +46,8 @@
                 <image src='../../images/state3.jpg' class='stateimg fl'></image>
             </view>
         </navigator>
-        <view class='itemli  times clearfix'>
+        <view class='itemli times clearfix'>
             <text class='fl'>2小时前</text>
-            <text class='fl'>浏览:10</text>
             <text class='fl'>评论:10</text>
             <text class='fl'>点赞:10</text>
             <view class='handelwrap fr'>
@@ -60,13 +59,11 @@
             </view>
         </view>
         <view class='itemli discusstext'>
-            <view class='textitem clearfix'>
-                <text class='textcontent fl'><text class='textname'>张俊梅：</text>很不错，我很满意很不错，我很满意很不错，我很满意 很不错，我很满意很不错，我很满意很不错，我很满意</text>
-                <text class='deletetext fr' bindtap='deletetext'>删除</text>
+            <view class='textitem'>
+                <text class='textcontent' catchtap='backtext' bindtouchstart='mytouchstart' bindtouchend='mytouchend'><text class='textname'>张俊梅：</text>很不错，我很满意很不错，我很满意很不错，我很满意 很不错，我很满意很不错，我很满意很不错，我很满意</text>
             </view>
             <view class='textitem clearfix'>
-                <text class='textcontent fl'><text class='textname'>张腊梅：</text>很不错，我很满意很不错</text>
-                <text class='deletetext fr' bindtap='deletetext'>删除</text>
+                <text class='textcontent' catchtap='backtext' bindtouchstart='mytouchstart' bindtouchend='mytouchend'><text class='textname'>张腊梅：</text>很不错，我很满意很不错</text>
             </view>
         </view>
     </view>
@@ -89,7 +86,6 @@
         </view>
         <view class='itemli times clearfix'>
             <text class='fl'>2小时前</text>
-            <text class='fl'>浏览:10</text>
             <text class='fl'>评论:10</text>
             <text class='fl'>点赞:10</text>
             <view class='handelwrap fr'>

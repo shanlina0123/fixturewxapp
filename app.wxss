@@ -149,15 +149,7 @@ view{font-size: 28rpx}
 }
 .handelimage{
     width:64rpx;
-    height: 64rpx;
-}
-.textcontent{
-    display: block;
-    max-width: 88%;
-}
-.deletetext{
-    background-color: #fff;
-    padding: 5rpx 8rpx;
+    height: 64rpx
 }
 .iconwrap{
     position: absolute;

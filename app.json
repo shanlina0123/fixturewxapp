@@ -25,7 +25,8 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "云易装",
     "navigationBarTextStyle":"black",
-    "backgroundColor":"#fff"
+    "backgroundColor":"#fff",
+    "enablePullDownRefresh":true
   },
 "tabBar": {
     "color":"#515151",    

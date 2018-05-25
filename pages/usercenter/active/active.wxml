@@ -1,7 +1,9 @@
-<!--pages/usercenter/active/active.wxml-->
+<!--有列表时添加加wrap样式，列表为空时去除wrap样式-->
 <view class='wrap'>
     <view class='activeul samepadding'>
-        <navigator url='activedetail' class='activeli'>
+        <!--活动列表为空时显示-->
+        <!-- <view class='nonedata'>暂无相关数据</view>  -->
+         <navigator url='activedetail' class='activeli'>
             <view class='activeimwrap'>
                 <image src='../../../images/state1.jpg' class='activeimg'></image>
                 <text class='seedetail'>查看详情</text>
@@ -16,6 +18,6 @@
             </view>
             <view class='activename samepadding'>端午节活动</view>
             <view class='activedes samepadding'>2018年的端午节马上就要来临啦！</view>
-        </navigator>
+        </navigator> 
     </view>
 </view>

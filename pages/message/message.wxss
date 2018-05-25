@@ -1,6 +1,8 @@
 /* pages/message/message.wxss */
+
 .askmsg{
     padding: 30rpx;
+    background-color: #fff
 }
 .askimg{
     width: 96rpx;

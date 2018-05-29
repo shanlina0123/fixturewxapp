@@ -1,0 +1,33 @@
+<!--pages/manageuser/usermanage.wxml-->
+<view class='wrap'>
+    <view class='usetitem'>
+        <view class='item clearfix'>
+            <text class='fl'>张金桥</text>
+            <view class='fr'>
+                <image src="../../images/phone.png" class='phoneimg'></image>
+                <text>15698978487 </text>
+            </view>
+        </view>
+        <view class='item clearfix'>
+            <text class='fl'>免费量房</text>
+            <view class='fr'>
+                <text>03月13日 11:42 </text>
+            </view>
+        </view>
+    </view>
+    <view class='usetitem'>
+        <view class='item clearfix'>
+            <text class='fl'>张银桥</text>
+            <view class='fr'>
+                <image src="../../images/phone.png" class='phoneimg'></image>
+                <text>15698978487 </text>
+            </view>
+        </view>
+        <view class='item clearfix'>
+            <text class='fl'>快速报价</text>
+            <view class='fr'>
+                <text>03月13日 11:42 </text>
+            </view>
+        </view>
+    </view>
+</view>

@@ -42,12 +42,12 @@ Page({
         inputisshow: false
     })
   },
-  /**删除评论 */
-//   deletetext:function(){
-//     wx.showModal({
-//         title: '确认删除吗？',
-//     })
-//   },
+  /**B端删除动态 */
+  isdelete:function(){
+    wx.showModal({
+        title: '确认删除吗？',
+    })
+  },
   /** 键盘上完成按钮的回调*/
   bindconfirm:function(){
       this.setData({

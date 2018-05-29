@@ -1,5 +1,5 @@
 /**index.wxss**/
-
+/*C端首页*/
 .companyname {
     display: block;
     font-size: 36rpx;
@@ -35,4 +35,51 @@
     font-size: 32rpx;
     padding: 20rpx;
 }
-
+/*选择门店弹窗*/
+.changewrap{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+.toptext{
+    display: block;
+    font-size: 32rpx;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+.topsmall{
+    display: block;
+    font-size: 24rpx;
+    text-align: center;
+    color: #ddd;
+    padding: 10px 0;
+}
+.storelink{
+    display: block;
+    width: 90%;
+    margin: 10px 5%;
+    color: #fff;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+}
+/*B端首页*/
+.Bbuttonwrap .centerbtn{
+    width: 25%;
+    margin: 0;
+}
+.bitermul{
+    position: relative;
+}
+.deleteitem{
+    position: absolute;
+    right: 20rpx;
+    top: 25rpx;
+    color: #1e9fff;
+    z-index: 20;
+}

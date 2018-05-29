@@ -1,0 +1,18 @@
+<!--pages/inviteuser/makesure.wxml-->
+<view class='samepadding'>
+    <text class='toptext'>请选择职位</text>
+    <view class='joblist'>
+        <text class='jobitem on'>项目经理</text>
+        <text class='jobitem'>家装顾问</text>
+        <text class='jobitem'>项目监理</text>
+        <text class='jobitem'>设计师</text>
+        <text class='jobitem'>水电工</text>
+        <text class='jobitem'>营销主管</text>
+        <text class='jobitem'>设计师主管</text>
+    </view>
+    <form>
+        <text class='inputtext'>请输入姓名</text>
+        <input class='jobinput'></input>
+        <button form-type='submit' class='surebtn'>确认</button>
+    </form>
+</view>

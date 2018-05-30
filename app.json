@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/Bproject/projectlist",
     "pages/index/index",
     "pages/index/prize",
     "pages/index/pricetip",
@@ -19,10 +20,14 @@
     "pages/usercenter/project/project",
     "pages/usercenter/project/projectdetail",
     "pages/usercenter/project/visit",
+
     "pages/adduser/adduser",
     "pages/inviteuser/inviteuser",
     "pages/inviteuser/makesure",
-    "pages/manageuser/usermanage"
+    "pages/manageuser/usermanage",
+    "pages/upgrade/upgrade",
+    "pages/newproject/newproject",
+    "pages/Bproject/proupdate"
   ],
   "window":{
     "backgroundTextStyle":"dark",

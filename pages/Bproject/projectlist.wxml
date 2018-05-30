@@ -1,0 +1,107 @@
+<!--pages/Bproject/projectlist.wxml-->
+<view class='wrap'>
+    <view class='tabbtnwrap'>
+        <view class='samepadding'>
+            <text class="tabbtn {{on1 ? 'on':''}}" bindtap='shownow'>在建项目</text>
+            <text class="tabbtn {{on2 ? 'on':''}}" bindtap='showover'>已完工</text>
+        </view>
+    </view>
+    <view class='showcontent'>
+        <view class="content {{on1 ? '':'hide'}}">
+            <view class='prolist'>
+                <navigator url='../usercenter/project/projectdetail' class='protop clearfix'>
+                    <image src='../../images/state1.jpg' class='proimage fl'></image>
+                    <view class='proright fl'>
+                        <view> 中华世纪城
+                            <text class='prostate color4'>水电</text>
+                        </view>
+                        <view>西安市莲湖区龙首原印象城</view>
+                        <view>
+                            <text>浏览：10</text>
+                            <text>关注：10</text>
+                        </view>
+                    </view>
+                </navigator>
+                <!--如果按钮的样式不好看，放开这个看一下，不行的话将代码删除，图片删掉
+                 <view class='probottom'>
+                    <view class='updatebtn'><image src="../../images/picon1.png" class='picon'></image></view>
+                    <view class='updatebtn'><image src="../../images/picon2.png" class='picon'></image></view>
+                    <view class='updatebtn'><image src="../../images/picon3.png" class='picon'></image></view>
+                </view> -->
+                <view class='probottom'>
+                    <navigator url='proupdate' class='updatebtn'>更新</navigator>
+                    <view class='updatebtn'>推广</view>
+                    <view class='updatebtn' bindtap='showsetting'>设置</view>
+                </view>
+            </view>
+            <view class='prolist'>
+                <navigator url='../usercenter/project/projectdetail' class='protop clearfix'>
+                    <image src='../../images/state2.jpg' class='proimage fl'></image>
+                    <view class='proright fl'>
+                        <view> 中华世纪城
+                            <text class='prostate color8'>软装</text>
+                        </view>
+                        <view>西安市莲湖区龙首原印象城</view>
+                        <view>
+                            <text>浏览：10</text>
+                            <text>关注：10</text>
+                        </view>
+                    </view>
+                </navigator>
+                <view class='probottom'>
+                    <navigator url='proupdate' class='updatebtn'>更新</navigator>
+                    <view class='updatebtn'>推广</view>
+                    <view class='updatebtn' bindtap='showsetting'>设置</view>
+                </view>
+            </view>
+        </view>
+        <view class="content {{on2 ? '':'hide'}}">
+            <view class='prolist'>
+                <navigator url='../usercenter/project/projectdetail' class='protop clearfix'>
+                    <image src='../../images/state3.jpg' class='proimage fl'></image>
+                    <view class='proright fl'>
+                        <view> 中华世纪城
+                            <text class='prostate color3'>拆改</text>
+                        </view>
+                        <view>西安市莲湖区龙首原印象城</view>
+                        <view>
+                            <text>浏览：10</text>
+                            <text>关注：10</text>
+                        </view>
+                    </view>
+                </navigator>
+                <view class='probottom'>
+                    <navigator url='proupdate' class='updatebtn'>更新</navigator>
+                    <view class='updatebtn'>推广</view>
+                    <view class='updatebtn' bindtap='showsetting'>设置</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!--项目为空时显示-->
+    <!-- <navigator url='../newproject/newproject' class='noneproject bluecolor ctext' hover-class='none'>您还没有创建项目，点击开始创建>>></navigator> -->
+</view>
+<!--右侧浮动的新增项目按钮-->
+<navigator url='../newproject/newproject' class='addrightbtn' hover-class='none'>
+    <image src="../../images/newuser.png" class='addbtnimg'></image>
+</navigator>
+<!--浮动在页面中间的设置-->
+<view class="florsetwrap {{setshow ? '':'hide'}}">
+    <view class='pulic'>
+        <switch checked bindchange="switch1Change" class='publicswitch' />
+        <view>公开</view>
+    </view>
+    <!--已完工时完工和完善按钮变成disable或者点击无效-->
+    <view class='over'>
+        <image src="../../images/h3.png" class='florimg'></image>
+        <view>完工</view>
+    </view>
+    <view class='delete'>
+        <image src="../../images/h1.png" class='florimg'>></image>
+        <view>删除</view>
+    </view>
+    <navigator class='update'>
+        <image src="../../images/h2.png" class='florimg'>></image>
+        <view>完善</view>
+    </navigator>
+</view>

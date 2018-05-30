@@ -34,6 +34,37 @@
             <text class='left10'>联系客服</text>
             <text class='fr' bindtap='phonecall'>{{phonenumber}}</text>
         </navigator>
+        <!--B端个人中心页面链接-->
+                <navigator url='active/active' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+            hover-class="none">
+            <image src='../../images/icon2.png' class='itemicon'></image>
+            <text class='left10'>促销活动</text>
+        </navigator>
+        <navigator url='project/project' class='proitem' style='background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+            hover-class="none">
+            <image src='../../images/icon3.png' class='itemicon'></image>
+            <text class='left10'>项目管理</text>
+        </navigator>
+        <navigator url='active/active' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+            hover-class="none">
+            <image src='../../images/icon8.png' class='itemicon'></image>
+            <text class='left10'>客户预约</text>
+        </navigator>
+        <navigator url='project/project' class='proitem' style='background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+            hover-class="none">
+            <image src='../../images/icon9.png' class='itemicon'></image>
+            <text class='left10'>当前登录</text>
+        </navigator>
+        <navigator url='question' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+            hover-class="none">
+            <image src='../../images/icon7.png' class='itemicon'></image>
+            <text class='left10'>问题反馈</text>
+        </navigator>
+        <navigator url='' class='proitem clearfix' hover-class="none">
+            <image src='../../images/icon6.png' class='itemicon'></image>
+            <text class='left10'>联系我们</text>
+            <text class='fr' bindtap='phonecall'>{{phonenumber}}</text>
+        </navigator>
     </view>
 </view>
 

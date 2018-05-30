@@ -1,0 +1,33 @@
+/* pages/upgrade/upgrade.wxss */
+.levelnotice{text-align: center;margin-top: 30px;}
+.colorblue{color: #1e9fff;}
+.levelimg{
+    width: 40rpx;
+    height: 40rpx;
+    vertical-align: middle;
+    margin: -1px 10rpx 0 10rpx;
+}
+.upgrade{
+    margin-left: 20rpx;
+}
+.levelwarap{
+    margin-top: 50rpx;
+    text-align: center;
+}
+.levelname{
+    font-size: 32rpx;
+    font-weight: bold
+}
+.destext{
+    line-height: 40rpx;
+}
+.uogradebtn{
+    width: 50%;
+    margin: 20rpx auto;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 28rpx;
+    background-color: #1e9fff;
+    color: #fff;
+    border:none;
+}

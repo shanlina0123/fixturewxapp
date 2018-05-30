@@ -1,6 +1,10 @@
 <!--index.wxml-->
 <view class='wrap'>
     <text class='companyname'>B端熊先生</text>
+    <view class='userlevel'>
+        <image src='../../images/vip.png' class='levelimg'></image>
+        <navigator url='../upgrade/upgrade' class='levelBtn' hover-class='none'>标准版</navigator>
+    </view>
     <view class='buttonwrap Bbuttonwrap'>
         <view class='samepadding'>
             <navigator class='centerbtn' url="../usercenter/project/project" hover-class="none">
@@ -103,11 +107,6 @@
         <input class='zaninput fl' type='text' placeholder='评论' cursor-spacing="8" bindconfirm='bindconfirm'></input>
         <text class='send left10 fl' bindtap='closeinput'>发送</text>
     </view>
-    <view class='loadwrap'>
-        <image src='../../images/load.gif' class='loafgif'></image>
-        加载中...
-    </view>
-
     <!--选择公司弹窗-->
     <view class='changewrap' style='background:url(../../images/blackbg.png) left top;'>
         <view class='toptext'>选择您要查看的公司</view>
@@ -119,7 +118,7 @@
         </view>
     </view>
 </view>
-<view class='wrap'>
+<!-- <view class='wrap'>
     <text class='companyname'>熊先生</text>
     <view class='buttonwrap'>
         <view class='samepadding'>
@@ -217,19 +216,4 @@
         <input class='zaninput fl' type='text' placeholder='评论' cursor-spacing="8" bindconfirm='bindconfirm'></input>
         <text class='send left10 fl' bindtap='closeinput'>发送</text>
     </view>
-    <view class='loadwrap'>
-        <image src='../../images/load.gif' class='loafgif'></image>
-        加载中...
-    </view>
-
-    <!--选择公司弹窗-->
-    <view class='changewrap' style='background:url(../../images/blackbg.png) left top;'>
-        <view class='toptext'>选择您要查看的公司</view>
-        <text class='topsmall'>可随时前往[我的]页面调整</text>
-        <view class='btnswrap'>
-            <view class='storelink' hover-class="none">积木家-未央路店</view>
-            <view class='storelink' hover-class="none">积木家-高新店</view>
-            <view class='storelink' hover-class="none">积木家-宝鸡店</view>
-        </view>
-    </view>
-</view>
+</view> -->

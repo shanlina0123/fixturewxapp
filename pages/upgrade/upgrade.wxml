@@ -1,0 +1,31 @@
+<!--pages/upgrade/upgrade.wxml-->
+<view class='levelnotice'>
+    <text>当前是</text>
+    <image src="../../images/vip.png" class='levelimg'></image>
+    <text class='colorblue'>标准版</text>
+    <text class='upgrade'>开放更多功能请升级<text class='colorblue'>专业版</text></text>
+</view>
+<view class='levelwarap'>
+    <view class='levelname'>专业版</view>
+    <text class='destext'>
+        无限量的工地\n
+        自定义权限、角色\n
+        无限量发布促销活动\n
+        添加更多分店，协同运营\n
+        支持视频方式的工地直播\n
+        自定义客户活动参与方式\n
+        更详细的数据分析，助力运营\n
+    </text>
+    <button class='uogradebtn' bindtap='shownotice'>立即升级</button>
+</view>
+<!--定制版-->
+<!-- <view class='levelwarap'>
+    <view class='levelname'>定制版</view>
+    <text class='destext'>
+        如果您\n
+        期待更加自由的选择，更加多元化的服务\n
+        那么，定制版是您的最佳选择！\n
+    </text>
+    <button class='uogradebtn' bindtap='shownotice'>立即升级</button>
+</view> -->
+

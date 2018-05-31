@@ -7,7 +7,7 @@
     </view>
     <view class='buttonwrap Bbuttonwrap'>
         <view class='samepadding'>
-            <navigator class='centerbtn' url="../usercenter/project/project" hover-class="none">
+            <navigator class='centerbtn' url="../Bproject/projectlist/projectlist" hover-class="none">
                 <image src='../../images/topicon3.png' class='topicon'></image>
                 项目管理
             </navigator>
@@ -70,7 +70,7 @@
             <view class='textitem'>
                 <text class='textcontent' catchtap='backtext' bindtouchstart='mytouchstart' bindtouchend='mytouchend'><text class='textname'>张俊梅：</text>很不错，我很满意很不错，我很满意很不错，我很满意 很不错，我很满意很不错，我很满意很不错，我很满意</text>
             </view>
-            <view class='textitem clearfix'>
+            <view class='textitem'>
                 <text class='textcontent' catchtap='backtext' bindtouchstart='mytouchstart' bindtouchend='mytouchend'><text class='textname'>张腊梅：</text>很不错，我很满意很不错</text>
             </view>
         </view>

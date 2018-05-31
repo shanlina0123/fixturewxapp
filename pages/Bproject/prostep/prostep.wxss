@@ -1,0 +1,16 @@
+/* pages/Bproject/prostep/prostep.wxss */
+.toplinkbtn{
+    color: #1e9fff;
+    padding: 10rpx 0;
+    text-align: right
+}
+.linkimg{
+    width: 40rpx;
+    height: 40rpx;
+    vertical-align: middle;
+    margin-right: 10rpx;
+}
+.modelitem{
+    padding: 30rpx 0;
+    border-bottom: 1px solid #eee;
+}

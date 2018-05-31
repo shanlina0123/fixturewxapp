@@ -1,0 +1,18 @@
+<!--pages/Bproject/prostep/prostep.wxml-->
+<view class='samepadding'>
+    <navigator url='../promodel/promodel'  class='toplinkbtn' hover-class='none'>
+        <image class='linkimg' src='../../../images/more.png'></image>
+        <text>更多阶段模板</text>
+    </navigator>
+    <view class='modelwrap'>
+        <navigator url='../newproject/newproject' class='modelitem' hover-class='none'>签约</navigator>
+        <navigator url='../newproject/newproject' class='modelitem' hover-class='none'>设计</navigator>
+        <navigator url='../newproject/newproject' class='modelitem' hover-class='none'>拆改</navigator>
+        <navigator url='../newproject/newproject' class='modelitem' hover-class='none'>水电</navigator>
+        <navigator url='../newproject/newproject' class='modelitem' hover-class='none'>泥木</navigator>
+        <navigator url='../newproject/newproject' class='modelitem' hover-class='none'>油漆</navigator>
+        <navigator url='../newproject/newproject' class='modelitem' hover-class='none'>安装</navigator>
+        <navigator url='../newproject/newproject' class='modelitem' hover-class='none'>软装</navigator>
+        <navigator url='../newproject/newproject' class='modelitem' hover-class='none'>入住</navigator>
+    </view>
+</view>

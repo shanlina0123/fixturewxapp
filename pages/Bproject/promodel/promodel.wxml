@@ -1,0 +1,40 @@
+<!--pages/Bproject/promodel/promodel.wxml-->
+<view class='wrap'>
+    <view class='modelwrap'>
+        <radio-group class='rodiogroup' bindchange="radioChange">
+            <view class='modelitem'>
+                <radio class='radio'></radio>
+                <text class='modelname'>标准模板</text>
+                <text class='defualt'>默认</text>
+                <view class='itemout clearfix'>
+                    <view>签约</view>
+                    <view>设计</view>
+                    <view>拆改</view>
+                    <view>水电</view>
+                    <view>泥木</view>
+                    <view>油漆</view>
+                    <view>安装</view>
+                    <view>软装</view>
+                    <view>入住</view>
+                </view>
+            </view>
+            <view class='modelitem'>
+                <radio class='radio'></radio>
+                <text class='modelname'>其他模板</text>
+                <text class='setdefault fr'>设为默认</text>
+                <view class='itemout clearfix'>
+                    <view>签约</view>
+                    <view>设计</view>
+                    <view>拆改</view>
+                    <view>水电</view>
+                    <view>泥木</view>
+                    <view>油漆</view>
+                    <view>安装</view>
+                    <view>软装</view>
+                    <view>入住</view>
+                </view>
+            </view>
+        </radio-group>
+    </view>
+    <view class='webnotice'>更多模板前往PC端www.xx.com创建</view>
+</view>

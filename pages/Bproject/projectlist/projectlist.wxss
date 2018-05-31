@@ -1,4 +1,27 @@
 /* pages/Bproject/projectlist.wxss */
+.searchwrap{
+    background-color: #fff;
+    padding: 20rpx;
+}
+.searchinner{
+    height: 60rpx;
+    line-height: 60rpx;
+    border: 1px solid #ddd;
+    border-radius: 10rpx;
+}
+.searchinput{
+    min-width: 85%;
+    height: 60rpx;
+    line-height: 60rpx;
+    border: none;
+    padding: 0 10px;
+    border-radius: 10rpx;
+}
+.searchimg{
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 10rpx;
+}
 .tabbtnwrap{
     background-color: #fff;
 }

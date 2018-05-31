@@ -1,0 +1,16 @@
+/* pages/Bproject/promap/promap.wxss */
+.promap{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+}
+.pointitem{
+    border-bottom: 1px solid #eee;
+    padding:15rpx 0;
+}
+.points{
+    margin-top: 20rpx;
+}
+.pointaddr{
+    margin-top: 15rpx;
+}

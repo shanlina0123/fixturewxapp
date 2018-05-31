@@ -1,5 +1,11 @@
 <!--pages/Bproject/projectlist.wxml-->
 <view class='wrap'>
+    <view class='searchwrap'>
+        <view class='searchinner clearfix'>
+            <input class='searchinput fl' type='text' placeholder='请输入关键字进行查询'></input>
+            <image class='searchimg fl' src="../../../images/search.png"></image>
+        </view>
+    </view>
     <view class='tabbtnwrap'>
         <view class='samepadding'>
             <text class="tabbtn {{on1 ? 'on':''}}" bindtap='shownow'>在建项目</text>
@@ -9,8 +15,8 @@
     <view class='showcontent'>
         <view class="content {{on1 ? '':'hide'}}">
             <view class='prolist'>
-                <navigator url='../usercenter/project/projectdetail' class='protop clearfix'>
-                    <image src='../../images/state1.jpg' class='proimage fl'></image>
+                <navigator url='../../usercenter/project/projectdetail' class='protop clearfix'>
+                    <image src='../../../images/state1.jpg' class='proimage fl'></image>
                     <view class='proright fl'>
                         <view> 中华世纪城
                             <text class='prostate color4'>水电</text>
@@ -35,8 +41,8 @@
                 </view>
             </view>
             <view class='prolist'>
-                <navigator url='../usercenter/project/projectdetail' class='protop clearfix'>
-                    <image src='../../images/state2.jpg' class='proimage fl'></image>
+                <navigator url='../../usercenter/project/projectdetail' class='protop clearfix'>
+                    <image src='../../../images/state2.jpg' class='proimage fl'></image>
                     <view class='proright fl'>
                         <view> 中华世纪城
                             <text class='prostate color8'>软装</text>
@@ -57,8 +63,8 @@
         </view>
         <view class="content {{on2 ? '':'hide'}}">
             <view class='prolist'>
-                <navigator url='../usercenter/project/projectdetail' class='protop clearfix'>
-                    <image src='../../images/state3.jpg' class='proimage fl'></image>
+                <navigator url='../../usercenter/project/projectdetail' class='protop clearfix'>
+                    <image src='../../../images/state3.jpg' class='proimage fl'></image>
                     <view class='proright fl'>
                         <view> 中华世纪城
                             <text class='prostate color3'>拆改</text>
@@ -83,7 +89,7 @@
 </view>
 <!--右侧浮动的新增项目按钮-->
 <navigator url='../newproject/newproject' class='addrightbtn' hover-class='none'>
-    <image src="../../images/newuser.png" class='addbtnimg'></image>
+    <image src="../../../images/newuser.png" class='addbtnimg'></image>
 </navigator>
 <!--浮动在页面中间的设置-->
 <view class="florsetwrap {{setshow ? '':'hide'}}">
@@ -93,15 +99,15 @@
     </view>
     <!--已完工时完工和完善按钮变成disable或者点击无效-->
     <view class='over'>
-        <image src="../../images/h3.png" class='florimg'></image>
+        <image src="../../../images/h3.png" class='florimg'></image>
         <view>完工</view>
     </view>
     <view class='delete'>
-        <image src="../../images/h1.png" class='florimg'>></image>
+        <image src="../../../images/h1.png" class='florimg'>></image>
         <view>删除</view>
     </view>
     <navigator class='update'>
-        <image src="../../images/h2.png" class='florimg'>></image>
+        <image src="../../../images/h2.png" class='florimg'>></image>
         <view>完善</view>
     </navigator>
 </view>

@@ -1,9 +1,13 @@
 <!--pages/Bproject/prostep/prostep.wxml-->
 <view class='samepadding'>
-    <navigator url='../promodel/promodel'  class='toplinkbtn' hover-class='none'>
-        <image class='linkimg' src='../../../images/more.png'></image>
-        <text>更多阶段模板</text>
-    </navigator>
+    <view class='topwrap clearfix'>
+        <text class='fl'>标准模板</text>
+        <!--当选择标准模板的时候隐藏更多模板阶段的按钮-->
+        <navigator url='../promodel/promodel' class='toplinkbtn fr' hover-class='none'>
+            <image class='linkimg' src='../../../images/more.png'></image>
+            <text>更多阶段模板</text>
+        </navigator>
+    </view>
     <view class='modelwrap'>
         <navigator url='../newproject/newproject' class='modelitem' hover-class='none'>签约</navigator>
         <navigator url='../newproject/newproject' class='modelitem' hover-class='none'>设计</navigator>

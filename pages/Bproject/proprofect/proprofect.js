@@ -1,24 +1,20 @@
-// pages/Bproject/proupdate.js
+// pages/Bproject/proprofect/proprofect.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        maxlength: 300,
-        nowlength: 0
+
     },
-    //跟踪字数改变
-    textareachange: function (e) {
-        var value = e.detail.value,length = parseInt(value.length);
-        if(length > this.data.maxlength){
-            return;
-        }else{
-            this.setData({
-                content:value,
-                nowlength:length
-            })
-        }
+    //上传封面图
+    uploadimg: function () {
+        wx.chooseImage({
+            count: 1, // 默认9
+            sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
+            sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
+            success: function (res) { }
+        })
     },
     /**
      * 生命周期函数--监听页面加载

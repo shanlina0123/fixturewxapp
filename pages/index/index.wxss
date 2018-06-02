@@ -90,13 +90,3 @@
     width: 25%;
     margin: 0;
 }
-.bitermul{
-    position: relative;
-}
-.deleteitem{
-    position: absolute;
-    right: 20rpx;
-    top: 25rpx;
-    color: #1e9fff;
-    z-index: 20;
-}

@@ -1,2 +1,20 @@
 <!--pages/Bproject/proupdate.wxml-->
-<text>pages/Bproject/proupdate.wxml</text>
+<view class='samepadding'>
+    <form bindsubmit='submitform'>
+        <view class='formitem clearfix'>
+            <text class='itemname fl'>选择阶段</text>
+            <navigator url='../prostep/prostep' class='pickerselect fl' hover-class='none'>水电</navigator>
+        </view>
+        <view class='textareawrap'>
+            <textarea name='content' bindinput='textareachange' maxlength='{{maxlength}}' class='formtextarea' placeholder='说点什么吧...'></textarea>
+            <view class='number'>{{nowlength}}/{{maxlength}}</view>
+        </view>
+        <view class='imgpart'>
+            <view class='uploadnotice'>最多上传9张图，小视频最大支持10S</view>
+            <view class='uploadwrap'>
+                
+            </view>
+        </view>
+        <button class='submitbtn' form-type='submit'>更新</button>
+    </form>
+</view>

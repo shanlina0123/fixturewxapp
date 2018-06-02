@@ -1,0 +1,25 @@
+<!--pages/removeuser/removeuser.wxml-->
+<view class='itemul samepadding'>
+    <view class='userli clearfix'>
+        <image src="../../../images/uhead.png" class='uhead fl'></image>
+        <view class='rightonename fl'>
+            <view class='topname'>
+                <text class='uname'>张俊俏</text>
+            </view>
+        </view>
+        <view class='removebtn fr' bindtap='showremovebtn'>移除</view>
+    </view>
+    <view class='userli clearfix'>
+        <image src="../../../images/uhead.png" class='uhead fl'></image>
+        <view class='rightonename fl'>
+            <view class='topname'>
+                <text class='uname'>李俊俏</text>
+            </view>
+        </view>
+        <view class='removebtn fr' bindtap='showremovebtn'>移除</view>
+    </view>
+</view>
+<view class="removebtnwrap {{isshow ? '' : 'hide'}}">
+    <text bindtap='removeuser'>从当前项目移除</text>
+    <text bindtap='removeuser'>从当前项目移除</text>
+</view>

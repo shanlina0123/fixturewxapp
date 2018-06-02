@@ -1,6 +1,6 @@
 <!--pages/adduser/adduser.wxml-->
 <view class='samepadding'>
-    <navigator url='../inviteuser/inviteuser' class='invitebtn' hover-class='none'>邀请成员</navigator>
+    <navigator url='../invite/inviteuser/inviteuser' class='invitebtn' hover-class='none'>邀请成员</navigator>
     <view class='userlist clearfix'>
         <image src='../../images/uhead.png' class='uhead fl'></image>
         <text class='uname fl'>张俊俏</text>

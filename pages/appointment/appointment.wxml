@@ -1,0 +1,35 @@
+<!--pages/appointment/appointment.wxml-->
+<view class='wrap'>
+    <view class='listwrap'>
+        <view class='listitem'>
+            <view class='topitem clearfix'>
+                <text class='fl'>张先生</text>
+                <view class='fr'>
+                    <image class='phoneimg' src='../../images/phone.png'></image>
+                    <text bindtap='phonecall'>1598978458</text>
+                </view>
+            </view>
+            <view class='clearfix'>
+                <text class='fl'>免费量房</text>
+                <view class='fr'>
+                    <text>3月13号 11：40</text>
+                </view>
+            </view>
+        </view>
+        <view class='listitem'>
+            <view class='topitem clearfix'>
+                <text class='fl'>李先生</text>
+                <view class='fr'>
+                    <image class='phoneimg' src='../../images/phone.png'></image>
+                    <text bindtap='phonecall'>1598978458</text>
+                </view>
+            </view>
+            <view class='clearfix'>
+                <text class='fl'>快速报价</text>
+                <view class='fr'>
+                    <text>3月13号 11：40</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

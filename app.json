@@ -1,6 +1,6 @@
 {
   "pages":[
-    
+    "pages/Bproject/proupdate/proupdate",
     "pages/index/index",
     "pages/index/prize",
     "pages/index/pricetip",
@@ -30,9 +30,10 @@
     "pages/Bproject/newproject/newproject",
     "pages/Bproject/promap/promap",
     "pages/Bproject/prostep/prostep",
-    "pages/Bproject/promodel/promodel",
-    
-    "pages/Bproject/proupdate/proupdate"
+    "pages/Bproject/promodel/promodel",    
+    "pages/Bproject/proprofect/proprofect",
+    "pages/appointment/appointment",
+    "pages/removeuser/removeuser"
   ],
   "window":{
     "backgroundTextStyle":"dark",

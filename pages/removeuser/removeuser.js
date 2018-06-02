@@ -1,24 +1,23 @@
-// pages/Bproject/proupdate.js
+// pages/removeuser/removeuser.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        maxlength: 300,
-        nowlength: 0
+        isshow: false
     },
-    //跟踪字数改变
-    textareachange: function (e) {
-        var value = e.detail.value,length = parseInt(value.length);
-        if(length > this.data.maxlength){
-            return;
-        }else{
-            this.setData({
-                content:value,
-                nowlength:length
-            })
-        }
+    //显示移除按钮
+    showremovebtn: function () {
+        this.setData({
+            isshow: !this.data.isshow
+        })
+    },
+    //删除用户
+    removeuser: function () {
+        wx.showModal({
+            title: '确认删除吗？',
+        })
     },
     /**
      * 生命周期函数--监听页面加载

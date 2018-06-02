@@ -35,7 +35,7 @@
                     <view class='updatebtn'><image src="../../images/picon3.png" class='picon'></image></view>
                 </view> -->
                 <view class='probottom'>
-                    <navigator url='proupdate' class='updatebtn'>更新</navigator>
+                    <navigator url='../proupdate/proupdate' class='updatebtn'>更新</navigator>
                     <view class='updatebtn'>推广</view>
                     <view class='updatebtn' bindtap='showsetting'>设置</view>
                 </view>
@@ -77,7 +77,7 @@
                     </view>
                 </navigator>
                 <view class='probottom'>
-                    <navigator url='proupdate' class='updatebtn'>更新</navigator>
+                    <navigator url='../proupdate/proupdate' class='updatebtn'>更新</navigator>
                     <view class='updatebtn'>推广</view>
                     <view class='updatebtn' bindtap='showsetting'>设置</view>
                 </view>
@@ -106,7 +106,7 @@
         <image src="../../../images/h1.png" class='florimg'>></image>
         <view>删除</view>
     </view>
-    <navigator class='update'>
+    <navigator url='../proprofect/proprofect' class='update'>
         <image src="../../../images/h2.png" class='florimg'>></image>
         <view>完善</view>
     </navigator>

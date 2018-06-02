@@ -1,32 +1,28 @@
 <!--pages/Bproject/newproject/newproject.wxml-->
 <view class='samepadding'>
     <form bindsubmit='submitform'>
-        <view class='formitem'>
-            <text>选择门店</text>
-            <picker class='propicker'>
-                <view class="pickerselect">
-                    请选择门店
-                </view>
-            </picker>
-        </view>
-        <view class='formitem'>
-            <text>项目地址</text>
-            <navigator url='../promap/promap' class='pickerselect' hover-class='none'>请选择项目地址</navigator>
-        </view>
-        <view class='formitem'>
-            <text>项目名称</text>
-            <input class='forminput' type='text' placeholder='请输入项目名称'></input>
-        </view>
-        <view class='formitem'>
-            <text>门牌号码</text>
-            <input class='forminput' type='text' placeholder='请输入门牌号，例如8号楼808室'></input>
-        </view>
-        <view class='formitem'>
-            <text>选择阶段</text>
-            <navigator url='../prostep/prostep' class='pickerselect' hover-class='none'>请选择阶段模板</navigator>
+        <view class='formitem clearfix'>
+            <text class='itemname fl'>选择门店</text>
+            <picker class='pickerselect fl'>请选择门店</picker>
         </view>
         <view class='formitem clearfix'>
-            <text>是否公开</text>
+            <text class='itemname fl'>项目地址</text>
+            <navigator url='../promap/promap' class='pickerselect fl' hover-class='none'>请选择项目地址</navigator>
+        </view>
+        <view class='formitem clearfix'>
+            <text class='itemname fl'>项目名称</text>
+            <input class='forminput fl' type='text' placeholder='请输入项目名称'></input>
+        </view>
+        <view class='formitem clearfix'>
+            <text class='itemname fl'>门牌号码</text>
+            <input class='forminput fl' type='text' placeholder='请输入门牌号，例如8号楼808室'></input>
+        </view>
+        <view class='formitem clearfix'>
+            <text class='itemname fl'>选择阶段</text>
+            <navigator url='../prostep/prostep' class='pickerselect fl' hover-class='none'>请选择阶段模板</navigator>
+        </view>
+        <view class='formitem clearfix'>
+            <text class='itemname'>是否公开</text>
             <switch checked class='formswitch fr' />
         </view>
         <button class='submitbtn' form-type='submit'>提交</button>

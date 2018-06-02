@@ -1,0 +1,37 @@
+/* pages/removeuser/removeuser.wxss */
+.itemul{
+    padding-bottom: 100rpx;
+}
+.userli{
+    padding: 15rpx 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #e2e2e2
+}
+.removebtn{
+    margin-top: 25rpx;
+    background-color: #d2d2d2;
+    color: #fff;
+    padding: 5rpx 10rpx;
+    border-radius: 5rpx;
+}
+.removebtnwrap{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+}
+.removebtnwrap text{
+    display: inline-block;
+    width: 49.8%;
+    height: 90rpx;
+    line-height: 90rpx;
+    text-align: center;
+    background-color: #1e9fff;
+    color: #fff;
+    border-left: 1px solid #fff;
+}
+.removebtnwrap text:first-child{
+    border-left: none;
+}
+

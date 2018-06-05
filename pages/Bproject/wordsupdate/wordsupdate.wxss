@@ -1,4 +1,4 @@
-/* pages/Bproject/proupdate.wxss */
+/* pages/Bproject/wordsupdate/wordsupdate.wxss */
 
 .itemname {
     display: inline-block;
@@ -87,17 +87,15 @@
     margin-top: 20rpx;
 }
 
-.hadimgwrap {
-    position: relative;
-    width: 200rpx;
-    height: 200rpx;
-    margin-left: 10rpx;
-    margin-bottom: 10rpx;
-}
-
 .hadimage {
     width: 200rpx;
     height: 200rpx;
+}
+
+.hadimgwrap {
+    position: relative;
+    margin-left: 10rpx;
+    margin-bottom: 10rpx;
 }
 
 .closeimg {

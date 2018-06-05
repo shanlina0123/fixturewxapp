@@ -1,6 +1,6 @@
 {
   "pages":[
-    "pages/Bproject/proupdate/proupdate",
+    "pages/Bproject/projectdetail/projectdetail",
     "pages/index/index",
     "pages/index/prize",
     "pages/index/pricetip",
@@ -21,19 +21,24 @@
     "pages/usercenter/project/projectdetail",
     "pages/usercenter/project/visit",
 
+    "pages/projectdetail/projectdetail",
     "pages/adduser/adduser",
     "pages/invite/inviteuser/inviteuser",
     "pages/invite/makesure/makesure",
     "pages/manageuser/usermanage",
     "pages/upgrade/upgrade",
     "pages/Bproject/projectlist/projectlist",
+    
     "pages/Bproject/newproject/newproject",
     "pages/Bproject/promap/promap",
     "pages/Bproject/prostep/prostep",
     "pages/Bproject/promodel/promodel",    
     "pages/Bproject/proprofect/proprofect",
     "pages/appointment/appointment",
+    "pages/Bproject/proupdate/proupdate",
+    "pages/Bproject/wordsupdate/wordsupdate",
     "pages/removeuser/removeuser"
+    
   ],
   "window":{
     "backgroundTextStyle":"dark",

@@ -6,32 +6,34 @@ Page({
      */
     data: {
         maxlength: 300,
-        nowlength: 0
+        nowlength: 0,
+        words:'感谢业主大大信任，今日开工啦。大吉大利，家宅平安!'
     },
     //跟踪输入的文字数字改变
     textareachange: function (e) {
-        var value = e.detail.value,length = parseInt(value.length);
-        if(length > this.data.maxlength){
+        var value = e.detail.value, 
+        length = parseInt(value.length);
+        if (length > this.data.maxlength) {
             return;
-        }else{
+        } else {
             this.setData({
-                content:value,
-                nowlength:length
+                content: value,
+                nowlength: length
             })
         }
     },
     //上传普通照片
-    uploadimg:function(){
+    uploadimg: function () {
         wx.chooseImage({
             sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
             sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
-            success: function (res) {}
+            success: function (res) { }
         })
     },
     //上传视频
-    uploadvideo:function(){
+    uploadvideo: function () {
         wx.chooseVideo({
-            count:1,
+            count: 1,
             maxDuration: 10, // 可以指定是原图还是压缩图，默认二者都有
             sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
             success: function (res) { }

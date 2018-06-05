@@ -1,4 +1,4 @@
-<!--pages/usercenter/project/projectdetail.wxml-->
+<!--pages/Bproject/prodetail/prodetail.wxml-->
 <view class='detailcontent'>
     <view class='bannerwrap samepadding'>
         <image src='../../../images/default.jpg' class='bannerimg'></image>
@@ -15,14 +15,15 @@
         </view>
         <text class="focus {{focustext == '关注' ? 'on':'' }}" bindtap="changeName">{{focustext}}</text>
     </view>
-    <view class='focuswrap clearfix'>
+    <!--B端客户部分-->
+     <navigator url='../../removeuser/removeuser' class='focuswrap clearfix'>
         <view class='lefthead fl'>
             <image src='../../../images/uhead.png' class='suhead'></image>
             <image src='../../../images/uhead.png' class='suhead'></image>
             <image src='../../../images/uhead.png' class='suhead'></image>
         </view>
         <text class='rightnum fr'>1人关注</text>
-    </view>
+    </navigator> 
     <view class='tabwrap'>
         <view class='tabbtns clearfix'>
             <view class="tabbtn fl {{selected1?on :''}}" bindtap="tab1">
@@ -93,7 +94,7 @@
                     </view>
                 </view>
                 <view class='itemulwrap'>
-                    <view class='itemul samepadding'>
+                    <view class='itemul bitermul samepadding'>
                         <view class='itemli clearfix'>
                             <image src="../../../images/uhead.png" class='uhead fl'></image>
                             <view class='rightname fl'>
@@ -129,8 +130,10 @@
                                 <text class='textcontent'><text class='textname'>张腊梅：</text>很不错，我很满意很不错</text>
                             </view>
                         </view>
+                        <!--B端添加编辑按钮-->
+                        <picker class='bluecolor deleteitem'>编辑</picker>
                     </view>
-                    <view class='itemul samepadding'>
+                    <view class='itemul bitermul samepadding'>
                         <view class='itemli clearfix'>
                             <image src="../../../images/uhead.png" class='uhead fl'></image>
                             <view class='rightonename fl'>
@@ -155,11 +158,13 @@
                                 <image src='../../../images/rightMsg.png' class='handelimage'></image>
                             </view>
                         </view>
+                        <!--B端添加删除按钮-->
+                        <view class='deleteitem' bindtap='isdelete'>删除</view>
                     </view>
                 </view>
             </view>
             <view class="tabitem {{selected2?'':hide}}">
-                <view class='itemul samepadding'>
+                <view class='itemul bitermul samepadding'>
                     <view class='itemli clearfix'>
                         <image src="../../../../images/uhead.png" class='uhead fl'></image>
                         <view class='rightname fl'>
@@ -175,6 +180,8 @@
                     <view class='itemli statecontent'>
                         <text class='statetext'>装修质量很满意，给师傅们点赞</text>
                     </view>
+                    <!--B端添加删除按钮-->
+                    <view class='deleteitem' bindtap='isdelete'>删除</view>
                 </view>
             </view>
             <view class="tabitem {{selected3?'':hide}}">
@@ -187,8 +194,10 @@
                                 <text class='ustate left10'>工长</text>
                             </view>
                         </view>
+                        <!--B端添加删除按钮-->
+                        <view class='bluecolor fr' bindtap='isdelete'>删除</view>
                     </view>
-                    <view class='itemli clearfix'>
+                    <view class='itemli userli clearfix'>
                         <image src="../../../images/uhead.png" class='uhead fl'></image>
                         <view class='rightonename fl'>
                             <view class='topname'>
@@ -196,8 +205,11 @@
                                 <text class='ustate left10'>工长</text>
                             </view>
                         </view>
+                        <!--B端添加删除按钮-->
+                        <view class='bluecolor fr' bindtap='isdelete'>删除</view>
                     </view>
                 </view>
+                <navigator url='../../adduser/adduser' class='linkbtn'>添加成员</navigator>
             </view>
         </view>
     </view>
@@ -206,8 +218,8 @@
         <navigator url='../about' class='leftcompany fl'>
             <image src='../../../images/logo.png' class='bottomcompany'></image>
         </navigator>
-        <navigator url='visit' class='bottombtn fr' hover-class="none">预约参观</navigator>
-        <navigator class='bottombtn fr'>在线咨询</navigator>
+        <navigator url='../proupdate/proupdate' class='bottombtn fr' hover-class="none">更新</navigator>
+        <navigator class='bottombtn fr'>推广</navigator>
     </view>
     <!--评论输入框-->
     <view class="inputwarp clearfix {{inputisshow ? '' :'hide'}}">

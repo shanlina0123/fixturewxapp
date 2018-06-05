@@ -64,7 +64,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+      if (options.pageid){
+          wx.navigateTo({
+              url: '../projectdetail/projectdetail?pageId=' + options.pageId,
+          })
+      }
   },
   //触摸开始时间
   touchStartTime:0,

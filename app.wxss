@@ -96,7 +96,7 @@ view {
 .submitBtn {
     font-size: 16px;
     border: none;
-    background: #eb7221;
+    background: #1e9fff;
     color: #fff;
 }
 

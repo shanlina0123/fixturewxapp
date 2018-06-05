@@ -36,7 +36,7 @@
                 </view> -->
                 <view class='probottom'>
                     <navigator url='../proupdate/proupdate' class='updatebtn'>更新</navigator>
-                    <view class='updatebtn'>推广</view>
+                    <view class='updatebtn'>分享</view>
                     <view class='updatebtn' bindtap='showsetting'>设置</view>
                 </view>
             </view>
@@ -56,7 +56,7 @@
                 </navigator>
                 <view class='probottom'>
                     <navigator url='proupdate' class='updatebtn'>更新</navigator>
-                    <view class='updatebtn'>推广</view>
+                    <view class='updatebtn'>分享</view>
                     <view class='updatebtn' bindtap='showsetting'>设置</view>
                 </view>
             </view>
@@ -78,7 +78,7 @@
                 </navigator>
                 <view class='probottom'>
                     <navigator url='../proupdate/proupdate' class='updatebtn'>更新</navigator>
-                    <view class='updatebtn'>推广</view>
+                    <view class='updatebtn'>分享</view>
                     <view class='updatebtn' bindtap='showsetting'>设置</view>
                 </view>
             </view>
@@ -111,3 +111,37 @@
         <view>完善</view>
     </navigator>
 </view>
+
+<canvas canvas-id="shareCanvas" style="width:600px;height:900px"></canvas>
+
+<!--浮动在页面底部的推广按钮们-->
+<view class='bottompublic'>
+    <view class='bottominner'>
+        <view class='title'>分享</view>
+        <view class='buttons clearfix'>
+            <view class='buttonwrap fl'>
+                <image src="../../../images/public1.png" class='publicimg'></image>
+                <text>微信好友</text>
+                <button open-type='share' class='sharebtn'>分享</button>
+            </view>
+            <view class='buttonwrap fl' bindtap='showerweima'>
+                <image src="../../../images/public2.png" class='publicimg'></image>
+                <text>永久二维码</text>
+            </view>
+            <view class='buttonwrap fl'>
+                <image src="../../../images/public3.png" class='publicimg'></image>
+                <text>朋友圈</text>
+            </view>
+            <view class='buttonwrap fl'>
+                <image src="../../../images/public4.png" class='publicimg'></image>
+                <text>关注邀请</text>
+            </view>
+        </view>
+    </view>
+</view>
+<!--二维码弹窗-->
+<modal class="modal" hidden="{{modalFlag}}" no-cancel bindtap="modalOk" confirmText="">
+    <view class="dew">
+        <image src="../../../images/erweima.png" alt="" class="xiaochengxu"></image>
+    </view>
+</modal>

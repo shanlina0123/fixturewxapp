@@ -1,6 +1,6 @@
 {
   "pages":[
-    "pages/Bproject/projectdetail/projectdetail",
+    "pages/Bproject/projectlist/projectlist",
     "pages/index/index",
     "pages/index/prize",
     "pages/index/pricetip",
@@ -27,8 +27,8 @@
     "pages/invite/makesure/makesure",
     "pages/manageuser/usermanage",
     "pages/upgrade/upgrade",
-    "pages/Bproject/projectlist/projectlist",
     
+    "pages/Bproject/projectdetail/projectdetail",
     "pages/Bproject/newproject/newproject",
     "pages/Bproject/promap/promap",
     "pages/Bproject/prostep/prostep",

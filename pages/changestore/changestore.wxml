@@ -1,0 +1,6 @@
+<!--pages/changestore/changestore.wxml-->
+<view class='storelist'>
+    <view class='item on' bindtap='jump'>积木家-未央路店</view>
+    <view class='item' bindtap='jump'>积木家-高新店</view>
+    <view class='item' bindtap='jump'>积木家-宝鸡店</view>
+</view>

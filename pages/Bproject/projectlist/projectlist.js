@@ -16,6 +16,45 @@ Page({
             setshow: !this.data.setshow
         })
     },
+    //隐藏弹窗
+    closepop:function(){
+        this.setData({
+            setshow: false
+        })
+    },
+    //弹窗删除
+    deletepro:function(){
+        this.setData({
+            setshow: false
+        })
+        wx.showModal({
+            title: '确认删除吗？',
+        })
+    },
+    //是否公开项目
+    switch1Change:function(e){
+        if (e.detail.value){
+            wx.showToast({
+                title: '项目已公开',
+            })
+        }else{
+            wx.showToast({
+                title: '项目公开已关闭',
+            })
+        }
+        this.setData({
+            setshow: false
+        })
+    },
+    //项目完工
+    overpro:function(){
+        wx.showToast({
+            title: '设置完工成功',
+        })
+        this.setData({
+            setshow: false
+        })
+    },
     //切换
     shownow: function () {
         this.setData({

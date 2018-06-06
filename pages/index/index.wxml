@@ -1,8 +1,8 @@
 <!--index.wxml-->
 <view class='wrap'>
     <text class='companyname'>B端熊先生</text>
-    <view class='userlevel'>
-        <image src='../../images/vip.png' class='levelimg'></image>
+    <view class='userlevel samepadding'>
+        <!-- <image src='../../images/vip.png' class='levelimg'></image> -->
         <navigator url='../upgrade/upgrade' class='levelBtn' hover-class='none'>标准版</navigator>
     </view>
     <view class='buttonwrap Bbuttonwrap'>

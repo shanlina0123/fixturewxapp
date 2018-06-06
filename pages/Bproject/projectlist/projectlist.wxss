@@ -103,50 +103,61 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    background-color: #000;
-    width: 300rpx;
-    height: 300rpx;
-    padding: 50rpx;
-    margin: -175rpx 0 0 -175rpx;
-    border-radius: 30rpx;
+    background-color: #3c3c3c;
+    width: 270px;
+    height: 270px;
+    margin: -135px 0 0 -135px;
+    border-radius: 20px;
     color: #fff;
     z-index: 200
 }
 
 .florimg {
-    width: 50rpx;
-    height: 50rpx;
+    width: 45px;
+    height: 45px;
 }
 .pulic{
     position: absolute;
-    top: 50rpx;
+    width: 57px;
+    top: 20px;
     left: 50%;
     text-align: center;
-    margin-left: -35rpx;
+    margin-left: -28px;
 }
-.pulic view{margin-top: 10rpx;}
-.wx-switch-input{width:40px !important;height:20px !important;}
-.wx-switch-input::before{width:38px !important;height: 18px !important;}
-.wx-switch-input::after{width: 18px !important;height: 18px !important;}
+.pulic view{margin-top: 8px;}
+.wx-switch-input{width:52px !important;height:32px !important;}
+.wx-switch-input::before{width:50px !important;height: 30px !important;}
+.wx-switch-input::after{width: 30px !important;height: 30px !important;}
 .over{
     position: absolute;
-    left: 50rpx;
+    width: 45px;
+    left: 20px;
     top: 50%;
-    margin-top: -24rpx;
+    text-align: center;
+    margin-top: -34px;
 }
 .delete{
     position: absolute;
-    bottom: 50rpx;
+    width: 45px;
+    bottom: 20px;
     left: 50%;
-    margin-left: -25rpx;
+    text-align: center;
+    margin-left: -22px;
 }
 .update{
     position: absolute;
-    right: 50rpx;
+    width: 45px;
+    right: 20px;
     top: 50%;
-    margin-top: -24rpx;
+    text-align: center;
+    margin-top: -34px;
 }
 .bottominner{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom:0;
+    background-color: #fff;
     padding: 30rpx 0;
 }
 .title{

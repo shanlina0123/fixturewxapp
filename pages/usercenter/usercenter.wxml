@@ -5,27 +5,33 @@
         <text class='left15'>胖大海</text>
     </view>
     <view class='proul samepadding'>
-        <navigator url='project/projectdetail' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;' hover-class="none">
+        <navigator url='project/projectdetail' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+            hover-class="none">
             <image src='../../images/icon1.png' class='itemicon'></image>
             <text class='left10'>我的装修</text>
         </navigator>
-        <navigator url='active/active' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;' hover-class="none">
+        <navigator url='active/active' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+            hover-class="none">
             <image src='../../images/icon2.png' class='itemicon'></image>
             <text class='left10'>参与的活动</text>
         </navigator>
-        <navigator url='project/project' class='proitem' style='background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;' hover-class="none">
+        <navigator url='project/project' class='proitem' style='background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+            hover-class="none">
             <image src='../../images/icon3.png' class='itemicon'></image>
             <text class='left10'>我关注的项目</text>
         </navigator>
-        <navigator url='prize' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;' hover-class="none">
+        <navigator url='prize' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+            hover-class="none">
             <image src='../../images/icon4.png' class='itemicon'></image>
             <text class='left10'>中奖记录</text>
         </navigator>
-        <navigator url='about' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;' hover-class="none">
+        <navigator url='about' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+            hover-class="none">
             <image src='../../images/icon5.png' class='itemicon'></image>
             <text class='left10'>关于我们</text>
         </navigator>
-        <navigator url='question' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;' hover-class="none">
+        <navigator url='question' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+            hover-class="none">
             <image src='../../images/icon7.png' class='itemicon'></image>
             <text class='left10'>问题反馈</text>
         </navigator>
@@ -35,25 +41,25 @@
             <text class='fr' bindtap='phonecall'>{{phonenumber}}</text>
         </navigator>
         <!--B端个人中心页面链接-->
-                <navigator url='active/active' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+        <navigator url='active/active' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
             hover-class="none">
             <image src='../../images/icon2.png' class='itemicon'></image>
             <text class='left10'>促销活动</text>
         </navigator>
-        <navigator url='project/project' class='proitem' style='background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+        <navigator url='../Bproject/projectlist/projectlist' class='proitem' style='background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
             hover-class="none">
             <image src='../../images/icon3.png' class='itemicon'></image>
             <text class='left10'>项目管理</text>
         </navigator>
-        <navigator url='active/active' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+        <navigator url='../appointment/appointment' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
             hover-class="none">
             <image src='../../images/icon8.png' class='itemicon'></image>
             <text class='left10'>客户预约</text>
         </navigator>
-        <navigator url='project/project' class='proitem' style='background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
+        <navigator url='../changestore/changestore' class='proitem' style='background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
             hover-class="none">
             <image src='../../images/icon9.png' class='itemicon'></image>
-            <text class='left10'>当前登录</text>
+            <text class='left10'>切换门店</text>
         </navigator>
         <navigator url='question' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'
             hover-class="none">
@@ -67,4 +73,3 @@
         </navigator>
     </view>
 </view>
-

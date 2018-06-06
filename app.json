@@ -1,78 +1,80 @@
 {
-  "pages":[
-    "pages/Bproject/projectlist/projectlist",
-    "pages/index/index",
-    "pages/index/prize",
-    "pages/index/pricetip",
-    "pages/index/free/free",
-    "pages/index/quick/quick",
-    "pages/message/message",
-    "pages/message/asklist/asklist",
-    "pages/message/asklist/askdetail",
-    "pages/usercenter/usercenter",
-    "pages/usercenter/join",
-    "pages/usercenter/question",
-    "pages/usercenter/about",
-    "pages/usercenter/prize",
-    "pages/usercenter/active/active",
-    "pages/usercenter/active/activedetail",
-    "pages/usercenter/active/signin",
-    "pages/usercenter/project/project",
-    "pages/usercenter/project/projectdetail",
-    "pages/usercenter/project/visit",
+    "pages": [
+        "pages/Bproject/projectlist/projectlist",
+        "pages/index/index",
+        "pages/index/prize",
+        "pages/index/pricetip",
+        "pages/index/free/free",
+        "pages/index/quick/quick",
+        "pages/message/message",
+        "pages/message/asklist/asklist",
+        "pages/message/asklist/askdetail",
+        "pages/usercenter/usercenter",
+        "pages/usercenter/join",
+        "pages/usercenter/question",
+        "pages/usercenter/about",
+        "pages/usercenter/prize",
+        "pages/usercenter/active/active",
+        "pages/usercenter/active/activedetail",
+        "pages/usercenter/active/signin",
+        "pages/usercenter/project/project",
+        "pages/usercenter/project/projectdetail",
+        "pages/usercenter/project/visit",
 
-    "pages/projectdetail/projectdetail",
-    "pages/adduser/adduser",
-    "pages/invite/inviteuser/inviteuser",
-    "pages/invite/makesure/makesure",
-    "pages/manageuser/usermanage",
-    "pages/upgrade/upgrade",
-    
-    "pages/Bproject/projectdetail/projectdetail",
-    "pages/Bproject/newproject/newproject",
-    "pages/Bproject/promap/promap",
-    "pages/Bproject/prostep/prostep",
-    "pages/Bproject/promodel/promodel",    
-    "pages/Bproject/proprofect/proprofect",
-    "pages/appointment/appointment",
-    "pages/Bproject/proupdate/proupdate",
-    "pages/Bproject/wordsupdate/wordsupdate",
-    "pages/removeuser/removeuser"
-    
-  ],
-  "window":{
-    "backgroundTextStyle":"dark",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "云易装",
-    "navigationBarTextStyle":"black",
-    "backgroundColor":"#fff",
-    "enablePullDownRefresh":true
-  },
-"tabBar": {
-    "color":"#515151",    
-    "selectedColor": "#eb7221",
-    "borderStyle": "black",
-    "backgroundColor": "white",
-    "list": [
-        {
-            "iconPath": "images/index.png",
-            "selectedIconPath": "images/indexOn.png",
-            "pagePath": "pages/index/index",
-            "text": "首页"
-        },
-        {
-            "iconPath": "images/message.png",
-            "selectedIconPath": "images/messageOn.png",
-            "pagePath": "pages/message/message",
-            "text": "消息"
-        },
-        {
-            "iconPath": "images/my.png",
-            "selectedIconPath": "images/myOn.png",
-            "pagePath": "pages/usercenter/usercenter",
-            "text": "我的"
-        }
-    ]
-},
-"debug": true
+
+
+        
+        "pages/projectdetail/projectdetail",
+        "pages/adduser/adduser",
+        "pages/invite/inviteuser/inviteuser",
+        "pages/invite/makesure/makesure",
+        "pages/manageuser/usermanage",
+        "pages/upgrade/upgrade",
+        "pages/Bproject/projectdetail/projectdetail",
+        "pages/Bproject/newproject/newproject",
+        "pages/Bproject/promap/promap",
+        "pages/Bproject/prostep/prostep",
+        "pages/Bproject/promodel/promodel",
+        "pages/Bproject/proprofect/proprofect",
+        "pages/appointment/appointment",
+        "pages/Bproject/proupdate/proupdate",
+        "pages/Bproject/wordsupdate/wordsupdate",
+        "pages/changestore/changestore",
+        "pages/removeuser/removeuser"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "云易装",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#fff",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "color": "#515151",
+        "selectedColor": "#eb7221",
+        "borderStyle": "black",
+        "backgroundColor": "white",
+        "list": [
+            {
+                "iconPath": "images/index.png",
+                "selectedIconPath": "images/indexOn.png",
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "iconPath": "images/message.png",
+                "selectedIconPath": "images/messageOn.png",
+                "pagePath": "pages/message/message",
+                "text": "消息"
+            },
+            {
+                "iconPath": "images/my.png",
+                "selectedIconPath": "images/myOn.png",
+                "pagePath": "pages/usercenter/usercenter",
+                "text": "我的"
+            }
+        ]
+    },
+    "debug": true
 }

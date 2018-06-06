@@ -70,20 +70,13 @@
 }
 /*B端首页*/
 .userlevel{
-    text-align: center;
     background-color: #fff;
-}
-.levelimg{
-    width: 40rpx;
-    height: 40rpx;
-    vertical-align: middle;
-    margin-top: -1px;
-    margin-right: 8rpx;
+    text-align: center;
 }
 .levelBtn{
     display: inline-block;
     border: 1px solid #f0f0f0;
-    padding: 5rpx 15rpx;
+    padding: 8rpx 40rpx;
     border-radius: 10rpx;
 }
 .Bbuttonwrap .centerbtn{

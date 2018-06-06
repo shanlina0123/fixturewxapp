@@ -5,9 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    stores:['请选择门店','积木家-高新店','积木家-宝鸡店'],
+    index:0
   },
-
+  bindChange: function (event) {
+      var that = this;
+      let index = event.detail.value;
+      this.setData({
+          index: index
+      })
+  },
+  submitform:function(){
+      wx.navigateTo({
+          url: '../projectlist/projectlist',
+      })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

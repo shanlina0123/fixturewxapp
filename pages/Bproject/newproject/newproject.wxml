@@ -3,7 +3,9 @@
     <form bindsubmit='submitform'>
         <view class='formitem clearfix'>
             <text class='itemname fl'>选择门店</text>
-            <picker class='pickerselect fl'>请选择门店</picker>
+            <picker class='pickerselect fl' bindchange="bindChange" value='index' range='{{stores}}'>
+                <view>{{stores[index]}}</view>
+            </picker>
         </view>
         <view class='formitem clearfix'>
             <text class='itemname fl'>项目地址</text>

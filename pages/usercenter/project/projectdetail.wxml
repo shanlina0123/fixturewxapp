@@ -207,7 +207,7 @@
             <image src='../../../images/logo.png' class='bottomcompany'></image>
         </navigator>
         <navigator url='visit' class='bottombtn fr' hover-class="none">预约参观</navigator>
-        <navigator class='bottombtn fr'>在线咨询</navigator>
+        <button class='askbtn fr' size='mini'>在线咨询</button>
     </view>
     <!--评论输入框-->
     <view class="inputwarp clearfix {{inputisshow ? '' :'hide'}}">

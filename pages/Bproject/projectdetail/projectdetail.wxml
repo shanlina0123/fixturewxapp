@@ -131,7 +131,7 @@
                             </view>
                         </view>
                         <!--B端添加编辑按钮-->
-                        <picker class='bluecolor deleteitem'>编辑</picker>
+                        <view class='bluecolor deleteitem' bindtap='handelmsg'>编辑</view>
                     </view>
                     <view class='itemul bitermul samepadding'>
                         <view class='itemli clearfix'>
@@ -214,16 +214,22 @@
         </view>
     </view>
     <!--底预约参观按钮-->
-    <view class='bottombtns clearfix'>
+     <view class='bottombtns clearfix'>
         <navigator url='../../usercenter/about' class='leftcompany fl'>
             <image src='../../../images/logo.png' class='bottomcompany'></image>
         </navigator>
         <navigator url='../proupdate/proupdate' class='bottombtn fr' hover-class="none">更新</navigator>
         <navigator class='bottombtn fr'>推广</navigator>
-    </view>
+    </view> 
     <!--评论输入框-->
     <view class="inputwarp clearfix {{inputisshow ? '' :'hide'}}">
         <input class='zaninput fl' type='text' placeholder='评论'></input>
         <text class='send left10 fl' bindtap='closeinput'>发送</text>
+    </view>
+    <!--编辑动态选择-->
+    <view class="handelmsgwrap {{handelshow ? '' : 'hide'}}">
+        <navigator url='../wordsupdate/wordsupdate' class='item' bindtap='editmsg'>修改</navigator>
+        <view class='item' bindtap='deletemsg'>删除</view>
+        <view class='item' bindtap='cancelmsg'>取消</view>
     </view>
 </view>

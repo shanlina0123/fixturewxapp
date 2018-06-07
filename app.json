@@ -23,13 +23,13 @@
 
 
 
-        
         "pages/projectdetail/projectdetail",
         "pages/adduser/adduser",
         "pages/invite/inviteuser/inviteuser",
         "pages/invite/makesure/makesure",
         "pages/manageuser/usermanage",
         "pages/upgrade/upgrade",
+        
         "pages/Bproject/projectdetail/projectdetail",
         "pages/Bproject/newproject/newproject",
         "pages/Bproject/promap/promap",

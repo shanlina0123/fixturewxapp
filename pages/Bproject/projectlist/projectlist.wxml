@@ -114,7 +114,7 @@
 </view>
 <!--右侧浮动的新增项目按钮-->
 <navigator url='../newproject/newproject' class='addrightbtn' hover-class='none'>
-    <image src="../../../images/newuser.png" class='addbtnimg'></image>
+    <image src="../../../images/proadd.jpg" class='addbtnimg'></image>
 </navigator>
 <!--浮动在页面中间的设置-->
 <view class="florsetwrap {{setshow ? '':'hide'}}">
@@ -137,7 +137,7 @@
     </navigator>
 </view>
 
-<!-- <canvas canvas-id="shareCanvas" style="width:600px;height:900px"></canvas> -->
+ <canvas canvas-id="shareCanvas" style="width:285px;height:398px;border:1px solid #ddd"></canvas> 
 
 <!--二维码弹窗-->
 <modal class="modal" hidden="{{modalFlag}}" no-cancel bindtap="modalOk" confirmText="">

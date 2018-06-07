@@ -10,7 +10,8 @@ Page({
         selected2: false,
         selected3: false,
         on: "check",
-        hide: 'hide'
+        hide: 'hide',
+        handelshow:false
     },
     /**关注项目按钮 */
     changeName: function (e) {
@@ -90,7 +91,33 @@ Page({
             title: '确认删除吗？',
         })
     },
-
+    //编辑动态项目显示
+    handelmsg:function(){
+        this.setData({
+            handelshow: !this.data.handelshow 
+        })
+    },
+    //删除动态
+    deletemsg:function(){
+        this.setData({
+            handelshow: false
+        })
+        wx.showModal({
+            title: '确认删除吗？',
+        })
+    },
+    //编辑动态
+    editmsg:function(){
+        this.setData({
+            handelshow: false
+        })
+    },
+    //取消按钮
+    cancelmsg:function(){
+        this.setData({
+            handelshow: false
+        })
+    },
     /**
      * 生命周期函数--监听页面加载
      */

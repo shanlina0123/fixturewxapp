@@ -8,7 +8,8 @@ Page({
         setshow: false,
         on1: true,
         on2: false,
-        modalFlag:true
+        modalFlag: true,
+        sharebgimg: ''
     },
     //显示设置弹窗
     showsetting: function () {
@@ -17,13 +18,13 @@ Page({
         })
     },
     //隐藏弹窗
-    closepop:function(){
+    closepop: function () {
         this.setData({
             setshow: false
         })
     },
     //弹窗删除
-    deletepro:function(){
+    deletepro: function () {
         this.setData({
             setshow: false
         })
@@ -32,12 +33,12 @@ Page({
         })
     },
     //是否公开项目
-    switch1Change:function(e){
-        if (e.detail.value){
+    switch1Change: function (e) {
+        if (e.detail.value) {
             wx.showToast({
                 title: '项目已公开',
             })
-        }else{
+        } else {
             wx.showToast({
                 title: '项目公开已关闭',
             })
@@ -47,7 +48,7 @@ Page({
         })
     },
     //项目完工
-    overpro:function(){
+    overpro: function () {
         wx.showToast({
             title: '设置完工成功',
         })
@@ -85,29 +86,44 @@ Page({
         }
     },
     //显示永久二维码
-    showerweima:function(){
+    showerweima: function () {
         this.setData({
             modalFlag: false
         })
     },
     //隐藏永久二维弹窗
-    modalOk: function(){
+    modalOk: function () {
         this.setData({
             modalFlag: true
         })
-        //http://m.qpic.cn/psb?/V13O0eLb4OHVil/QxOSf.tV.HPyc1gPtoQFp6DV3sVoBAbv6LBb6FuIvA8!/b/dDABAAAAAAAA&bo=6AN0BQAAAAADB7g!&rf=viewer_4
     },
     //点击获取生成图片
-    comtoimg:function(){
+    comtoimg: function () {
 
     },
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
+        //显示分享按钮
         wx.showShareMenu({
             withShareTicket: true
         });
+        wx.getImageInfo({
+            src: 'https://fixture.yygsoft.com/uploads/default/wx/projectbg.png',
+            success: function (res) {
+                const ctx = wx.createCanvasContext('shareCanvas');
+                //绘制底图
+                ctx.drawImage(res.path, 0, 0, 285, 398);
+                //绘制文字
+                ctx.setTextAlign("center");
+                ctx.setFillStyle("#0c0a0a");
+                ctx.setFontSize(22);
+                ctx.fillText("积木家",285/2,90);
+                //绘制二维码
+                ctx.draw();
+            }
+        })
     },
 
     /**

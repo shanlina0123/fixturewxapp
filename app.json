@@ -1,6 +1,5 @@
 {
     "pages": [
-        "pages/Bproject/projectlist/projectlist",
         "pages/index/index",
         "pages/index/prize",
         "pages/index/pricetip",
@@ -29,7 +28,7 @@
         "pages/invite/makesure/makesure",
         "pages/manageuser/usermanage",
         "pages/upgrade/upgrade",
-        
+        "pages/Bproject/projectlist/projectlist",
         "pages/Bproject/projectdetail/projectdetail",
         "pages/Bproject/newproject/newproject",
         "pages/Bproject/promap/promap",
@@ -40,6 +39,7 @@
         "pages/Bproject/proupdate/proupdate",
         "pages/Bproject/wordsupdate/wordsupdate",
         "pages/changestore/changestore",
+        "pages/getmessage/getmessage",
         "pages/removeuser/removeuser"
     ],
     "window": {

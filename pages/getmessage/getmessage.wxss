@@ -1,4 +1,7 @@
 /* pages/getmessage/getmessage.wxss */
+.messagewrap{
+    padding-top: 130px;
+}
 .itemname {
     display: inline-block;
     height: 80rpx;
@@ -7,7 +10,7 @@
 }
 
 .forminput {
-    min-width: 76%;
+    min-width: 84%;
     display: inline-block;
     height: 80rpx;
     line-height: 80rpx;

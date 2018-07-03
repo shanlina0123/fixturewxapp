@@ -89,16 +89,16 @@
     overflow: hidden;
 }
 .flowwrap{
-    padding-right: 6%;
-    margin: 50rpx 0 15rpx 0;
+    margin: 50rpx 0;
+    text-align: center;
 }
 .flow{
     position: relative;
-    width: 16.6%;
-    height: 90rpx;
+    width: 70rpx;
+    height: 40rpx;
     border-top: 3px solid #eee;
 }
-.flow:first-child,.flow:nth-child(7n){
+.flow:first-child{
     border-top: 3px solid transparent
 }
 .flow.on .number{
@@ -107,11 +107,12 @@
 .number{
     display: block;
     position: absolute;
-    width: 50rpx;
-    height: 50rpx;
-    line-height: 50rpx;
+    width: 35rpx;
+    height: 35rpx;
+    line-height: 35rpx;
     right:0;
-    top: -25rpx;
+    top: -21rpx;
+    font-size: 20rpx;
     text-align: center;
     border-radius: 50rpx;
     background-color: #eee;
@@ -123,6 +124,7 @@
     width: 100%;
     top: 30rpx;
     right: 0;
+    font-size: 24rpx;
     text-align: right;
 }
 

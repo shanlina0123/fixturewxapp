@@ -56,6 +56,12 @@ Page({
             setshow: false
         })
     },
+    //**点击空白设置弹窗关闭 */
+    closemask:function(){
+        this.setData({
+            setshow: false
+        })
+    },
     //切换
     shownow: function () {
         this.setData({
@@ -111,6 +117,7 @@ Page({
         });
         wx.getImageInfo({
             src: 'https://fixture.yygsoft.com/uploads/default/wx/projectbg.png',
+            //src: 'https://fixture.yygsoft.com/uploads/default/wx/erweima.png',
             success: function (res) {
                 const ctx = wx.createCanvasContext('shareCanvas');
                 //绘制底图

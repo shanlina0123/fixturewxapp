@@ -1,18 +1,24 @@
 <!--pages/index/free/free.wxml-->
 <view class='content'>
     <view class='banner'>
-        <image class='bannerimg' src='../../../images/banner.jpg'></image>
+        <image class='bannerimg' src='../../../images/banner1.jpg'></image>
     </view>
     <view class='formwrap samepadding'>
         <form>
             <view class='formitem'>
-                <input type='text' placeholder='姓名' class='forminput' />
+                <input type='text' placeholder='请输入您的称呼' class='forminput' />
             </view>
             <view class='formitem'>
-                <input type='text' placeholder='请输入手机号' class='forminput' />
+                <input type='text' placeholder='请输入您的手机号码' class='forminput' />
             </view>
-            <button class='submitBtn'>免费量房</button>
+            <view class='formitem'>
+                <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" class='addrpicker'>
+                    <view class='picker'>请选择所在城市：{{array[index]}}</view>
+                </picker>
+            </view>
+            <button class='submitBtn'>立即申请</button>
         </form>
+        <view class='formnotice'>请填写您的联系方式方便给您安排专业师傅为您服务。</view>
     </view>
 </view>
     

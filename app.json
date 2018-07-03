@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/dialog/dialog",
         "pages/index/index",
         "pages/index/prize",
         "pages/index/pricetip",
@@ -19,9 +20,6 @@
         "pages/usercenter/project/project",
         "pages/usercenter/project/projectdetail",
         "pages/usercenter/project/visit",
-
-
-
         "pages/projectdetail/projectdetail",
         "pages/adduser/adduser",
         "pages/invite/inviteuser/inviteuser",
@@ -44,17 +42,17 @@
     ],
     "window": {
         "backgroundTextStyle": "dark",
-        "navigationBarBackgroundColor": "#fff",
+        "navigationBarBackgroundColor": "#FFFFFF",
         "navigationBarTitleText": "云易装",
         "navigationBarTextStyle": "black",
-        "backgroundColor": "#fff",
+        "backgroundColor": "#FFFFFF",
         "enablePullDownRefresh": true
     },
     "tabBar": {
         "color": "#515151",
         "selectedColor": "#eb7221",
         "borderStyle": "black",
-        "backgroundColor": "white",
+        "backgroundColor": "#FFFFFF",
         "list": [
             {
                 "iconPath": "images/index.png",

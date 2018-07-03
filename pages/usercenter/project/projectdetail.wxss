@@ -55,7 +55,7 @@
     width: 80rpx;
     height: 80rpx;
     border-radius: 80rpx;
-    margin-right: -40rpx;
+    border:1rpx solid #ddd;
 }
 /**切换部分**/
 .tabbtns{
@@ -129,39 +129,36 @@
 /**底部操作按钮**/
 .bottombtns{
     position: fixed;
-    width: 94%;
+    width: 750rpx;
     bottom: 0;
     left: 0;
-    padding: 20rpx;
     background-color: #fff;
 }
-.leftcompany{
-    height: 64rpx;
-    line-height: 64rpx;
-}
-.bottomcompany{
-    width: 174rpx;
-    height: 64rpx;
-    margin-right: 10rpx;
-    vertical-align: middle;
-}
 .bottombtn{
+    width: 50%;
     color: #fff;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
     background-color: #1e9fff;
-    padding: 15rpx 30rpx;
-    border-radius: 5px;
-    margin-left: 15rpx;
 }
 .askbtn{
-    display: block;
+    display: inline-block;
+    width: 50%;
     font-size: 30rpx;
-    padding-right: 30rpx;
-    padding-left: 30rpx;
-    padding: 15rpx 30rpx;
-    line-height: 66rpx!important;
+    padding-right: 0;
+    padding-left: 0;
+    padding: 0 0;
+    line-height: 80rpx!important;
     color: #fff;
+    border-radius: 0;
     border:none!important;
     background-color: #1e9fff;
+}
+.askbtn::after{
+    border: none;
+    border-radius: 0;
+    border-right: 1px solid #fff;
 }
 .linkbtn{
     display: block;

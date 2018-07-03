@@ -1,8 +1,8 @@
 <!--index.wxml-->
-<view class='wrap'>
-    <text class='companyname'>B端熊先生</text>
+<!-- <view class='wrap'>
+     <text class='companyname'>B端熊先生</text>
     <view class='userlevel samepadding'>
-        <!-- <image src='../../images/vip.png' class='levelimg'></image> -->
+        <image src='../../images/vip.png' class='levelimg'></image>
         <navigator url='../upgrade/upgrade' class='levelBtn' hover-class='none'>标准版</navigator>
     </view>
     <view class='buttonwrap Bbuttonwrap'>
@@ -107,7 +107,6 @@
         <input class='zaninput fl' type='text' placeholder='评论' cursor-spacing="8" bindconfirm='bindconfirm'></input>
         <text class='send left10 fl' bindtap='closeinput'>发送</text>
     </view>
-    <!--选择公司弹窗-->
     <view class='changewrap' style='background:url(../../images/blackbg.png) left top;'>
         <view class='toptext'>选择您要查看的公司</view>
         <text class='topsmall'>可随时前往[我的]页面调整</text>
@@ -117,23 +116,25 @@
             <view class='storelink' hover-class="none">积木家-宝鸡店</view>
         </view>
     </view>
-</view>
-<!-- <view class='wrap'>
-    <text class='companyname'>熊先生</text>
-    <view class='buttonwrap'>
-        <view class='samepadding'>
-            <navigator class='centerbtn' url="free/free" hover-class="none">
-                <image src='../../images/topicon1.png' class='topicon'></image>
-                免费量房
-            </navigator>
-            <navigator class='centerbtn' url="quick/quick" hover-class="none">
-                <image src='../../images/topicon2.png' class='topicon'></image>
-                快速报价
-            </navigator>
-            <navigator class='centerbtn' url="../usercenter/project/project" hover-class="none">
-                <image src='../../images/topicon3.png' class='topicon'></image>
-                关注项目
-            </navigator>
+</view> -->
+ <view class='wrap'>
+    <view class='topbgwrap' style='background:url(../../images/bg1.png) center no-repeat; background-size:cover'>
+        <text class='companyname'>熊先生</text>
+        <view class='buttonwrap'>
+            <view class='samepadding'>
+                <navigator class='centerbtn' url="free/free" hover-class="none">
+                    <image src='../../images/topicon1.png' class='topicon'></image>
+                    免费量房
+                </navigator>
+                <navigator class='centerbtn' url="quick/quick" hover-class="none">
+                    <image src='../../images/topicon2.png' class='topicon'></image>
+                    快速报价
+                </navigator>
+                <navigator class='centerbtn' url="../usercenter/project/project" hover-class="none">
+                    <image src='../../images/topicon3.png' class='topicon'></image>
+                    关注项目
+                </navigator>
+            </view>
         </view>
     </view>
     <text class='centertitle'>动态</text>
@@ -216,4 +217,4 @@
         <input class='zaninput fl' type='text' placeholder='评论' cursor-spacing="8" bindconfirm='bindconfirm'></input>
         <text class='send left10 fl' bindtap='closeinput'>发送</text>
     </view>
-</view> -->
+</view> 

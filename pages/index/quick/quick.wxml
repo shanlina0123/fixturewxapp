@@ -1,20 +1,25 @@
 <!--pages/index/quick/quick.wxml-->
 <view class='content'>
-    <view class='banner'>
-        <image class='bannerimg' src='../../../images/banner.jpg'></image>
-    </view>
+     <view class='banner'>
+        <image class='bannerimg' src='../../../images/banner2.jpg'></image>
+    </view> 
     <view class='formwrap samepadding'>
         <form>
             <view class='formitem'>
-                <input type='text' placeholder='姓名' class='forminput' />
+                <input type='text' placeholder='请输入您的称呼' class='forminput' />
             </view>
             <view class='formitem'>
-                <input type='text' placeholder='请输入手机号' class='forminput' />
+                <input type='text' placeholder='输入手机号，报价结果将发送到您手机' class='forminput' />
             </view>
             <view class='formitem'>
-                <input type='text' placeholder='请输入面积m2' class='forminput' />
+                <input type='text' placeholder='请输入您的房屋面积m2' class='forminput' />
             </view>
-            <button class='submitBtn'>快速报价</button>
+            <view class='formitem'>
+                <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" class='addrpicker'>
+                    <view class='picker'>请选择所在城市：{{array[index]}}</view>
+                </picker>
+            </view>
+            <button class='submitBtn'>立即计算</button>
         </form>
     </view>
 </view>

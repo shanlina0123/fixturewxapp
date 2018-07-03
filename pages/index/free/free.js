@@ -5,9 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+      array: ['西安', '宝鸡', '杨凌', '渭南'],
+      index: 0,
   },
-
+  bindPickerChange: function (e) {
+      this.setData({
+          index: e.detail.value
+      })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

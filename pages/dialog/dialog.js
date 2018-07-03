@@ -5,8 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-    isshow: true
+    isshow: true,/**语音输入和文字输入切换 */
+    ishandel:false,
+    // 触摸开始时间
+    touchStartTime: 0,
+    // 触摸结束时间
+    touchEndTime: 0,
   },
+    // 按钮触摸开始触发的事件
+    touchStart: function (e) {
+        this.touchStartTime = e.timeStamp
+    },
+    // 按钮触摸结束触发的事件
+    touchEnd: function (e) {
+        this.touchEndTime = e.timeStamp
+    },
     /**语音和文字切换 */
     changetext:function(e){
         var that = this;
@@ -32,59 +45,19 @@ Page({
     showface:function(e){
 
     },
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-    
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-    
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-    
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-    
-  }
+    /**点击隐藏复制、删除和撤回消息功能 */
+    closehandle: function () {
+        if (this.touchEndTime - this.touchStartTime < 350){
+            this.setData({
+                ishandel: false
+            })
+        }
+    },
+    /**长按功能复制、删除、撤回 */
+    texthandle: function () {
+        this.setData({
+            ishandel: true
+        })
+    },
+  
 })

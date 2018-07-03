@@ -26,7 +26,7 @@
 }
 .othertragle{
     position: absolute;
-    left: -10rpx;
+    left: -12rpx;
     top: 20rpx;
     width:0;
     height:0;
@@ -74,6 +74,41 @@
     padding: 0 10rpx;
     border-radius: 8rpx;
     margin: 10rpx auto;
+}
+.editwrap{
+    position: absolute;
+    width: 300rpx;
+    top: -66rpx;
+    left: 0;
+    background-color: #333;
+    color: #FFFFFF;
+    border-radius: 8rpx;
+    z-index: 300;
+}
+.editwrap text{
+    display: inline-block;
+    padding: 6rpx 20rpx;
+    border-left: 1px solid #fff;
+}
+.editwrap text:first-child{
+    border-left: none;
+}
+.mineeditwrap{
+    right:0;
+    left: auto;
+}
+.mineeditwrap .texttrangle{
+    right: 30rpx;
+    left: auto;
+}
+.texttrangle{
+    position: absolute;
+    width:0;
+    height:0;
+    left: 30rpx;
+    border-right:10rpx solid transparent;
+    border-left:10rpx solid transparent;
+    border-top:10rpx solid #333;
 }
 
 /*底部操作部分*/

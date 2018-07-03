@@ -4,7 +4,13 @@
     <view class='dialogwrap'>
         <view class='othermsg clearfix'>
             <image src="../../images/uhead.png" class='headimg fl'></image>
-            <view class='othertext fl'>
+            <view class='othertext fl' bindlongtap="texthandle" catchtap="closehandle" bindtouchstart="touchStart" bindtouchend="touchEnd">
+                <view class="editwrap {{ishandel?'':'hide'}}">
+                    <text>复制</text>
+                    <text>删除</text>
+                    <text>撤回</text>
+                    <view class='texttrangle'></view>
+                </view>
                 <text class='othertragle'></text>
                 再不出来我就回家了再不出来我就回家了再不出来我就回家了再不出来我就回家了再不出来我就回家了再不出来我就回家了
             </view>
@@ -12,6 +18,12 @@
         <view class='minemsg clearfix'>
             <image src="../../images/uhead.png" class='headimg fr'></image>
             <view class='minetext fr'>
+                <!-- <view class='editwrap mineeditwrap'>
+                    <text>复制</text>
+                    <text>删除</text>
+                    <text>撤回</text>
+                    <view class='texttrangle'></view>
+                </view> -->
                 <text class='minetragle'></text>
                 来了来了
             </view>
@@ -22,6 +34,12 @@
         <view class='othermsg clearfix'>
             <image src="../../images/uhead.png" class='headimg fl'></image>
             <view class='othertext fl'>
+                <!-- <view class='editwrap'>
+                    <text>复制</text>
+                    <text>删除</text>
+                    <text>撤回</text>
+                    <view class='texttrangle'></view>
+                </view> -->
                 <text class='othertragle'></text>
                 再不出来我就回家了再不出来我就回家了再不出来我就回家了
             </view>
@@ -29,19 +47,29 @@
         <view class='minemsg clearfix'>
             <image src="../../images/uhead.png" class='headimg fr'></image>
             <view class='minetext fr'>
+                <!-- <view class='editwrap mineeditwrap'>
+                    <text>复制</text>
+                    <text>删除</text>
+                    <text>撤回</text>
+                    <view class='texttrangle'></view>
+                </view> -->
                 <text class='minetragle'></text>
                 那你回吧
             </view>
         </view>
     </view>
     <view class='dialoginputwrap clearfix'>
-        <image src="../../images/dialog3.png" class="bottomimg fl {{isshow ?'':'hide'}}" bindtap='changetext'></image>
-        <image src="../../images/dialog4.png" class="bottomimg fl {{isshow ?'hide':''}}" bindtap='changetext'></image>  
-        <view class='centerwrap fl'>
-            <input type='text' class="textinput {{isshow ?'':'hide'}}" cursor-spacing="40"></input> 
-            <view class="words {{isshow ?'hide':''}}">按住 说话</view> 
+        <view>
+            <image src="../../images/dialog3.png" class="bottomimg fl {{isshow ?'':'hide'}}" bindtap='changetext'></image>
+            <image src="../../images/dialog4.png" class="bottomimg fl {{isshow ?'hide':''}}" bindtap='changetext'></image>  
+            <view class='centerwrap fl'>
+                <input type='text' class="textinput {{isshow ?'':'hide'}}" cursor-spacing="40"></input> 
+                <view class="words {{isshow ?'hide':''}}">按住 说话</view> 
+            </view>
+            <image src="../../images/dialog2.png" class="bottomimg fr" bindtap='showimg'></image>
+            <image src="../../images/dialog1.png" class="bottomimg picimg fr" bindtap='showface'></image>
         </view>
-        <image src="../../images/dialog2.png" class="bottomimg fr" bindtap='showimg'></image>
-        <image src="../../images/dialog1.png" class="bottomimg picimg fr" bindtap='showface'></image>
+        <view class='emojiwrap'>
+        </view>
     </view>
 </view>

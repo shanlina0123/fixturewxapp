@@ -10,7 +10,7 @@ Page({
     // 触摸开始时间
     touchStartTime: 0,
     // 触摸结束时间
-    touchEndTime: 0,
+    touchEndTime: 0
   },
     // 按钮触摸开始触发的事件
     touchStart: function (e) {

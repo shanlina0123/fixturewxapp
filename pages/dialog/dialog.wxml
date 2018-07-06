@@ -1,7 +1,7 @@
 <!--pages/dialog/dialog.wxml-->
-<view class='content samepadding'>
+<view class='content'>
     <view class="dialogname">张三的歌</view>
-    <view class='dialogwrap'>
+    <view class='dialogwrap' id="j_page">
         <view class='othermsg clearfix'>
             <image src="../../images/uhead.png" class='headimg fl'></image>
             <view class='othertext fl' bindlongtap="texthandle" catchtap="closehandle" bindtouchstart="touchStart" bindtouchend="touchEnd">
@@ -39,10 +39,94 @@
                 那你回吧
             </view>
         </view>
+        <view class='othermsg clearfix'>
+            <image src="../../images/uhead.png" class='headimg fl'></image>
+            <view class='othertext fl'>
+                <text class='othertragle'></text>
+                再不出来我就回家了再不出来我就回家了再不出来我就回家了
+            </view>
+        </view>
+        <view class='minemsg clearfix'>
+            <image src="../../images/uhead.png" class='headimg fr'></image>
+            <view class='minetext fr'>
+                <text class='minetragle'></text>
+                那你回吧
+            </view>
+        </view>
+        <view class='othermsg clearfix'>
+            <image src="../../images/uhead.png" class='headimg fl'></image>
+            <view class='othertext fl'>
+                <text class='othertragle'></text>
+                再不出来我就回家了再不出来我就回家了再不出来我就回家了
+            </view>
+        </view>
+        <view class='minemsg clearfix'>
+            <image src="../../images/uhead.png" class='headimg fr'></image>
+            <view class='minetext fr'>
+                <text class='minetragle'></text>
+                那你回吧
+            </view>
+        </view>
+        <view class='othermsg clearfix'>
+            <image src="../../images/uhead.png" class='headimg fl'></image>
+            <view class='othertext fl'>
+                <text class='othertragle'></text>
+                再不出来我就回家了再不出来我就回家了再不出来我就回家了
+            </view>
+        </view>
+        <view class='minemsg clearfix'>
+            <image src="../../images/uhead.png" class='headimg fr'></image>
+            <view class='minetext fr'>
+                <text class='minetragle'></text>
+                那你回吧
+            </view>
+        </view>
+        <view class='othermsg clearfix'>
+            <image src="../../images/uhead.png" class='headimg fl'></image>
+            <view class='othertext fl'>
+                <text class='othertragle'></text>
+                再不出来我就回家了再不出来我就回家了再不出来我就回家了
+            </view>
+        </view>
+        <view class='minemsg clearfix'>
+            <image src="../../images/uhead.png" class='headimg fr'></image>
+            <view class='minetext fr'>
+                <text class='minetragle'></text>
+                那你回吧
+            </view>
+        </view>
+        <view class='othermsg clearfix'>
+            <image src="../../images/uhead.png" class='headimg fl'></image>
+            <view class='othertext fl'>
+                <text class='othertragle'></text>
+                再不出来我就回家了再不出来我就回家了再不出来我就回家了
+            </view>
+        </view>
+        <view class='minemsg clearfix'>
+            <image src="../../images/uhead.png" class='headimg fr'></image>
+            <view class='minetext fr'>
+                <text class='minetragle'></text>
+                那你回吧
+            </view>
+        </view>
+        <view class='othermsg clearfix'>
+            <image src="../../images/uhead.png" class='headimg fl'></image>
+            <view class='othertext fl'>
+                <text class='othertragle'></text>
+                再不出来我就回家了再不出来我就回家了再不出来我就回家了
+            </view>
+        </view>
+        <view class='minemsg clearfix'>
+            <image src="../../images/uhead.png" class='headimg fr'></image>
+            <view class='minetext fr'>
+                <text class='minetragle'></text>
+                那你回吧
+            </view>
+        </view>
     </view>
     <view class='dialoginputwrap clearfix'>
         <view>
-            <image src="../../images/dialog1.png" class="bottomimg fl" bindtap='showface'></image> 
+            <image src="../../images/dialog4.png" class="bottomimg fl" bindtap='showface'></image> 
             <!-- <image src="../../images/dialog3.png" class="bottomimg fl {{isshow ?'':'hide'}}" bindtap='changetext'></image>
             <image src="../../images/dialog4.png" class="bottomimg fl {{isshow ?'hide':''}}" bindtap='changetext'></image>   -->
             <!--语音和文字输入框和按钮切换-->
@@ -51,7 +135,7 @@
                 <view class="words {{isshow ?'hide':''}}">按住 说话</view> 
             </view>
             <!--上传图片和文字发送按钮切换-->
-            <view class="sendbtn fr">发送</view>
+            <button class="sendbtn fr" bindtap="sendmsg">发送</button>
             <image src="../../images/dialog2.png" class="bottomimg picimg fr" bindtap='showimg'></image>
         </view>
         <view class='emojiwrap'>

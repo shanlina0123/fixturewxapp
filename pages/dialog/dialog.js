@@ -59,5 +59,23 @@ Page({
             ishandel: true
         })
     },
-  
+    // 获取容器高度，使页面滚动到容器底部
+    pageScrollToBottom: function () {
+        wx.createSelectorQuery().select('#j_page').boundingClientRect(function (rect) {
+            // 使页面滚动到底部
+            wx.pageScrollTo({
+                scrollTop: rect.bottom
+            })
+        }).exec()
+    },
+    /**发送消息 */
+    sendmsg:function(){
+        this.pageScrollToBottom();
+    },
+    /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+    onReady: function () {
+        this.pageScrollToBottom();
+    },
 })

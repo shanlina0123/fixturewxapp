@@ -5,7 +5,8 @@
     border-bottom: 1px solid #ddd;
 }
 .dialogwrap{
-    margin-top: 15rpx;
+    padding: 20rpx 20px 110rpx 20rpx;
+    background-color: #f5f5f5
 }
 .headimg{
     width: 64rpx;
@@ -117,20 +118,20 @@
     width: 94%;
     bottom: 0;
     left: 0;
-    padding: 20rpx 0;
+    padding: 26rpx 0;
     padding-left: 3%;
     padding-right: 3%;
-    background-color: #E9EAE7;
+    background-color: #FFFFFF;
 }
 .bottomimg{
     width: 64rpx;
     height: 64rpx;
 }
 .picimg{
-    margin-right: 16rpx;
+    margin-right: 10rpx;
 }
 .centerwrap{
-    margin-left: 16rpx;
+    margin-left: 8rpx;
     width: 66%;
 }
 .words{
@@ -155,8 +156,9 @@
 .sendbtn{
     height: 56rpx;
     line-height: 56rpx;
-    padding: 0 10rpx;
+    padding: 0 18rpx;
     color: #FFF;
+    font-size: 24rpx;
     background-color: #1AAC19;
     border-radius: 8rpx;
     margin-top: 4rpx;

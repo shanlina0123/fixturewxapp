@@ -29,7 +29,7 @@
     border-radius: 5px;
 }
 .timewrap{
-    margin-top: 8rpx;
+    margin-top: 15rpx;
 }
 .pulicktime{
     margin-left: 10rpx;

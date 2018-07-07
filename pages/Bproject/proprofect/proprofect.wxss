@@ -9,14 +9,13 @@
 }
 
 .forminput {
-    min-width: 520rpx;
-    display: inline-block;
+    display: block;
+    width: 520rpx;
     height: 80rpx;
     line-height: 80rpx;
 }
 
 .pickerselect {
-    display: block;
     width: 520rpx;
     height: 80rpx;
     line-height: 80rpx;

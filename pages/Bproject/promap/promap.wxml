@@ -2,7 +2,27 @@
  <view class='samepadding'>
      <input class='forminput' type='text' placeholder='搜索地点'></input>
     <map id='promap' class='promap'></map>
-    <view class='points'>
+    <view class="points" style="height:{{listheight}}rpx">
+        <view class='pointitem'>
+            <view class='pointname'>龙首原印象城</view>
+            <view class='pointaddr'>陕西省西安市龙首原</view>
+        </view>
+        <view class='pointitem'>
+            <view class='pointname'>龙首原印象城</view>
+            <view class='pointaddr'>陕西省西安市龙首原</view>
+        </view>
+        <view class='pointitem'>
+            <view class='pointname'>龙首原印象城</view>
+            <view class='pointaddr'>陕西省西安市龙首原</view>
+        </view>
+        <view class='pointitem'>
+            <view class='pointname'>龙首原印象城</view>
+            <view class='pointaddr'>陕西省西安市龙首原</view>
+        </view>
+        <view class='pointitem'>
+            <view class='pointname'>龙首原印象城</view>
+            <view class='pointaddr'>陕西省西安市龙首原</view>
+        </view>
         <view class='pointitem'>
             <view class='pointname'>龙首原印象城</view>
             <view class='pointaddr'>陕西省西安市龙首原</view>

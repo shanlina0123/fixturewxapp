@@ -5,13 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    listheight:0
   },
  
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+      var that = this;
+      wx.getSystemInfo({
+            success:function(res){
+                var windowheight = res.windowHeight;
+                that.setData({
+                    listheight: (windowheight - 18 - 210) * 1.6
+                })
+            }
+      })
   },
 
   /**

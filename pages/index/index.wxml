@@ -1,10 +1,9 @@
 <!--index.wxml-->
-<!-- <view class='wrap'>
+ <view class='wrap'>
      <text class='companyname'>B端熊先生</text>
-    <view class='userlevel samepadding'>
-        <image src='../../images/vip.png' class='levelimg'></image>
+    <!-- <view class='userlevel samepadding'>
         <navigator url='../upgrade/upgrade' class='levelBtn' hover-class='none'>标准版</navigator>
-    </view>
+    </view> -->
     <view class='buttonwrap Bbuttonwrap'>
         <view class='samepadding'>
             <navigator class='centerbtn' url="../Bproject/projectlist/projectlist" hover-class="none">
@@ -116,8 +115,8 @@
             <view class='storelink' hover-class="none">积木家-宝鸡店</view>
         </view>
     </view>
-</view> -->
- <view class='wrap'>
+</view> 
+ <!-- <view class='wrap'>
     <view class='topbgwrap' style='background:url(../../images/bg1.png) center no-repeat; background-size:cover'>
         <text class='companyname'>熊先生</text>
         <view class='buttonwrap'>
@@ -217,4 +216,4 @@
         <input class='zaninput fl' type='text' placeholder='评论' cursor-spacing="8" bindconfirm='bindconfirm'></input>
         <text class='send left10 fl' bindtap='closeinput'>发送</text>
     </view>
-</view> 
+</view>  -->

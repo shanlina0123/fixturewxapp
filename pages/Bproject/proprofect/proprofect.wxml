@@ -2,7 +2,8 @@
 <view class='samepadding'>
     <form bindsubmit='submitform'>
         <view class='formitem'>
-            <image src="../../../images/upload.png" class='uploadimg' bindtap='uploadimg'></image>
+        <!--图片上传之后添加uploadedimg样式-->
+            <image src="../../../images/banner1.jpg" class='uploadimg' bindtap='uploadimg'></image>
             <view class='uploadnotice'>项目封面：建议上传效果图</view>
         </view>
         <view class='formitem clearfix'>

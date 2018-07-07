@@ -1,6 +1,6 @@
 <!--pages/Bproject/promap/promap.wxml-->
-<view class='samepadding'>
-    <input class='forminput' type='text' placeholder='搜索地点'></input>
+ <view class='samepadding'>
+     <input class='forminput' type='text' placeholder='搜索地点'></input>
     <map id='promap' class='promap'></map>
     <view class='points'>
         <view class='pointitem'>
@@ -11,5 +11,9 @@
             <view class='pointname'>龙首原印象城</view>
             <view class='pointaddr'>陕西省西安市龙首原</view>
         </view>
-    </view>
-</view>
+    </view> 
+</view> 
+<!-- <view class='btnwrap'>
+    <button class='opensettingbtn'>打开授权设置页</button>
+</view> -->
+

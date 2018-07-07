@@ -1,6 +1,6 @@
 {
     "pages": [
-        "pages/dialog/dialog",
+        "pages/Bproject/promap/promap",
         "pages/index/index",
         "pages/index/prize",
         "pages/index/pricetip",
@@ -29,7 +29,7 @@
         "pages/Bproject/projectlist/projectlist",
         "pages/Bproject/projectdetail/projectdetail",
         "pages/Bproject/newproject/newproject",
-        "pages/Bproject/promap/promap",
+        
         "pages/Bproject/prostep/prostep",
         "pages/Bproject/promodel/promodel",
         "pages/Bproject/proprofect/proprofect",
@@ -38,6 +38,7 @@
         "pages/Bproject/wordsupdate/wordsupdate",
         "pages/changestore/changestore",
         "pages/getmessage/getmessage",
+        "pages/dialog/dialog",
         "pages/removeuser/removeuser"
     ],
     "window": {

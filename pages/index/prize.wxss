@@ -73,7 +73,8 @@
 }
 .share navigator{
     display: inline-block;
-    color: red
+    color: red;
+    font-size: 36rpx;
 }
 
 /*中奖页面*/

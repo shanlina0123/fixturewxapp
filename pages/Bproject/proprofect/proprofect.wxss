@@ -9,7 +9,7 @@
 }
 
 .forminput {
-    min-width: 530rpx;
+    min-width: 520rpx;
     display: inline-block;
     height: 80rpx;
     line-height: 80rpx;
@@ -17,7 +17,7 @@
 
 .pickerselect {
     display: block;
-    width: 530rpx;
+    width: 520rpx;
     height: 80rpx;
     line-height: 80rpx;
     border: 1px solid #e2e2e2;
@@ -72,6 +72,10 @@
     width: 128rpx;
     height: 128rpx;
     margin: 10rpx auto;
+}
+.uploadedimg{
+    width: 100%;
+    height: 300rpx;
 }
 .uploadnotice{
     padding: 10rpx 0;

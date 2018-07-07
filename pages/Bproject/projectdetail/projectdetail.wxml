@@ -4,7 +4,7 @@
         <image src='../../../images/default.jpg' class='bannerimg'></image>
         <view class='viewnum'>浏览:20</view>
         <view class='bottom'>
-            <text class='addr'>西安市莲湖区龙首原印象城</text>
+            <text class='addr'>西安市莲湖区龙首原女的搜狗和我感觉仍未热加工就问女单反出发</text>
             <view class='bottonbtns'>
                 <text>简装</text>
                 <text>10万</text>
@@ -13,7 +13,6 @@
                 <text>简欧</text>
             </view>
         </view>
-        <text class="focus {{focustext == '关注' ? 'on':'' }}" bindtap="changeName">{{focustext}}</text>
     </view>
     <!--B端客户部分-->
     <navigator url='../../removeuser/removeuser' class='focuswrap clearfix'>

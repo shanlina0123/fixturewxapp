@@ -62,7 +62,7 @@
     left: 20rpx;
     font-size: 26rpx;
     color: #9F9B9A;
-    padding-top: 10rpx;
+    padding-top: 20rpx;
 }
 .topbtnwrap .firstimage{
     width: 350rpx;
@@ -78,9 +78,6 @@
     top: 0;
     left: 0;
 }
-
-
-
 
 
 

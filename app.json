@@ -1,6 +1,5 @@
 {
     "pages": [  
-        "pages/Bproject/proupdate/proupdate",      
         "pages/index/index",
         "pages/index/prize",
         "pages/index/pricetip",
@@ -34,7 +33,7 @@
         "pages/Bproject/promodel/promodel",
         "pages/Bproject/proprofect/proprofect",
         "pages/appointment/appointment",
-        
+        "pages/Bproject/proupdate/proupdate",        
         "pages/Bproject/wordsupdate/wordsupdate",
         "pages/changestore/changestore",
         "pages/getmessage/getmessage",

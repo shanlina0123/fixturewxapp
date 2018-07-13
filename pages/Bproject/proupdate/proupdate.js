@@ -30,14 +30,19 @@ Page({
     },
     //上传视频
     uploadvideo:function(){
+        var that = this;
         wx.chooseVideo({
-            count:1,
-            maxDuration: 10, // 可以指定是原图还是压缩图，默认二者都有
-            sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
-            success: function (res) { }
+            sourceType: ['album', 'camera'],
+            maxDuration: 6,
+            camera:'back',
+            success:function(res){
+                that.setData({
+                    videosrc:res.tempFilePath
+                })
+            }
         })
     },
-    /**
+    /** 
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {

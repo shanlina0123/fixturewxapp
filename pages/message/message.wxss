@@ -10,7 +10,7 @@
 }
 .askright{
     margin-left: 16rpx;
-    margin-top: 12rpx;
+    line-height: 96rpx;
 }
 .noticetitle{
     padding: 20rpx; 

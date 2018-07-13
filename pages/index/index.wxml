@@ -1,9 +1,6 @@
 <!--index.wxml-->
- <view class='wrap'>
+  <!-- <view class='wrap'>
      <text class='companyname'>B端熊先生</text>
-    <!-- <view class='userlevel samepadding'>
-        <navigator url='../upgrade/upgrade' class='levelBtn' hover-class='none'>标准版</navigator>
-    </view> -->
     <view class='buttonwrap Bbuttonwrap'>
         <view class='samepadding'>
             <navigator class='centerbtn' url="../Bproject/projectlist/projectlist" hover-class="none">
@@ -115,11 +112,35 @@
             <view class='storelink' hover-class="none">积木家-宝鸡店</view>
         </view>
     </view>
-</view> 
- <!-- <view class='wrap'>
-    <view class='topbgwrap' style='background:url(../../images/bg1.png) center no-repeat; background-size:cover'>
-        <text class='companyname'>熊先生</text>
-        <view class='buttonwrap'>
+</view>   -->
+  <view class='wrap'>
+    <view class='topbgwrap'>
+        <view class='company clearfix'>
+            <view class='leftlogo fl'><image src="../../images/logo.png"></image></view>
+            <view class='rightcompany fl'>
+                <view class='companyname'>西安灰熊家族</view>
+                <view class='companyaddr'>西安市未央区印象城</view>
+                <view class='companyphone'>029-89379272</view>
+            </view>
+        </view>
+        <view class='topbtnwrap clearfix'>
+            <view class='topitem fl'>
+                <image src="../../images/tip1.png" class='firstimage'></image>
+                <view class='bigtext'>快速报价</view>
+                <view class='smalltext'>1分钟了解装修花多少钱</view>
+            </view>
+             <view class='topitem fl'>
+                <image src="../../images/tip2.png" class='secondimage'></image>
+                <view class='bigtext'>免费量房</view>
+                <view class='smalltext'>让您对房子精准了解</view>
+            </view>
+            <view class='topitem fl'>
+                <image src="../../images/tip3.png" class='thirdimage'></image>
+                <view class='bigtext'>关注项目</view>
+                <view class='smalltext'>感兴趣的方案全在这里</view>
+            </view> 
+        </view>
+        <!-- <view class='buttonwrap'>
             <view class='samepadding'>
                 <navigator class='centerbtn' url="free/free" hover-class="none">
                     <image src='../../images/topicon1.png' class='topicon'></image>
@@ -134,7 +155,7 @@
                     关注项目
                 </navigator>
             </view>
-        </view>
+        </view> -->
     </view>
     <text class='centertitle'>动态</text>
     <view class='itemul samepadding'>
@@ -216,4 +237,4 @@
         <input class='zaninput fl' type='text' placeholder='评论' cursor-spacing="8" bindconfirm='bindconfirm'></input>
         <text class='send left10 fl' bindtap='closeinput'>发送</text>
     </view>
-</view>  -->
+</view>  

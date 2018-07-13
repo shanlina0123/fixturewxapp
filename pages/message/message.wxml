@@ -4,7 +4,6 @@
         <image class='askimg fl' src='../../images/notice.png'></image>
         <view class='askright fl'>
             <view class='asktitle'>咨询消息</view>
-            <view class='asktext'>小甜甜：亲爱的，5999的装修靠谱吗？</view>
         </view>
     </navigator>
     <!--咨询消息为空时显示-->

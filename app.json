@@ -1,5 +1,6 @@
 {
     "pages": [
+        
         "pages/index/index",
         "pages/index/prize",
         "pages/index/pricetip",
@@ -37,7 +38,7 @@
         "pages/Bproject/wordsupdate/wordsupdate",
         "pages/changestore/changestore",
         "pages/getmessage/getmessage",
-        "pages/dialog/dialog",
+        
         "pages/removeuser/removeuser"
     ],
     "window": {

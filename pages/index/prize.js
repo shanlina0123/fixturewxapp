@@ -160,8 +160,15 @@ Page({
     },
     //关闭未中奖弹窗
     closenoprize:function(){
+        
         this.setData({
             unprize: false
+        })
+    },
+    //关闭活动页面
+    closeactive:function(){
+        wx.switchTab({
+            url: '../index/index',
         })
     },
     // 页面渲染完成后 调用  

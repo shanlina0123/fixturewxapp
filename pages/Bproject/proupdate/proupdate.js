@@ -6,7 +6,8 @@ Page({
      */
     data: {
         maxlength: 300,
-        nowlength: 0
+        nowlength: 0,
+        videosrc:'',
     },
     //跟踪输入的文字数字改变
     textareachange: function (e) {

@@ -34,12 +34,7 @@
                     <image src="../../../images/state1.jpg" class='hadimage'></image>
                     <image src="../../../images/close.png" class='closeimg'></image>
                 </view>
-            </view>
-            <view class='imageswrap'>
-                <view class='hadimgwrap'>
-                    <image src="../../../images/state1.jpg" class='hadimage'></image>
-                    <image src="../../../images/close.png" class='closeimg'></image>
-                </view>
+                <video src="{{videosrc}}" class="videoplay"></video>
             </view>
         </view>
         <button class='submitbtn' form-type='submit'>更新</button>

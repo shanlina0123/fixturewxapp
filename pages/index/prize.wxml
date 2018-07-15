@@ -35,7 +35,7 @@
                     <view class="forimgbg {{(index==indexSelect)?'colorAwardSelect':'colorAwardDefault'}}"></view> 
                     <image class="award-image" src="{{item.imageAward}}"></image> 
                 </view>  
-                <view class="start-btn" bindtap="startGame" style=" background-color:{{isRunning?'#e7930a':'#ffe400'}}">
+                <view class="start-btn" bindtap="startGame" style=" background-color:{{isRunning?'#e7930a':'#FFFFFF'}}">
                     <image src='../../images/brginprize.png' class='award-image'></image>
                 </view>  
             </view>  

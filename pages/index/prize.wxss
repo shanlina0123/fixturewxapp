@@ -192,7 +192,7 @@ box-shadow: inset 3px 3px 3px #fff2af;*/
     position: absolute;
     height: 150rpx;
     width: 166.6666rpx;
-    background-color: #f5f0fc;
+    background-color: #FFFFFF;
     border-radius: 15rpx;
     box-shadow: 0 5px 0 #d87fde;
 }
@@ -210,7 +210,7 @@ box-shadow: inset 3px 3px 3px #fff2af;*/
     height: 150rpx;
     width: 166.6666rpx;
     background-color: #ffe400;
-    box-shadow: 0 5px 0 #e7930a;
+    box-shadow: 0 5px 0 #d87fde;
     color: #f6251e;
     text-align: center;
     font-size: 55rpx;
@@ -225,8 +225,8 @@ box-shadow: inset 3px 3px 3px #fff2af;*/
     left: 0;
     bottom: 0;
     right: 0;
-    height: 140rpx;
-    width: 130rpx;
+    height: 134rpx;
+    width: 134rpx;
     z-index: 0;
 }
 

@@ -20,7 +20,7 @@ Page({
         unprize:false,//未中奖提示
         imageAward: [
             '../../images/prize1.png',
-            '../../images/prize2.png',
+            '../../images/default.jpg',
             '../../images/prize3.png',
             '../../images/prize4.png',
             '../../images/prize5.png',

@@ -13,21 +13,32 @@
     font-size: 36rpx;
     margin-top: 20rpx;
 }
-.leftlogo image{
+.leftlogo{
+    margin-right: 20rpx;
     width: 150rpx;
-    height: 100rpx;
+    height: 150rpx;
+    line-height: 100rpx;
 }
+ .leftlogo image{
+    display: block;
+    width: 150rpx;
+} 
 .rightcompany{
-    margin-left: 20rpx;
+    width: 540rpx;
 }
 .companyname{
-    font-size: 28rpx;
+    font-size: 34rpx;
+    line-height: 60rpx;
 }
 .companyaddr{
-    color: #9F9B9A
+    color: #9F9B9A;
+    font-size: 28rpx;
+    line-height: 40rpx;
 }
 .companyphone{
-    color: #01AAED
+    color: #01AAED;
+    font-size: 28rpx;
+    line-height: 50rpx
 }
 .buttonwrap {
     background-color: #fff;
@@ -42,17 +53,25 @@
 }
 .topbtnwrap .topitem{
     margin-left: 10rpx;
-    width: 330rpx;
+    width: 340rpx;
     height: 180rpx;
     position: relative;
 }
+.topbtnwrap .topitem image{
+    width: 340rpx;
+    height: 180rpx;
+}
 .topbtnwrap .topitem:first-child{
-    width: 350rpx;
+    width: 360rpx;
     height: 370rpx;
     margin-left: 0
 }
+.topbtnwrap .topitem:first-child image{
+    width: 360rpx;
+    height: 370rpx;
+}
 .topbtnwrap .topitem:last-child{
-    margin-top: 10rpx;
+    margin-top: 14rpx;
 }
 .topbtnwrap .bigtext{
     position: absolute;
@@ -83,14 +102,6 @@
     top: 0;
     left: 0;
 }
-
-
-
-
-
-
-
-
 .centerbtn {
     display: inline-block;
     width: 31%;
@@ -160,4 +171,18 @@
 .Bbuttonwrap .centerbtn{
     width: 25%;
     margin: 0;
+}
+@media(max-width:320px){
+    .topbtnwrap .topitem{
+        margin-left: 14rpx;
+    }
+    .topbtnwrap .topitem:first-child{
+        width: 362rpx;
+    }
+    .topbtnwrap .topitem:first-child image{
+        width: 362rpx;
+    }
+    .rightcompany {
+        width:545rpx;
+    }
 }

@@ -26,15 +26,15 @@
                 </view>
             </view>
             <view class='imageswrap clearfix'>
-                <view class='hadimgwrap fl'>
-                    <image src="../../../images/state1.jpg" class='hadimage'></image>
-                    <image src="../../../images/close.png" class='closeimg'></image>
-                </view>
-                <view class='hadimgwrap fl'>
-                    <image src="../../../images/state1.jpg" class='hadimage'></image>
-                    <image src="../../../images/close.png" class='closeimg'></image>
-                </view>
                 <video src="{{videosrc}}" class="videoplay"></video>
+                <view class='hadimgwrap fl'>
+                    <image src="../../../images/state1.jpg" class='hadimage'></image>
+                    <image src="../../../images/close.png" class='closeimg'></image>
+                </view>
+                <view class='hadimgwrap fl'>
+                    <image src="../../../images/state1.jpg" class='hadimage'></image>
+                    <image src="../../../images/close.png" class='closeimg'></image>
+                </view>
             </view>
         </view>
         <button class='submitbtn' form-type='submit'>更新</button>

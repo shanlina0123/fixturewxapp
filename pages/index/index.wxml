@@ -44,11 +44,13 @@
                 </view>
                 <view class='itemli statecontent' hover-class="none">
                     <navigator url="../usercenter/project/projectdetail" class='statetext'>水电正在整改当中，做了很多的功课，期待...</navigator>
-                    <view class='videowrap'>
-                        <video src="../../images/36f384fab44508b47dd860264dd29393.mp4" autoplay="true"></video>
-                    </view>
-                    <view class='stateimgwrap clearfix'>
-                        <image src='../../images/state1.jpg' class='stateimg fl'></image>
+                    <view class='stateimgwrap'>
+                        <view class='videowrap'>
+                            <video src="../../images/36f384fab44508b47dd860264dd29393.mp4" autoplay="true"></video>
+                        </view>
+                        <view>
+                            <image src='../../images/state1.jpg' class="stateimg fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
+                        </view>
                     </view>
                 </view>
                 <view class='itemli times clearfix'>

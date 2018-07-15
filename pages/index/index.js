@@ -6,7 +6,8 @@ Page({
    */
   data: {
     isshow:false,
-    inputisshow:false
+    inputisshow:false,
+    imgnumber:1
   },
   /**显示点赞和评论按钮 */
   showimage:function(e){

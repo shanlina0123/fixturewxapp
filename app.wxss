@@ -204,20 +204,26 @@ view {
 }
 
 .stateimg {
-    width: auto;
+    max-width: 350rpx;
+    max-height: 500rpx;
     height:auto;
-    max-width: 100%;
-    max-height: 100%;
     margin-left: 10rpx;
     margin-bottom: 10rpx;
 }
-.videowrap{
+.stateimgmore{
+    width: 190rpx;
+    height:190rpx;
+}
+.stateimg:nth-child(3n-2){
+    margin-left: 0;
+}
+ .videowrap{
     width: 600rpx;
     height: 450rpx;
     margin-top: 20rpx;
     margin-bottom: 20rpx;
     text-align: center;
-}
+} 
 .videowrap video{
     width: 600rpx;
     height: 450rpx;

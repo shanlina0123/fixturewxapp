@@ -39,10 +39,10 @@
                 </view>  
             </view>  
             </view>
-            <text class='prizetimes'>您还有<text>6</text>次抽奖机会</text>
+            <!-- <text class='prizetimes'>您还有<text>6</text>次抽奖机会</text> -->
             <view class='share'>
                 <text>邀请好友来抽奖</text>
-                <navigator class='left10'>去分享</navigator>
+                <button class='sharebtn'>去分享</button>
             </view>
         </view>
     </view>

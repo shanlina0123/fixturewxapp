@@ -47,7 +47,6 @@
     right: 20rpx;
     width: 50rpx;
     height: 50rpx;
-    z-index: 200;
 }
 
 .activetip {
@@ -94,14 +93,13 @@
 }
 
 .share .sharebtn {
-    width: 650rpx;
     font-size: 36rpx;
     height: 70rpx;
     line-height: 70rpx;
     margin-top: 20rpx;
     background-color: #ffee4e;
     border-color: #ffee4e;
-    color:#622DBB;
+    color: #622dbb;
 }
 
 /*中奖页面*/
@@ -229,7 +227,29 @@ box-shadow: inset 3px 3px 3px #fff2af;*/
     right: 0;
     height: 140rpx;
     width: 130rpx;
+    z-index: 0;
 }
+
+.forimgbg {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 150rpx;
+    width: 166.6666rpx;
+    border-radius: 15rpx;
+    z-index: 1;
+}
+.colorAwardDefault{
+    opacity: 0;
+    background-color: #FFF;
+}
+.colorAwardSelect{
+    opacity: .9;
+    background-color: #ffe400;
+} 
 
 .prizepop {
     position: absolute;
@@ -237,4 +257,5 @@ box-shadow: inset 3px 3px 3px #fff2af;*/
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: 20;
 }

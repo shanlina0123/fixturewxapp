@@ -1,8 +1,7 @@
 {
     "pages": [ 
-        "pages/index/prize", 
         "pages/index/index",
-        
+        "pages/index/prize",
         "pages/index/pricetip",
         "pages/index/free/free",
         "pages/index/quick/quick",

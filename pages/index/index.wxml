@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class='content'>
+<view class='wrap'>
     <view class='topbgwrap'>
         <view class='company clearfix'>
             <view class='leftlogo fl'>
@@ -116,7 +116,7 @@
         </view>
     </view>
 </view>
-<view class='content'>
+<view class='wrap'>
     <view class='topbgwrap'>
         <view class='company clearfix'>
             <view class='leftlogo fl'>

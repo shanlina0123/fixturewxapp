@@ -1,12 +1,17 @@
 /**index.wxss**/
 /*C端首页*/
+.wrap{
+    padding: 0;
+}
 .topbgwrap{
     width: 100%;
+    padding: .1px;
 }
 .company{
     padding: 20rpx;
     background-color: #fff;
     font-size: 36rpx;
+    margin-top: 20rpx;
 }
 .leftlogo image{
     width: 150rpx;

@@ -41,15 +41,15 @@
     ],
     "window": {
         "backgroundTextStyle": "dark",
-        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarBackgroundColor": "#01AAED",
         "navigationBarTitleText": "云易装",
-        "navigationBarTextStyle": "black",
+        "navigationBarTextStyle": "#FFFFFF",
         "backgroundColor": "#FFFFFF",
         "enablePullDownRefresh": true
     },
     "tabBar": {
         "color": "#515151",
-        "selectedColor": "#eb7221",
+        "selectedColor": "#01AAED",
         "borderStyle": "black",
         "backgroundColor": "#FFFFFF",
         "list": [
@@ -74,4 +74,5 @@
         ]
     },
     "debug": true
+    
 }

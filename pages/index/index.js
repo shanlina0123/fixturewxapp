@@ -7,7 +7,8 @@ Page({
   data: {
     isshow:false,
     inputisshow:false,
-    imgnumber:1
+    imgnumber:1,
+    videonumber:0
   },
   /**显示点赞和评论按钮 */
   showimage:function(e){

@@ -120,9 +120,9 @@ view {
 /**微信头像**/
 
 .uhead {
-    width: 90rpx;
-    height: 90rpx;
-    border-radius: 100rpx;
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 80rpx;
 }
 
 /**消息列表公用**/
@@ -177,6 +177,10 @@ view {
 .itemli {
     margin-bottom: 10rpx;
 }
+.itemli .statetext{
+    display: block;
+    margin-top: 10rpx;
+}
 
 .rightname {
     width:600rpx;
@@ -198,45 +202,51 @@ view {
     padding: 2rpx 5rpx;
     margin-left: 9rpx;
 }
-
 .stateimgwrap {
     margin: 10rpx 0;
-}
-.statewrap{
-    width: 350rpx;
-    margin-left: 9rpx;
-    margin-bottom: 9rpx;
 }
 .stateimg {
     width: 350rpx;
     max-height: 500rpx;
+    margin-left: 9rpx;
+    margin-bottom: 9rpx;
+}
+.stateimg:nth-child(3n-2){
+    margin-left: 0;
 }
 .stateimgmore{
     width: 194rpx;
     height: 95px!important;
 }
-.statewrapmore{
-    width: 194rpx;
-    height: 95px;
-    overflow: hidden;
-}
-.statewrap:nth-child(3n-1){
-    margin-left: 0;
-}
- .videowrap{
-    width: 600rpx;
+.videowrap{
+    width: 608rpx;
     height: 450rpx;
     margin-top: 20rpx;
     margin-bottom: 20rpx;
     text-align: center;
 } 
 .videowrap video{
-    width: 600rpx;
+    width: 608rpx;
     height: 450rpx;
+}
+.videobrother{
+    padding: .1px;
+    width: 608rpx;
+    height: 450rpx;
+    line-height: 350rpx;
+    background-color: #333;
+    opacity: .9
+}
+.videobrother image{
+    display: block;
+    margin: 193rpx auto;
+    width: 64rpx;
+    height: 64rpx;
 }
 
 .times text {
     margin-right: 15rpx;
+    color: #666666
 }
 
 .handelwrap {

@@ -11,7 +11,8 @@ Page({
         selected3: false,
         on: "check",
         hide: 'hide',
-        handelshow:false
+        handelshow:false,
+        videoshow:false
     },
     /**关注项目按钮 */
     changeName: function (e) {
@@ -116,6 +117,20 @@ Page({
     cancelmsg:function(){
         this.setData({
             handelshow: false
+        })
+    },
+    /**显示视频层 */
+    showvideo:function(){
+        this.setData({
+            videoshow: true
+        })
+        // this.bindplay();
+    },
+    /**视频播放完成时 */
+    videoend:function(){
+        console.log("end");
+        this.setData({
+            videoshow: false
         })
     },
     /**

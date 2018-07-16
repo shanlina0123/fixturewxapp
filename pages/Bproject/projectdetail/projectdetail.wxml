@@ -99,38 +99,53 @@
                                 </view>
                             </view>
                         </view>
-                        <view class='itemli statecontent'>
-                            <text class='statetext'>水电正在整改当中，做了很多的功课，期待...</text>
-                        </view>
-                        <view class='itemli times clearfix'>
-                            <text class='fl'>2小时前</text>
-                            <text class='fl'>点赞:10</text>
-                            <view class='handelwrap fr'>
-                                <image src='../../../images/rightMsg.png' class='handelimage' bindtap='showimage'></image>
-                                <view class="iconwrap clearfix {{isshow ?'': 'hide' }}">
-                                    <image src="../../../images/zan1.png" class='zan fl'></image>
-                                    <image src="../../../images/zan2.png" class='zan fl' bindtap='showinput'></image>
-                                </view>
-                            </view>
-                        </view>
-                        <view class='itemli discusstext'>
-                            <view class='textitem'>
-                                <text class='textcontent'><text class='textname'>张俊梅：</text>很不错，我很满意很不错，我很满意很不错，我很满意 很不错，我很满意很不错，我很满意很不错，我很满意</text>
-                            </view>
-                            <view class='textitem clearfix'>
-                                <text class='textcontent'><text class='textname'>张腊梅：</text>很不错，我很满意很不错</text>
-                            </view>
-                        </view>
                         <!--B端添加编辑按钮-->
                         <view class='bluecolor deleteitem' bindtap='handelmsg'>编辑</view>
                     </view>
                     <view class='itemul bitermul samepadding'>
                         <view class='itemli clearfix'>
                             <image src="../../../images/uhead.png" class='uhead fl'></image>
-                            <view class='rightonename fl'>
+                            <view class='rightname rightonename fl'>
                                 <view class='topname'>
                                     <text class='uname'>张小姐</text>
                                     <text class='ustate'>管理员</text>
+                                </view>
+                                <view class='itemli statecontent'>
+                                    <view class='statetext'>水电正在整改当中，做了很多的功课，期待...</view>
+                                    <view class='stateimgwrap'>
+                                        <view class='videowrap'>
+                                            <view class="videobrother {{videoshow ? 'hide' : ''}}" bindtap='showvideo'>
+                                                <image src="../../../images/play.png"></image>
+                                            </view>
+                                             <video src="../../../images/36f384fab44508b47dd860264dd29393.mp4" class="{{videoshow ? '' : 'hide'}}" bindplay="videobegin" bindended="videoend"></video> 
+                                        </view>
+                                        <view class="clearfix">
+                                            <image src='../../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
+                                            <image src='../../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
+                                            <image src='../../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
+                                            <image src='../../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
+                                            <image src='../../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
+                                        </view>
+                                    </view>
+                                </view>
+                                <view class='itemli times clearfix'>
+                                    <text class='fl'>2小时前</text>
+                                    <text class='fl'>点赞:10</text>
+                                    <view class='handelwrap fr'>
+                                        <image src='../../../images/rightMsg.png' class='handelimage' bindtap='showimage'></image>
+                                        <view class="iconwrap clearfix {{isshow ?'': 'hide' }}">
+                                            <image src="../../../images/zan1.png" class='zan fl'></image>
+                                            <image src="../../../images/zan2.png" class='zan fl' bindtap='showinput'></image>
+                                        </view>
+                                    </view>
+                                </view>
+                                <view class='itemli discusstext'>
+                                    <view class='textitem'>
+                                        <text class='textcontent'><text class='textname'>张俊梅：</text>很不错，我很满意很不错，我很满意很不错，我很满意 很不错，我很满意很不错，我很满意很不错，我很满意</text>
+                                    </view>
+                                    <view class='textitem clearfix'>
+                                        <text class='textcontent'><text class='textname'>张腊梅：</text>很不错，我很满意很不错</text>
+                                    </view>
                                 </view>
                             </view>
                         </view>

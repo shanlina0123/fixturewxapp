@@ -196,25 +196,31 @@ view {
 .prostate {
     color: #fff;
     padding: 2rpx 5rpx;
-    margin-left: 10rpx;
+    margin-left: 9rpx;
 }
 
 .stateimgwrap {
     margin: 10rpx 0;
 }
-
+.statewrap{
+    width: 350rpx;
+    margin-left: 9rpx;
+    margin-bottom: 9rpx;
+}
 .stateimg {
-    max-width: 350rpx;
+    width: 350rpx;
     max-height: 500rpx;
-    height:auto;
-    margin-left: 10rpx;
-    margin-bottom: 10rpx;
 }
 .stateimgmore{
-    width: 190rpx;
-    height:190rpx;
+    width: 194rpx;
+    height: 95px!important;
 }
-.stateimg:nth-child(3n-2){
+.statewrapmore{
+    width: 194rpx;
+    height: 95px;
+    overflow: hidden;
+}
+.statewrap:nth-child(3n-1){
     margin-left: 0;
 }
  .videowrap{

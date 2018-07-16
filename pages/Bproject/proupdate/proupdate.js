@@ -33,7 +33,7 @@ Page({
     uploadvideo:function(){
         var that = this;
         wx.chooseVideo({
-            sourceType: ['album', 'camera'],
+            sourceType: ['camera', 'album'],
             maxDuration: 6,
             camera:'back',
             success:function(res){

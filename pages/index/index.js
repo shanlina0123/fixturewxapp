@@ -61,6 +61,10 @@ Page({
           inputisshow: true
       })
   },
+  /**打开语音播放 */
+  beginvoice:function(){
+      
+  },
   /**
    * 生命周期函数--监听页面加载
    */

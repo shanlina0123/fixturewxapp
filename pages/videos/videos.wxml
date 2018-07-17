@@ -1,0 +1,14 @@
+<!--pages/videos/videos.wxml-->
+<view class='wrap'>
+    <view class='videowrap'>
+        <video src="../../images/36f384fab44508b47dd860264dd29393.mp4" objectFit="fill"></video>
+    </view>
+    <view class='userwrap'>
+        <view class='userinner'>
+            <view class='useraddr'>未央区龙首原
+                <text class='prostate color4'>水电</text>
+            </view>
+            <view class='videostatetext'>水电正在整改当中，做了很多的功课，期待水电正在整改当中，做了很多的功课，期待水电正在整改当中，做了很多的功课，期待...</view>
+        </view>
+    </view>
+</view>

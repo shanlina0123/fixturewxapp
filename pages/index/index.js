@@ -8,8 +8,8 @@ Page({
     isshow:false,
     inputisshow:false,
     imgnumber:1,
-    videonumber:0,
-    videoshow:false
+    videonumber:0
+    // videoshow:false
   },
   /**显示点赞和评论按钮 */
   showimage:function(e){
@@ -64,16 +64,16 @@ Page({
       })
   },
   /**打开视频播放 */
-  showvideo: function (e) {
-      this.setData({
-          videoshow: true
-      })
-  },
-  closevideo:function(e){
-      this.setData({
-          videoshow: false
-      })
-  },
+//   showvideo: function (e) {
+//       this.setData({
+//           videoshow: true
+//       })
+//   },
+//   closevideo:function(e){
+//       this.setData({
+//           videoshow: false
+//       })
+//   },
   /**
    * 生命周期函数--监听页面加载
    */

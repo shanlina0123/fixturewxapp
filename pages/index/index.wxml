@@ -225,7 +225,7 @@
         <input class='zaninput fl' type='text' placeholder='评论' cursor-spacing="8" bindconfirm='bindconfirm'></input>
         <text class='send left10 fl' bindtap='closeinput'>发送</text>
     </view>
-    <!-- <view class="videopop {{videoshow ? '':'hide'}}" style="background:url(../../images/headBg.png) left top;" catchtap="closevideo"></view> -->
+    <view class="videopop {{videoshow ? '':'hide'}}" style="background:url(../../images/headBg.png) left top;" catchtap="closevideo" catchtouchmove="ture"></view>
     <view class="videotip {{videoshow ? '':'hide'}}" ><video src="../../images/36f384fab44508b47dd860264dd29393.mp4"></video></view>
     
 </view>

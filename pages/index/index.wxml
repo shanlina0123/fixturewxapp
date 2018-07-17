@@ -45,14 +45,11 @@
                 <view class='itemli statecontent clearfix' hover-class="none">
                     <navigator url="../Bproject/projectdetail/projectdetail" class='statetext'>水电正在整改当中，做了很多的功课，期待...</navigator>
                     <view class='stateimgwrap'>
-                        <view class='videowrap'>
+                        <!-- <view class='videowrap'>
                             <video src="../../images/36f384fab44508b47dd860264dd29393.mp4" loop="true" muted="true"></video>
-                        </view>
+                        </view> -->
                         <view class="clearfix">
-                            <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
-                            <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
-                            <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
-                            <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
+                            <image src='../../images/play.png' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix" bindtap="showvideo"></image>
                             <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
                         </view>
                     </view>
@@ -228,4 +225,7 @@
         <input class='zaninput fl' type='text' placeholder='评论' cursor-spacing="8" bindconfirm='bindconfirm'></input>
         <text class='send left10 fl' bindtap='closeinput'>发送</text>
     </view>
+    <!-- <view class="videopop {{videoshow ? '':'hide'}}" style="background:url(../../images/headBg.png) left top;" catchtap="closevideo"></view> -->
+    <view class="videotip {{videoshow ? '':'hide'}}" ><video src="../../images/36f384fab44508b47dd860264dd29393.mp4"></video></view>
+    
 </view>

@@ -218,30 +218,27 @@ view {
     width: 194rpx;
     height: 95px!important;
 }
-.videowrap{
-    width: 608rpx;
-    height: 450rpx;
-    margin-top: 20rpx;
-    margin-bottom: 20rpx;
-    text-align: center;
-} 
-.videowrap video{
-    width: 608rpx;
-    height: 450rpx;
+.videopop{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
 }
-.videobrother{
-    padding: .1px;
-    width: 608rpx;
+ .videotip{
+    position: fixed;
+    width: 600rpx;
     height: 450rpx;
-    line-height: 350rpx;
-    background-color: #333;
-    opacity: .9
+    top: 50%;
+    left: 50%;
+    margin-left: -300rpx;
+    margin-top: -225rpx;
+    z-index: 30; 
 }
-.videobrother image{
-    display: block;
-    margin: 193rpx auto;
-    width: 64rpx;
-    height: 64rpx;
+.videotip video{
+    width: 600rpx;
+    height: 450rpx;
 }
 
 .times text {

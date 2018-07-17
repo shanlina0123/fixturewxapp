@@ -114,10 +114,7 @@
                                     <view class='statetext'>水电正在整改当中，做了很多的功课，期待...</view>
                                     <view class='stateimgwrap'>
                                         <view class='videowrap'>
-                                            <view class="videobrother {{videoshow ? 'hide' : ''}}" bindtap='showvideo'>
-                                                <image src="../../../images/play.png"></image>
-                                            </view>
-                                             <video src="../../../images/36f384fab44508b47dd860264dd29393.mp4" class="{{videoshow ? '' : 'hide'}}" bindplay="videobegin" bindended="videoend"></video> 
+                                            <video src="../../../images/36f384fab44508b47dd860264dd29393.mp4" bindplay="videobegin" bindended="videoend"></video> 
                                         </view>
                                         <view class="clearfix">
                                             <image src='../../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>

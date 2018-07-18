@@ -180,6 +180,7 @@ view {
 .itemli .statetext{
     display: block;
     margin-top: 10rpx;
+    margin-bottom: 16rpx;
 }
 
 .rightname {
@@ -221,6 +222,7 @@ view {
 
 .times text {
     margin-right: 15rpx;
+    line-height: 70rpx;
     color: #666666
 }
 
@@ -236,18 +238,21 @@ view {
 
 .iconwrap {
     position: absolute;
-    width: 150rpx;
-    right: 60rpx;
-    top: -5rpx;
+    width: 170rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    right: 70rpx;
+    top: -6rpx;
     background-color: #000;
-    border-radius: 10rpx;
+    border-radius: 5rpx;
     opacity: 0.7;
 }
 
 .iconwrap .zan {
-    width: 60rpx;
-    height: 60rpx;
-    margin-left: 10rpx;
+    width: 55rpx;
+    height: 55rpx;
+    margin-left: 22rpx;
+    margin-top: 8rpx;
 }
 
 .activewrap {

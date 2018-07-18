@@ -71,7 +71,7 @@
     text-align: center;
 }
 .tabbtn.check{
-  color: #eb7221
+  color: #01AAED
 }
 .tabimg{
     width: 50rpx;

@@ -1,5 +1,6 @@
 {
     "pages": [ 
+        
         "pages/index/index",
         "pages/index/prize",
         "pages/index/pricetip",
@@ -38,6 +39,7 @@
         "pages/changestore/changestore",
         "pages/getmessage/getmessage",
         "pages/videos/videos",
+        "pages/dialog/dialog",
         "pages/removeuser/removeuser"
     ],
     "window": {

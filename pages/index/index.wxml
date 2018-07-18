@@ -34,16 +34,16 @@
         <view class='itemli clearfix'>
             <image src="../../images/uhead.png" class='uhead fl'></image>
             <view class='rightname fl'>
-                <view class='topname'>
+                <navigator url="../Bproject/projectdetail/projectdetail" class='topname' hover-class='none'>
                     <text class='uname'>张小姐</text>
                     <text class='ustate left10'>管理员</text>
-                </view>
-                <view class='bottomname'>
+                </navigator>
+                <navigator url="../Bproject/projectdetail/projectdetail" class='bottomname' hover-class='none'>
                     <text class='proname'>未央区龙首印象城</text>
                     <text class='prostate color4'>水电</text>
-                </view>
+                </navigator>
                 <view class='itemli statecontent clearfix' hover-class="none">
-                    <navigator url="../Bproject/projectdetail/projectdetail" class='statetext'>水电正在整改当中，做了很多的功课，期待...</navigator>
+                    <navigator url="../Bproject/projectdetail/projectdetail" class='statetext' hover-class='none'>水电正在整改当中，做了很多的功课，期待...</navigator>
                     <view class='stateimgwrap'>
                         <!-- <view class='videowrap'>
                             <video src="../../images/36f384fab44508b47dd860264dd29393.mp4" loop="true" muted="true"></video>

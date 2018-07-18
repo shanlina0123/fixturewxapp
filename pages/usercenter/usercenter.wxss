@@ -2,6 +2,7 @@
 .wehead{
     line-height: 100rpx;
     margin-top: 20rpx;
+    padding: 0 30rpx;
 }
 .proitem{
     margin: 20rpx 0;
@@ -11,9 +12,12 @@
     height: 45rpx;
     vertical-align: middle;
 }
+.proul{
+    padding: 0 30rpx;
+}
 .proul navigator{
     padding: 30rpx 0;
-    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
 }
 .proul navigator text{
     line-height: 32rpx;

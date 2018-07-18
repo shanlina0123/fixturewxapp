@@ -1,8 +1,15 @@
 <!--pages/usercenter/usercenter.wxml-->
 <view class='warp'>
-    <view class='wehead'>
+    <!-- <view class='wehead'>
         <image src='../../images/uhead.png' class='uhead fl'></image>
         <text class='left15'>胖大海</text>
+    </view> -->
+    <view class='userwrap'>
+        <image src="../../images/userbg.jpg" class='headbg'></image>
+        <view class='usermsgwrap'>
+            <image class='uhead' src="../../images/head.png"></image>
+            <view>昵称：胖大海</view>
+        </view>
     </view>
     <view class='proul'>
         <navigator url='project/projectdetail' class='proitem' style='background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVRYR+3W0Q2AIAyEYViJDqRu5kSshOmbj/TuSKOBAfw/CyHUkrxqcr9swHcm0Fo7/bz03m/luZmegJl5+BhjXErENMD/egUiBFiBCAPUCAigRMAAFYICKBA0gEVIAAxCBkAR/wGgt6RkAmjct40GMHEawMYpgCIOA1RxCKCMhwHqeAiwIh4CpD9KlS/h97foi4iFbUD6BB7XB6gh1ZZt0gAAAABJRU5ErkJggg==) center right no-repeat;background-size:40rpx;'

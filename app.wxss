@@ -174,13 +174,15 @@ view {
     margin-top: 20rpx;
 }
 
-.itemli {
-    margin-bottom: 10rpx;
-}
 .itemli .statetext{
     display: block;
     margin-top: 10rpx;
     margin-bottom: 16rpx;
+}
+.times{
+    height: 64rpx;
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
 }
 
 .rightname {
@@ -217,18 +219,19 @@ view {
 }
 .stateimgmore{
     width: 194rpx;
-    height: 95px!important;
+    height: 194rpx;
 }
 
 .times text {
     margin-right: 15rpx;
-    line-height: 70rpx;
+    line-height: 64rpx;
     color: #666666
 }
 
 .handelwrap {
     position: relative;
     text-align: right;
+    height: 64rpx;
 }
 
 .handelimage {
@@ -254,11 +257,6 @@ view {
     margin-left: 22rpx;
     margin-top: 8rpx;
 }
-
-.activewrap {
-    margin: 10rpx;
-}
-
 .activetext {
     width: 80%;
 }
@@ -297,7 +295,7 @@ view {
 
 .discusstext {
     background-color: #eee;
-    padding: 5rpx 10rpx 0 10px;
+    padding: 5rpx 10rpx;
 }
 
 .textitem {

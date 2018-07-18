@@ -15,17 +15,17 @@
             <navigator class='topitem fl' url="../Bproject/projectlist/projectlist" hover-class="none">
                 <image src="../../images/tip4.png" class='firstimage'></image>
                 <view class='bigtext'>项目管理</view>
-                <view class='smalltext'>项目列表统一管理</view>
+                <view class='smalltext'>相关项目统一管理</view>
             </navigator>
             <navigator class='topitem fl' url="../appointment/appointment" hover-class="none">
                 <image src="../../images/tip5.png" class='secondimage'></image>
                 <view class='bigtext'>客户预约</view>
-                <view class='smalltext'>一位客户都不落</view>
+                <view class='smalltext'>预约客户一目了然</view>
             </navigator>
             <navigator class='topitem fl' url="../adduser/adduser" hover-class="none">
                 <image src="../../images/tip6.png" class='thirdimage'></image>
                 <view class='bigtext'>项目成员</view>
-                <view class='smalltext'>所有成员统一管理</view>
+                <view class='smalltext'>项目成员一键查看</view>
             </navigator>
         </view>
     </view>
@@ -45,13 +45,10 @@
                 <view class='itemli statecontent clearfix' hover-class="none">
                     <navigator url="../Bproject/projectdetail/projectdetail" class='statetext' hover-class='none'>水电正在整改当中，做了很多的功课，期待...</navigator>
                     <view class='stateimgwrap'>
-                        <!-- <view class='videowrap'>
-                            <video src="../../images/36f384fab44508b47dd860264dd29393.mp4" loop="true" muted="true"></video>
-                        </view> -->
                         <view class="clearfix">
-                         <navigator url='../videos/videos'><image src='../../images/play.png' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix" bindtap="showvideo"></image></navigator> 
-                            <!-- <image src='../../images/play.png' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix" bindtap="showvideo"></image> -->
-                            <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
+                            <navigator url='../videos/videos'><image src='../../images/play.png' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" bindtap="showvideo"></image></navigator> 
+                            <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="aspectFill"></image>
+                            <image src='../../images/state2.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="aspectFill"></image>
                         </view>
                     </view>
                 </view>
@@ -67,7 +64,7 @@
                         </view>
                     </view>
                 </view>
-                <view class='itemli discusstext'>
+                <!-- <view class='itemli discusstext'>
                     <view class='textitem'>
                         <text class='textcontent' catchtap='backtext' bindtouchstart='mytouchstart' bindtouchend='mytouchend'><text class='textname'>张俊梅：</text>很不错，我很满意很不错，我很满意很不错，我很满意 很不错，我很满意很不错，我很满意很不错，我很满意</text>
                     </view>
@@ -75,7 +72,7 @@
                         <text class='textcontent' catchtap='backtext' bindtouchstart='mytouchstart' bindtouchend='mytouchend'><text class='textname'>张腊梅：</text>很不错，我很满意很不错</text>
                     </view>
                 </view>
-                <view class='deleteitem' bindtap='isdelete'>删除</view>
+                <view class='deleteitem' bindtap='isdelete'>删除</view> -->
             </view>
         </view>
     </view>
@@ -146,7 +143,7 @@
             <navigator class='topitem fl' url="../usercenter/project/project" hover-class="none">
                 <image src="../../images/tip3.png" class='thirdimage'></image>
                 <view class='bigtext'>关注项目</view>
-                <view class='smalltext'>感兴趣的方案全在这里</view>
+                <view class='smalltext'>喜欢的方案都在这里</view>
             </navigator>
         </view>
     </view>

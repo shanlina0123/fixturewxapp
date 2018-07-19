@@ -59,13 +59,13 @@
 }
 
 .proimage {
-    width: 100px;
-    height: 100px;
+    width: 200rpx;
+    height: 200rpx;
 }
 
 .proright {
     margin-left: 15rpx;
-    width:65%;
+    width:495rpx;
 }
 
 .proright view {

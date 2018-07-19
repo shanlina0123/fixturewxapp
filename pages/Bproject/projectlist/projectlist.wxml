@@ -12,11 +12,11 @@
             <text class="tabbtn {{on2 ? 'on':''}}" bindtap='showover'>已完工</text>
         </view>
     </view>
-    <view class='showcontent'>
+    <!-- <view class='showcontent'>
         <view class="content {{on1 ? '':'hide'}}">
             <view class='prolist'>
                 <navigator url='../projectdetail/projectdetail' class='protop clearfix'>
-                    <image src='../../../images/state1.jpg' class='proimage fl'></image>
+                    <image src='../../../images/state1.jpg' class='proimage fl' mode="aspectFill"></image>
                     <view class='proright fl'>
                         <view> 中华世纪城
                             <text class='prostate color4'>水电</text>
@@ -28,12 +28,6 @@
                         </view>
                     </view>
                 </navigator>
-                <!--如果按钮的样式不好看，放开这个看一下，不行的话将代码删除，图片删掉
-                 <view class='probottom'>
-                    <view class='updatebtn'><image src="../../images/picon1.png" class='picon'></image></view>
-                    <view class='updatebtn'><image src="../../images/picon2.png" class='picon'></image></view>
-                    <view class='updatebtn'><image src="../../images/picon3.png" class='picon'></image></view>
-                </view> -->
                 <view class='probottom'>
                     <navigator url='../proupdate/proupdate' class='updatebtn'>更新</navigator>
                     <view class='updatebtn'>分享</view>
@@ -42,7 +36,7 @@
             </view>
             <view class='prolist'>
                 <navigator url='../projectdetail/projectdetail' class='protop clearfix'>
-                    <image src='../../../images/state2.jpg' class='proimage fl'></image>
+                    <image src='../../../images/state2.jpg' class='proimage fl' mode="aspectFill"></image>
                     <view class='proright fl'>
                         <view> 中华世纪城
                             <text class='prostate color8'>软装</text>
@@ -62,7 +56,7 @@
             </view>
                         <view class='prolist'>
                 <navigator url='../projectdetail/projectdetail' class='protop clearfix'>
-                    <image src='../../../images/state2.jpg' class='proimage fl'></image>
+                    <image src='../../../images/state2.jpg' class='proimage fl' mode="aspectFill"></image>
                     <view class='proright fl'>
                         <view> 中华世纪城
                             <text class='prostate color8'>软装</text>
@@ -82,7 +76,7 @@
             </view>
                         <view class='prolist'>
                 <navigator url='../projectdetail/projectdetail' class='protop clearfix'>
-                    <image src='../../../images/state2.jpg' class='proimage fl'></image>
+                    <image src='../../../images/state2.jpg' class='proimage fl' mode="aspectFill"></image>
                     <view class='proright fl'>
                         <view> 中华世纪城
                             <text class='prostate color8'>软装</text>
@@ -163,35 +157,10 @@
                 </view>
             </view>
         </view>
-    </view>
+    </view> -->
     <!--项目为空时显示-->
-    <!-- <navigator url='../newproject/newproject' class='noneproject bluecolor ctext' hover-class='none'>您还没有创建项目，点击开始创建>>></navigator> -->
+     <!-- <navigator url='../newproject/newproject' class='noneproject bluecolor ctext' hover-class='none'>您还没有创建项目，点击开始创建>>></navigator>  -->
 </view>
-<!--浮动在页面底部的推广按钮们-->
-<!-- <view class='bottompublic' wx:if="{{modalFlag}}">
-    <view class='bottominner'>
-        <view class='title'>分享</view>
-        <view class='buttons clearfix'>
-            <view class='buttonwrap fl'>
-                <image src="../../../images/public1.png" class='publicimg'></image>
-                <text>微信好友</text>
-                <button open-type='share' class='sharebtn'>分享</button>
-            </view>
-            <view class='buttonwrap fl' bindtap='showerweima'>
-                <image src="../../../images/public2.png" class='publicimg'></image>
-                <text>永久二维码</text>
-            </view>
-            <view class='buttonwrap fl'>
-                <image src="../../../images/public3.png" class='publicimg'></image>
-                <text>朋友圈</text>
-            </view>
-            <view class='buttonwrap fl'>
-                <image src="../../../images/public4.png" class='publicimg'></image>
-                <text>关注邀请</text>
-            </view>
-        </view>
-    </view>
-</view> -->
 <!--右侧浮动的新增项目按钮-->
 <navigator url='../newproject/newproject' class='addrightbtn' hover-class='none'>
     <image src="../../../images/proadd.jpg" class='addbtnimg'></image>
@@ -218,8 +187,6 @@
         </navigator>
     </view>
 </view>
- <!-- <canvas canvas-id="shareCanvas" style="width:285px;height:398px;border:1px solid #ddd"></canvas>  -->
-
 <!--二维码弹窗-->
 <modal class="modal" hidden="{{modalFlag}}" no-cancel bindtap="modalOk" confirmText="">
     <view class="dew">

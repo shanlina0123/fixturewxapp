@@ -5,21 +5,44 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+      network: ""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+      var that = this;
+      wx.getNetworkType({
+          success: function (res) {
+              that.setData({
+                  network: res.networkType
+              })
+              if (that.data.network !== 'wifi') {
+                  wx.showModal({
+                      title: '网络提醒',
+                      content: '您当前正在使用移动网络，继续播放将消耗流量！',
+                      cancelText:'取消播放',
+                      confirmText:'继续播放',
+                      success:function(res){
+                        if(res.confirm){
+                            that.videoContext.play();
+                        }else if(res.cancel){
+                            that.videoContext.pause();
+                        }
+                      }
+                  })
+              }
+          }
+      })
+
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
-  
+  onReady: function (res) {
+      this.videoContext = wx.createVideoContext('projectvideo');
   },
 
   /**

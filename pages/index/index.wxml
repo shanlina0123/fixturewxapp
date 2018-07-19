@@ -3,7 +3,7 @@
     <view class='topbgwrap'>
         <view class='company clearfix'>
             <view class='leftlogo fl'>
-                <image src="../../images/logo.png" mode="widthFix"></image>
+                <image src="../../images/logo.png" mode="aspectFill"></image>
             </view>
             <view class='rightcompany fl'>
                 <view class='companyname'>西安灰熊家族</view>

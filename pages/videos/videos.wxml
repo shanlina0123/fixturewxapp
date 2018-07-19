@@ -1,7 +1,7 @@
 <!--pages/videos/videos.wxml-->
 <view class='wrap'>
     <view class='videowrap'>
-        <video src="../../images/36f384fab44508b47dd860264dd29393.mp4" objectFit="fill"></video>
+        <video src="../../images/36f384fab44508b47dd860264dd29393.mp4" objectFit="fill" id="projectvideo"></video>
     </view>
     <view class='userwrap'>
         <view class='userinner'>

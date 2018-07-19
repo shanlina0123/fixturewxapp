@@ -1,9 +1,9 @@
 <!--pages/Bproject/prodetail/prodetail.wxml-->
 <view class='detailcontent'>
-    <view class='bannerwrap samepadding'>
-        <image src='../../../images/default.jpg' class='bannerimg'></image>
+    <view class='bannerwrap'>
+        <image src='../../../images/default.jpg' class='bannerimg' mode="aspectFill"></image>
         <view class='viewnum'>浏览:20</view>
-        <view class='bottom'>
+        <view class='bottom samepadding'>
             <text class='addr'>西安市莲湖区龙首原女的搜狗和我感觉仍未热加工就问女单反出发</text>
             <view class='bottonbtns'>
                 <text>简装</text>
@@ -114,7 +114,7 @@
                                     <view class='statetext'>水电正在整改当中，做了很多的功课，期待...</view>
                                     <view class='stateimgwrap'>
                                         <view class='videowrap'>
-                                            <video src="../../../images/36f384fab44508b47dd860264dd29393.mp4" bindplay="videobegin" bindended="videoend"></video> 
+                                            <video src="../../../images/36f384fab44508b47dd860264dd29393.mp4" bindplay="videobegin" bindended="videoend"></video>
                                         </view>
                                         <view class="clearfix">
                                             <image src='../../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>

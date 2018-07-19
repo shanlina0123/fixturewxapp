@@ -1,6 +1,4 @@
 /* pages/usercenter/usercenter.wxss */
-
-
 .userwrap{
     position: relative;
     height: 190px;

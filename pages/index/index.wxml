@@ -8,7 +8,7 @@
             <view class='rightcompany fl'>
                 <view class='companyname'>西安灰熊家族</view>
                 <view class='companyaddr'>西安市未央区龙首原印象城西安市未央区龙首原印象城</view>
-                <view class='companyphone'>029-89379272</view>
+                <view class='companyphone' bindtap='phonecall'>{{phonenumber}}</view>
             </view>
         </view>
         <view class='topbtnwrap clearfix'>
@@ -29,30 +29,31 @@
             </navigator>
         </view>
     </view>
-    <text class='centertitle'>动态</text>
-    <view class='itemul bitermul samepadding'>
-        <view class='itemli clearfix'>
-            <image src="../../images/uhead.png" class='uhead fl'></image>
-            <view class='rightname fl'>
-                <navigator url="../Bproject/projectdetail/projectdetail" class='topname' hover-class='none'>
-                    <text class='uname'>张小姐</text>
-                    <text class='ustate left10'>管理员</text>
+    <view class='itemulwrap'>
+        <text class='centertitle'>最新动态</text>
+        <view class='itemwrap samepadding'>
+            <view class='itemtop'>
+                <text class='ustate'>管理员</text>
+                <text class='proname left15'>未央区龙首印象城</text>
+            </view>
+            <view class='itemcenter'>
+                <navigator url="../Bproject/projectdetail/projectdetail" class='centeruser'>
+                    <image src="../../images/uhead.png" class='uhead fl'></image>
+                    <text class='centeruname'>李小姐</text>
                 </navigator>
-                <navigator url="../Bproject/projectdetail/projectdetail" class='bottomname' hover-class='none'>
-                    <text class='proname'>未央区龙首印象城</text>
-                    <text class='prostate color4'>水电</text>
-                </navigator>
-                <view class='itemli statecontent clearfix' hover-class="none">
-                    <navigator url="../Bproject/projectdetail/projectdetail" class='statetext' hover-class='none'>水电正在整改当中，做了很多的功课，期待...</navigator>
+                <view class='centercontent'>
+                    <navigator url="../Bproject/projectdetail/projectdetail" class='statetext' hover-class='none'>水电正在整改当中，已经在选地砖啦，做了很多很多的功课，期待...</navigator>
                     <view class='stateimgwrap'>
                         <view class="clearfix">
-                            <navigator url='../videos/videos'><image src='../../images/play.png' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" bindtap="showvideo"></image></navigator> 
+                            <navigator url='../videos/videos'>
+                                <image src='../../images/play.png' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" bindtap="showvideo"></image>
+                            </navigator>
                             <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="aspectFill"></image>
                             <image src='../../images/state2.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="aspectFill"></image>
                         </view>
                     </view>
                 </view>
-                <view class='itemli times clearfix'>
+                <view class='itembottom clearfix'>
                     <text class='fl'>2小时前</text>
                     <text class='fl'>评论:10</text>
                     <text class='fl'>点赞:10</text>
@@ -64,7 +65,10 @@
                         </view>
                     </view>
                 </view>
-                <!-- <view class='itemli discusstext'>
+                <view class='deleteitem' bindtap='isdelete'>
+                    <image src="../../images/delete.png" class='editimage'></image>
+                </view>
+                <view class='itemeval'>
                     <view class='textitem'>
                         <text class='textcontent' catchtap='backtext' bindtouchstart='mytouchstart' bindtouchend='mytouchend'><text class='textname'>张俊梅：</text>很不错，我很满意很不错，我很满意很不错，我很满意 很不错，我很满意很不错，我很满意很不错，我很满意</text>
                     </view>
@@ -72,34 +76,85 @@
                         <text class='textcontent' catchtap='backtext' bindtouchstart='mytouchstart' bindtouchend='mytouchend'><text class='textname'>张腊梅：</text>很不错，我很满意很不错</text>
                     </view>
                 </view>
-                <view class='deleteitem' bindtap='isdelete'>删除</view> -->
             </view>
         </view>
-    </view>
-    <view class='itemul bitermul samepadding'>
-        <view class='itemli clearfix'>
-            <image src="../../images/uhead.png" class='uhead fl'></image>
-            <view class='rightname rightonename fl'>
-                <view class='topname'>
-                    <text class='uname'>张小姐</text>
-                    <text class='ustate'>管理员</text>
-                </view>
-                <view class='itemli'>
-                    <text class='statetext'>爱在母亲节</text>
-                    <navigator url="../usercenter/active/activedetail" class='activewrap clearfix' hover-class="none">
-                        <text class='activetext fl'>母亲节即将来临，慰劳辛苦操劳的母亲们</text>
-                        <navigator url="../usercenter/active/activedetail" class='activebtn fl' hover-class="none">查看详情</navigator>
+        <view class='itemul bitermul samepadding'>
+            <view class='itemli clearfix'>
+                <image src="../../images/uhead.png" class='uhead fl'></image>
+                <view class='rightname fl'>
+                    <navigator url="../Bproject/projectdetail/projectdetail?id=listid2" class='topname' hover-class='none'>
+                        <text class='uname'>张小姐</text>
+                        <text class='ustate left10'>管理员</text>
                     </navigator>
-                </view>
-                <view class='itemli times clearfix'>
-                    <text class='fl'>2小时前</text>
-                    <text class='fl'>评论:10</text>
-                    <text class='fl'>点赞:10</text>
-                    <view class='handelwrap fr'>
-                        <image src='../../images/rightMsg.png' class='handelimage'></image>
+                    <navigator url="../Bproject/projectdetail/projectdetail?id=listid2" class='bottomname' hover-class='none'>
+                        <text class='proname'>未央区龙首印象城</text>
+                        <text class='prostate color4'>水电</text>
+                    </navigator>
+                    <view class='itemli statecontent clearfix' hover-class="none">
+                        <navigator url="../Bproject/projectdetail/projectdetail" class='statetext' hover-class='none'>水电正在整改当中，做了很多的功课，期待...</navigator>
+                        <view class='stateimgwrap'>
+                            <view class="clearfix">
+                                <navigator url='../videos/videos'>
+                                    <image src='../../images/play.png' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" bindtap="showvideo"></image>
+                                </navigator>
+                                <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="aspectFill"></image>
+                                <image src='../../images/state2.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="aspectFill"></image>
+                            </view>
+                        </view>
+                    </view>
+                    <view class='itemli times clearfix'>
+                        <text class='fl'>2小时前</text>
+                        <text class='fl'>评论:10</text>
+                        <text class='fl'>点赞:10</text>
+                        <view class='handelwrap fr'>
+                            <image src='../../images/rightMsg.png' class='handelimage' bindtap='showimage'></image>
+                            <view class="iconwrap clearfix {{isshow ?'': 'hide' }}">
+                                <image src="../../images/zan1.png" class='zan fl'></image>
+                                <image src="../../images/zan2.png" class='zan fl' bindtap='showinput'></image>
+                            </view>
+                        </view>
+                    </view>
+                    <view class='itemli discusstext'>
+                        <view class='textitem'>
+                            <text class='textcontent' catchtap='backtext' bindtouchstart='mytouchstart' bindtouchend='mytouchend'><text class='textname'>张俊梅：</text>很不错，我很满意很不错，我很满意很不错，我很满意 很不错，我很满意很不错，我很满意很不错，我很满意</text>
+                        </view>
+                        <view class='textitem'>
+                            <text class='textcontent' catchtap='backtext' bindtouchstart='mytouchstart' bindtouchend='mytouchend'><text class='textname'>张腊梅：</text>很不错，我很满意很不错</text>
+                        </view>
+                    </view>
+                    <view class='deleteitem' bindtap='isdelete'>
+                        <image src="../../images/delete.png" class='editimage'></image>
                     </view>
                 </view>
-                <view class='deleteitem' bindtap='isdelete'>删除</view>
+            </view>
+        </view>
+        <view class='itemul bitermul samepadding'>
+            <view class='itemli clearfix'>
+                <image src="../../images/uhead.png" class='uhead fl'></image>
+                <view class='rightname rightonename fl'>
+                    <view class='topname'>
+                        <text class='uname'>张小姐</text>
+                        <text class='ustate'>管理员</text>
+                    </view>
+                    <view class='itemli'>
+                        <text class='statetext'>爱在母亲节</text>
+                        <navigator url="../usercenter/active/activedetail" class='activewrap clearfix' hover-class="none">
+                            <text class='activetext fl'>母亲节即将来临，慰劳辛苦操劳的母亲们</text>
+                            <navigator url="../usercenter/active/activedetail" class='activebtn fl' hover-class="none">查看详情</navigator>
+                        </navigator>
+                    </view>
+                    <view class='itemli times clearfix'>
+                        <text class='fl'>2小时前</text>
+                        <text class='fl'>评论:10</text>
+                        <text class='fl'>点赞:10</text>
+                        <view class='handelwrap fr'>
+                            <image src='../../images/rightMsg.png' class='handelimage'></image>
+                        </view>
+                    </view>
+                    <view class='deleteitem' bindtap='isdelete'>
+                        <image src="../../images/delete.png" class='editimage'></image>
+                    </view>
+                </view>
             </view>
         </view>
     </view>
@@ -160,62 +215,62 @@
                     <text class='proname'>未央区龙首印象城</text>
                     <text class='prostate color4'>水电</text>
                 </view>
-            </view>
-        </view>
-        <navigator url="../usercenter/project/projectdetail" class='itemli statecontent' hover-class="none">
-            <text class='statetext'>水电正在整改当中，做了很多的功课，期待...</text>
-            <view class="clearfix">
-                <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
-                <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
-                <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
-                <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
-                <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
-            </view>
-        </navigator>
-        <view class='itemli times clearfix'>
-            <text class='fl'>2小时前</text>
-            <text class='fl'>评论:10</text>
-            <text class='fl'>点赞:10</text>
-            <view class='handelwrap fr'>
-                <image src='../../images/rightMsg.png' class='handelimage' bindtap='showimage'></image>
-                <view class="iconwrap clearfix {{isshow ?'': 'hide' }}">
-                    <image src="../../images/zan1.png" class='zan fl'></image>
-                    <image src="../../images/zan2.png" class='zan fl' bindtap='showinput'></image>
+                <navigator url="../usercenter/project/projectdetail" class='itemli statecontent' hover-class="none">
+                    <text class='statetext'>水电正在整改当中，做了很多的功课，期待...</text>
+                    <view class="clearfix">
+                        <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
+                        <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
+                        <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
+                        <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
+                        <image src='../../images/state1.jpg' class="stateimg stateimgmore fl {{imgnumber < 2 ? '' : 'stateimgmore'}}" mode="widthFix"></image>
+                    </view>
+                </navigator>
+                <view class='itemli times clearfix'>
+                    <text class='fl'>2小时前</text>
+                    <text class='fl'>评论:10</text>
+                    <text class='fl'>点赞:10</text>
+                    <view class='handelwrap fr'>
+                        <image src='../../images/rightMsg.png' class='handelimage' bindtap='showimage'></image>
+                        <view class="iconwrap clearfix {{isshow ?'': 'hide' }}">
+                            <image src="../../images/zan1.png" class='zan fl'></image>
+                            <image src="../../images/zan2.png" class='zan fl' bindtap='showinput'></image>
+                        </view>
+                    </view>
                 </view>
-            </view>
-        </view>
-        <view class='itemli discusstext'>
-            <view class='textitem'>
-                <text class='textcontent' catchtap='backtext' bindtouchstart='mytouchstart' bindtouchend='mytouchend'><text class='textname'>张俊梅：</text>很不错，我很满意很不错，我很满意很不错，我很满意 很不错，我很满意很不错，我很满意很不错，我很满意</text>
-            </view>
-            <view class='textitem clearfix'>
-                <text class='textcontent' catchtap='backtext' bindtouchstart='mytouchstart' bindtouchend='mytouchend'><text class='textname'>张腊梅：</text>很不错，我很满意很不错</text>
+                <view class='itemli discusstext'>
+                    <view class='textitem'>
+                        <text class='textcontent' catchtap='backtext' bindtouchstart='mytouchstart' bindtouchend='mytouchend'><text class='textname'>张俊梅：</text>很不错，我很满意很不错，我很满意很不错，我很满意 很不错，我很满意很不错，我很满意很不错，我很满意</text>
+                    </view>
+                    <view class='textitem clearfix'>
+                        <text class='textcontent' catchtap='backtext' bindtouchstart='mytouchstart' bindtouchend='mytouchend'><text class='textname'>张腊梅：</text>很不错，我很满意很不错</text>
+                    </view>
+                </view>
             </view>
         </view>
     </view>
     <view class='itemul samepadding'>
         <view class='itemli clearfix'>
             <image src="../../images/uhead.png" class='uhead fl'></image>
-            <view class='rightonename fl'>
+            <view class='rightname fl'>
                 <view class='topname'>
                     <text class='uname'>张小姐</text>
                     <text class='ustate'>管理员</text>
                 </view>
-            </view>
-        </view>
-        <view class='itemli'>
-            <text class='statetext'>爱在母亲节</text>
-            <navigator url="../usercenter/active/activedetail" class='activewrap clearfix' hover-class="none">
-                <text class='activetext fl'>母亲节即将来临，慰劳辛苦操劳的母亲们</text>
-                <navigator url="../usercenter/active/activedetail" class='activebtn fl' hover-class="none">查看详情</navigator>
-            </navigator>
-        </view>
-        <view class='itemli times clearfix'>
-            <text class='fl'>2小时前</text>
-            <text class='fl'>评论:10</text>
-            <text class='fl'>点赞:10</text>
-            <view class='handelwrap fr'>
-                <image src='../../images/rightMsg.png' class='handelimage'></image>
+                <view class='itemli'>
+                    <text class='statetext'>爱在母亲节</text>
+                    <navigator url="../usercenter/active/activedetail" class='activewrap clearfix' hover-class="none">
+                        <text class='activetext fl'>母亲节即将来临，慰劳辛苦操劳的母亲们</text>
+                        <navigator url="../usercenter/active/activedetail" class='activebtn fl' hover-class="none">查看详情</navigator>
+                    </navigator>
+                </view>
+                <view class='itemli times clearfix'>
+                    <text class='fl'>2小时前</text>
+                    <text class='fl'>评论:10</text>
+                    <text class='fl'>点赞:10</text>
+                    <view class='handelwrap fr'>
+                        <image src='../../images/rightMsg.png' class='handelimage'></image>
+                    </view>
+                </view>
             </view>
         </view>
     </view>
@@ -223,6 +278,4 @@
         <input class='zaninput fl' type='text' placeholder='评论' cursor-spacing="8" bindconfirm='bindconfirm'></input>
         <text class='send left10 fl' bindtap='closeinput'>发送</text>
     </view>
-    <!-- <view class="videopop {{videoshow ? '':'hide'}}" style="background:url(../../images/headBg.png) left top;" catchtap="closevideo"></view>
-    <view class="videotip {{videoshow ? '':'hide'}}" ><video src="../../images/36f384fab44508b47dd860264dd29393.mp4"  objectFit="fill" objectFit="fill"></video></view>  -->
 </view>

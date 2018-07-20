@@ -8,7 +8,8 @@ Page({
     isshow:false,
     inputisshow:false,
     imgnumber:1,
-    videonumber:0   
+    videonumber:0,
+    phonenumber:'029-89379272'  
   },
   /**显示点赞和评论按钮 */
   showimage:function(e){
@@ -60,6 +61,12 @@ Page({
   backtext:function(){
       this.setData({
           inputisshow: true
+      })
+  },
+  /**拨打电话 */
+  phonecall:function(){
+      wx.makePhoneCall({
+          phoneNumber: this.data.phonenumber,
       })
   },
   /**

@@ -85,16 +85,27 @@ Page({
             inputisshow: false
         })
     },
-    //删除活动
+    //删除评价内容
     isdelete: function () {
         wx.showModal({
             title: '确认删除吗？',
         })
     },
-    //编辑动态项目显示
+    //对于发布的动态进行编辑
     handelmsg:function(){
-        this.setData({
-            handelshow: !this.data.handelshow 
+        wx.showActionSheet({
+            itemList: ['修改','删除'],
+            success: function (res) {
+                if (res.tapIndex == 0) {
+                    wx.navigateTo({
+                        url: '../wordsupdate/wordsupdate',
+                    })
+                }else{
+                    wx.showModal({
+                        title: '确认删除吗？'
+                    })
+                }
+            }
         })
     },
     //删除动态

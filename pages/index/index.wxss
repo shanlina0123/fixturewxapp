@@ -28,7 +28,7 @@
 .leftlogo image {
     display: block;
     width: 150rpx;
-    height: 150rpx
+    height: 150rpx;
 }
 
 .rightcompany {
@@ -145,7 +145,10 @@
 .centertitle {
     display: block;
     font-size: 32rpx;
-    padding: 20rpx 20rpx 0 20rpx;
+    padding: 16rpx 20rpx;
+    background-color: #fff;
+    border-bottom: 1px solid #f2f2f2;
+    margin-top: 20rpx;
 }
 
 /*选择门店弹窗*/
@@ -221,4 +224,59 @@
     .rightcompany {
         width: 545rpx;
     }
+}
+
+/*首页新编列表展示*/
+
+.itemwrap {
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 20rpx;
+    padding-bottom: 20rpx;
+}
+
+.itemwrap .deleteitem {
+    top: 100rpx;
+}
+
+.itemtop {
+    padding: 20rpx 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.itemtop .proname {
+    font-weight: bold;
+    font-size: 30rpx;
+}
+
+.centeruser {
+    padding: 16rpx 0;
+}
+
+.centeruser .uhead {
+    width: 60rpx;
+    height: 60rpx;
+    border-radius: 60rpx;
+}
+
+.centeruser .centeruname {
+    margin-left: 20rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+}
+
+.centercontent .statetext {
+    display: block;
+    padding: 6rpx 0 10rpx 0;
+}
+
+.itembottom >text {
+    margin-right: 15rpx;
+    line-height: 64rpx;
+    color: #666;
+}
+
+.itemeval {
+    background-color: #eee;
+    padding: 5rpx 10rpx;
 }

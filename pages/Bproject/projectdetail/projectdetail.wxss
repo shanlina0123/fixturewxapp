@@ -19,10 +19,10 @@
     bottom: 26rpx;
 }
 .bottom .addr{
-    display: block;
     padding:5rpx 10rpx;
     line-height: 36rpx;
     background-color:#fff;
+    border-radius:3px;
 }
 .bottonbtns{
     margin-top: 15rpx;
@@ -48,16 +48,15 @@
 .focuswrap{
     padding:20rpx;
     background-color:#fff; 
-    border-bottom: 1px solid #e2e2e2
+    border-bottom: 1px solid #f3f3f3
 }
-.rightnum{
-    line-height: 80rpx;
-}
+
 .suhead{
-    width: 80rpx;
-    height: 80rpx;
-    border-radius: 80rpx;
-    margin-right: -40rpx;
+    width: 60rpx;
+    height: 60rpx;
+    border-radius: 60rpx;
+    border: 1px solid #f0f0f0;
+    margin-right: 10rpx;
 }
 /**切换部分**/
 .tabbtns{
@@ -75,8 +74,8 @@
   color: #01AAED
 }
 .tabimg{
-    width: 50rpx;
-    height: 50rpx;
+    width: 40rpx;
+    height: 40rpx;
     vertical-align: middle;
 }
 .tabbtn text{
@@ -87,10 +86,14 @@
   display: none
 }
 .flowitemwarp{
+    position: relative;
     width: 100%;
+    text-align: center;
     overflow: hidden;
 }
 .flowwrap{
+    position: relative;
+    width: 100%;
     margin: 50rpx 0;
     text-align: center;
 }
@@ -138,10 +141,6 @@
     left: 0;
     padding: 20rpx;
     background-color: #fff;
-}
-.leftcompany{
-    height: 64rpx;
-    line-height: 64rpx;
 }
 .bottomcompany{
     width: 174rpx;

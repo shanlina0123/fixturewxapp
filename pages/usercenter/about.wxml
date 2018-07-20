@@ -1,6 +1,6 @@
 <!--pages/usercenter/about.wxml-->
 <view class='ceontent aboutwrap samepadding'>
-    <image src='../../images/logo.png' class='logo'></image>
+    <image src='../../images/logo.png' class='logo' mode='aspectFit'></image>
     <text class='comname'>熊先森</text>
     <view class='companytext'>
         创立于2015年年初的积木家·互联网装修，专注为年轻人提供高品质、低价格的互联网整居全包装修服务。

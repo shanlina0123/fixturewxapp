@@ -166,12 +166,11 @@ view {
 }
 
 /**带点赞的评论列表**/
-
 .itemul {
     padding-top: 20rpx;
     padding-bottom: 20rpx;
     background-color: #fff;
-    margin-top: 20rpx;
+    margin-bottom: 20rpx;
 }
 
 .itemli .statetext{
@@ -317,90 +316,18 @@ view {
     color: #1e9fff;
     z-index: 20;
 }
+.deleteimage{
+    width: 40rpx;
+    height: 40rpx;
+}
+.deleteitem .editimage{
+    width: 40rpx;
+    height: 40rpx;
+}
 .itemulwrap{
     background-color: #f0f0f0;
     padding: .1px;
 }
-/**定义12种工地状况的颜色**/
-
-.color1 {
-    background-color: #c30; /**签约**/
-}
-
-.color2 {
-    background-color: #cc3; /**设计**/
-}
-
-.color3 {
-    background-color: #3cf; /**拆改**/
-}
-
 .color4 {
     background-color: #3c9; /**水电**/
 }
-
-.color5 {
-    background-color: #f60; /**泥木**/
-}
-
-.color6 {
-    background-color: #9c0; /**油漆**/
-}
-
-.color7 {
-    background-color: #3699c9; /**安装**/
-}
-
-.color8 {
-    background-color: #6b9479; /**软装**/
-}
-
-.color9 {
-    background-color: #3e9439; /**入住**/
-}
-
-.color10 {
-    background-color: #ff7768; /**签约**/
-}
-
-.color11 {
-    background-color: #ff7768; /**签约**/
-}
-
-.color12 {
-    background-color: #930; /**签约**/
-}
-
-/*下滑加载下一页*/
-
-.loadwrap {
-    text-align: center;
-    padding: 10rpx 0;
-}
-
-.loafgif {
-    width: 32rpx;
-    height: 32rpx;
-    vertical-align: middle;
-}
-/* .videopop{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 20;
-}
-.videotip{
-    position: fixed;
-    width: 600rpx;
-    height: 400rpx;
-    top: 10rpx;
-    left: 50%;
-    margin-left: -300rpx;
-    z-index: 30;
-}
-.videotip video{
-    width: 600rpx;
-    height: 400rpx;
-} */

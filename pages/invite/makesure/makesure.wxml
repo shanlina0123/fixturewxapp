@@ -1,6 +1,6 @@
 <!--pages/inviteuser/makesure.wxml-->
 <view class='samepadding'>
-    <text class='toptext'>请选择职位</text>
+    <text class='toptext'>请选择相应职位</text>
     <view class='joblist'>
         <text class='jobitem on'>项目经理</text>
         <text class='jobitem'>家装顾问</text>

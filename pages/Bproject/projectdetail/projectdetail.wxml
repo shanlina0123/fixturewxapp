@@ -195,7 +195,7 @@
                         <view class='bluecolor fr' bindtap='isdelete'><image src="../../../images/delete.png" class='deleteimage'></image></view>
                     </view>
                 </view>
-                <navigator url='../../adduser/adduser' class='linkbtn'>添加成员</navigator>
+                <navigator url='../../adduser/adduser' class='linkbtn'>邀请成员</navigator>
             </view>
         </view>
     </view>

@@ -1,5 +1,5 @@
 {
-  "component": true,
-  "usingComponents": {},
-"navigationBarTitleText": "邀请成员"
+    "component": true,
+    "usingComponents": {},
+    "navigationBarTitleText": "生成二维码"
 }

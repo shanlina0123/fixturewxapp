@@ -1,7 +1,8 @@
 <!--pages/inviteuser/inviteuser.wxml-->
-<view class='invitewarp'>
-    <view class='erweima'></view>
-    <text class='erweimatext'>微信扫码加入</text>
-    <navigator class='erweimabtn'>发送链接</navigator>
-    <text class='btntext'>此二维码链接最多邀请10人</text>
+<view class='invitecontent'>
+    <view class='invitewarp'>
+        <view class='toptextnotice'>邀请<text>成员</text>二维码</view>
+        <view class='erweima'></view>
+        <text class='erweimatext'>扫描上图二维码进行操作</text>
+    </view>
 </view>

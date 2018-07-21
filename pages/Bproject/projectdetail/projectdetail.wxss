@@ -132,29 +132,6 @@
     font-size: 24rpx;
     text-align: right;
 }
-
-/**底部操作按钮**/
-.bottombtns{
-    position: fixed;
-    width: 94%;
-    bottom: 0;
-    left: 0;
-    padding: 20rpx;
-    background-color: #fff;
-}
-.bottomcompany{
-    width: 174rpx;
-    height: 64rpx;
-    margin-right: 10rpx;
-    vertical-align: middle;
-}
-.bottombtn{
-    color: #fff;
-    background-color: #1e9fff;
-    padding: 15rpx 30rpx;
-    border-radius: 4rpx;
-    margin-left: 15rpx;
-}
 .linkbtn{
     display: block;
     width: 50%;
@@ -172,18 +149,38 @@
     margin-bottom: 0;
     border-bottom: 1px solid #e2e2e2
 }
-.handelmsgwrap{
+/**底部操作按钮**/
+.bottombtns{
     position: fixed;
+    width: 750rpx;
     bottom: 0;
     left: 0;
-    width: 100%;
-    background: #fff;
+    background-color: #fff;
+}
+.bottombtn{
+    width: 50%;
+    color: #fff;
+    height: 80rpx;
+    line-height: 80rpx;
     text-align: center;
-    padding: 10rpx 0;
-    z-index: 300;
+    background-color: #1e9fff;
 }
-.handelmsgwrap .item{
-    display: block;
-    padding: 20rpx 0;
-    border-top: 1px solid #ddd;
+.askbtn{
+    display: inline-block;
+    width: 50%;
+    font-size: 30rpx;
+    padding-right: 0;
+    padding-left: 0;
+    padding: 0 0;
+    line-height: 80rpx!important;
+    color: #fff;
+    border-radius: 0;
+    border:none!important;
+    background-color: #1e9fff;
 }
+.askbtn::after{
+    border: none;
+    border-radius: 0;
+    border-right: 1px solid #fff;
+}
+

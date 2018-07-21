@@ -1,0 +1,50 @@
+<!--pages/eval/eval.wxml-->
+<view class='wrap'>
+    <view class='samepadding'>
+        <form class='evalformm'>
+            <view class='evalformwrap'>
+                <view class='evalformitem topname clearfix'>
+                    <text class='lefttext fl'>项目:</text>
+                    <view class='rightwrap fl'>
+                        <text class='proaddr'>西安市未央区龙首原印象城</text>
+                    </view>
+                </view>
+                <view class='evalformitem clearfix'>
+                    <view class='centerwrap fl'>
+                        <radio-group class="radiogroup">
+                            <label>
+                                <radio value='签约'></radio>签约</label>
+                            <label>
+                                <radio value='设计'></radio>设计</label>
+                            <label>
+                                <radio value='拆改'></radio>拆改</label>
+                            <label>
+                                <radio value='水电'></radio>水电</label>
+                            <label>
+                                <radio value='泥木'></radio>泥木</label>
+                            <label>
+                                <radio value='油漆' disabled='true'></radio>油漆</label>
+                        </radio-group>
+                    </view>
+                </view>
+                <view class='evalformitem clearfix'>
+                    <view class='centerwrap fl'>
+                        <view class='evalimgwrap'>
+                            <image src="../../images/evalOn.png"></image>
+                            <image src="../../images/evalOn.png"></image>
+                            <image src="../../images/evalOn.png"></image>
+                            <image src="../../images/evalOn.png"></image>
+                            <image src="../../images/eval.png"></image>
+                        </view>
+                    </view>
+                </view>
+                <view class='evalformitem clearfix'>
+                    <view class='textareawrap fl'>
+                        <textarea class='evaltextarea' placeholder='您的评价很重要哦....'></textarea>
+                    </view>
+                </view>
+            </view>
+            <button form-type='submit' class='submitbtn'>立即提交</button>
+        </form>
+    </view>
+</view>

@@ -26,15 +26,15 @@
         <view class='tabbtns clearfix'>
             <view class="tabbtn fl {{selected1?on :''}}" bindtap="tab1">
                 <image src="../../../images/{{selected1?'proicon1On.png' :'proicon1.png'}}" class='tabimg'></image>
-                <text>进度</text>
+                <text>项目进度</text>
             </view>
             <view class="tabbtn fl {{selected2 ? on : ''}}" bindtap="tab2">
                 <image src="../../../images/{{selected2?'proicon2On.png' :'proicon2.png'}}" class='tabimg'></image>
-                <text>评价</text>
+                <text>业主评价</text>
             </view>
             <view class="tabbtn fl {{selected3 ? on : ''}}" bindtap="tab3">
                 <image src="../../../images/{{selected3?'proicon3On.png' :'proicon3.png'}}" class='tabimg'></image>
-                <text>团队</text>
+                <text>项目成员</text>
             </view>
         </view>
         <view class='tabcontent '>
@@ -169,6 +169,7 @@
                     </view>
                     <view class='deleteitem' bindtap='isdelete'><image src="../../../images/delete.png" class='deleteimage'></image></view>
                 </view>
+                <button class='linkbtn' bindtap='inviteuser'>邀请业主</button>
             </view>
             <view class="tabitem {{selected3?'':hide}}">
                 <view class='itemul samepadding'>
@@ -202,7 +203,7 @@
     <!--底预约参观按钮-->
     <view class='bottombtns clearfix'>
         <navigator url='../proupdate/proupdate' class='bottombtn fr' hover-class="none">更新</navigator>
-        <navigator class='bottombtn fr'>推广</navigator>
+        <button class='askbtn fr' size='mini'>推广</button>
     </view>
     <!--评论输入框-->
     <view class="inputwarp clearfix {{inputisshow ? '' :'hide'}}">

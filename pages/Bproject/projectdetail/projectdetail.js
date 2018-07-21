@@ -1,6 +1,5 @@
 // pages/Bproject/prodetail/prodetail.js
 Page({
-
     /**
      * 页面的初始数据
      */
@@ -10,8 +9,7 @@ Page({
         selected2: false,
         selected3: false,
         on: "check",
-        hide: 'hide',
-        handelshow:false
+        hide: 'hide'
     },
     /**关注项目按钮 */
     changeName: function (e) {
@@ -108,25 +106,22 @@ Page({
             }
         })
     },
-    //删除动态
-    deletemsg:function(){
-        this.setData({
-            handelshow: false
-        })
-        wx.showModal({
-            title: '确认删除吗？',
-        })
-    },
-    //编辑动态
-    editmsg:function(){
-        this.setData({
-            handelshow: false
-        })
-    },
-    //取消按钮
-    cancelmsg:function(){
-        this.setData({
-            handelshow: false
+    /**邀请业主评价 */
+    inviteuser:function(){
+        wx.showActionSheet({
+            itemList: ['邀请业主评价','生成邀请码'],
+            success:function(res){
+                if(res.tapIndex == 0){
+                    /**分享评价表单页面给微信好友 */
+                    wx.navigateTo({
+                        url: '../../eval/eval',
+                    })
+                }else{                    
+                    wx.navigateTo({
+                        url: '../../invite/inviteuser/inviteuser',
+                    })
+                }
+            }
         })
     },
     /**

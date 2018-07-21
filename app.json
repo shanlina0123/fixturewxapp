@@ -1,6 +1,6 @@
 {
     "pages": [ 
-        "pages/adduser/adduser",
+        
         "pages/index/index",
         "pages/index/prize",
         "pages/index/pricetip",
@@ -21,7 +21,7 @@
         "pages/usercenter/project/projectdetail",
         "pages/usercenter/project/visit",
         "pages/projectdetail/projectdetail",
-        
+        "pages/adduser/adduser",
         "pages/invite/inviteuser/inviteuser",
         "pages/invite/makesure/makesure",
         "pages/manageuser/usermanage",
@@ -38,6 +38,7 @@
         "pages/Bproject/wordsupdate/wordsupdate",
         "pages/changestore/changestore",
         "pages/getmessage/getmessage",
+        "pages/eval/eval",
         "pages/videos/videos",
         "pages/dialog/dialog",
         "pages/removeuser/removeuser"

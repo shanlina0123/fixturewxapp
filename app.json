@@ -1,5 +1,6 @@
 {
-    "pages": [ 
+    "pages": [
+        "pages/cprojectlist/cprojectlist",
         "pages/index/index",
         "pages/index/prize",
         "pages/index/pricetip",
@@ -33,13 +34,14 @@
         "pages/Bproject/promodel/promodel",
         "pages/Bproject/proprofect/proprofect",
         "pages/appointment/appointment",
-        "pages/Bproject/proupdate/proupdate",        
+        "pages/Bproject/proupdate/proupdate",
         "pages/Bproject/wordsupdate/wordsupdate",
         "pages/changestore/changestore",
         "pages/getmessage/getmessage",
         "pages/eval/eval",
         "pages/videos/videos",
         "pages/dialog/dialog",
+        
         "pages/removeuser/removeuser"
     ],
     "window": {
@@ -77,5 +79,4 @@
         ]
     },
     "debug": true
-    
 }

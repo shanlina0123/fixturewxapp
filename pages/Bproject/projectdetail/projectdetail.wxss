@@ -198,3 +198,6 @@
 .evaldelete{
     position: unset;
 }
+.workerdelete{
+    margin-top: 26rpx;
+}

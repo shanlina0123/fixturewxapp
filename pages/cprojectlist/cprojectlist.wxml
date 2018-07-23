@@ -1,0 +1,77 @@
+<!--pages/cprojectlist/cprojectlist.wxml-->
+<view class='wrap'>
+    <!--筛选条件部分-->
+    <view class='topsort'>
+        <view class='sortwrap'>
+            <view class="sortitem {{contentnumber == 1 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="1">所在城市</view>
+            <view class="sortitem {{contentnumber == 2 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="2">户型选择</view>
+            <view class="sortitem {{contentnumber == 3 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="3">装修风格</view>
+            <view class="sortitem {{contentnumber == 4 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="4">装修阶段</view>
+        </view>
+        <view class="sortcontentwrap {{popshow ? '' : 'hide'}}" bindtap='closepop' style='background:url(../../images/headbg.png) left top;'>
+            <!--所在城市筛选-->
+            <view class="sortcontent {{contentnumber == 1 ? '' :'hide'}}">
+                <text class='contenttext'>西安</text>
+                <text class='contenttext'>北京</text>
+                <text class='contenttext'>上海</text>
+            </view>
+            <!--户型选择筛选-->
+            <view class="sortcontent {{contentnumber == 2 ? '' :'hide'}}">
+                <text class='contenttext'>一室零厅</text>
+                <text class='contenttext'>一室一厅</text>
+                <text class='contenttext'>两室零厅</text>
+                <text class='contenttext'>两室一厅</text>
+                <text class='contenttext'>两室两厅</text>
+            </view>
+            <!--装修风格筛选-->
+            <view class="sortcontent {{contentnumber == 3 ? '' :'hide'}}">
+                <text class='contenttext'>简约</text>
+                <text class='contenttext'>欧式</text>
+                <text class='contenttext'>地中海</text>
+            </view>
+            <!--装修阶段筛选-->
+            <view class="sortcontent {{contentnumber == 4 ? '' :'hide'}}">
+                <text class='contenttext'>签约</text>
+                <text class='contenttext'>水电</text>
+                <text class='contenttext'>入住</text>
+            </view>
+        </view>
+    </view>
+    <!--列表展示部分-->
+    <view class='prolistwrap'>
+        <view class='prolist'>
+            <navigator url='../projectdetail/projectdetail' class='protop clearfix'>
+                <image src='../../../images/state2.jpg' class='proimage fl' mode="aspectFill"></image>
+                <view class='proright fl'>
+                    <view class='pname'>
+                        <text class='prostate color4'>水电</text>
+                        <text class='left10'>中华世纪城</text>
+                    </view>
+                    <view class='psytle'>
+                        <text class=''>西安</text>
+                        <text class='left10'>两室一厅</text>
+                        <text class='left10'>简约</text>
+                    </view>
+                    <view class='paddr'>西安市莲湖区龙首原印象城西安市莲湖区龙首原印象城</view>
+                </view>
+            </navigator>
+        </view>
+        <view class='prolist'>
+            <navigator url='../projectdetail/projectdetail' class='protop clearfix'>
+                <image src='../../../images/state2.jpg' class='proimage fl' mode="aspectFill"></image>
+                <view class='proright fl'>
+                    <view class='pname'>
+                        <text class='prostate color4'>入住</text>
+                        <text class='left10'>中华世纪城</text>
+                    </view>
+                    <view class='psytle'>
+                        <text class=''>渭南</text>
+                        <text class='left10'>三室两厅</text>
+                        <text class='left10'>简约</text>
+                    </view>
+                    <view class='paddr'>莲湖区龙首原印象城西安市莲湖区龙首原印象城</view>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view>

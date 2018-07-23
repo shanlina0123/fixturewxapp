@@ -159,7 +159,7 @@
         </view>
     </view> -->
     <!--项目为空时显示-->
-     <!-- <navigator url='../newproject/newproject' class='noneproject bluecolor ctext' hover-class='none'>您还没有创建项目，点击开始创建>>></navigator>  -->
+    <!-- <navigator url='../newproject/newproject' class='noneproject bluecolor ctext' hover-class='none'>您还没有创建项目，点击开始创建>>></navigator>  -->
 </view>
 <!--右侧浮动的新增项目按钮-->
 <navigator url='../newproject/newproject' class='addrightbtn' hover-class='none'>

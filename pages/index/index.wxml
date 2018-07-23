@@ -22,7 +22,7 @@
                 <view class='bigtext'>免费量房</view>
                 <view class='smalltext'>让您对房子精准了解</view>
             </navigator>
-            <navigator class='topitem ctopitem fl' url="quick/quick" hover-class="none">
+            <navigator class='topitem ctopitem fl' url="../cprojectlist/cprojectlist" hover-class="none">
                 <image src="../../images/tip7.png" class='firstimage'></image>
                 <view class='bigtext'>项目管理</view>
                 <view class='smalltext'>最新装修都在这里</view>

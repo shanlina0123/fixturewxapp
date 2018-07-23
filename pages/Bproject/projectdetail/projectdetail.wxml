@@ -158,9 +158,7 @@
                         <view class='rightname fl'>
                             <view class='topname clearfix'>
                                 <text class='uname fl'>张小姐</text>
-                                <view class='deleteitem evaldelete fr' bindtap='isdelete'>
-                                    <image src="../../../images/delete.png" class='deleteimage'></image>
-                                </view>
+                                <text class='prostate color4 fr'>水电</text>
                             </view>
                             <view class='bottomname clearfix'>
                                 <view class='imagewrap fl'>
@@ -170,12 +168,16 @@
                                     <image src="../../../images/eval.png" class='evalimg'></image>
                                     <image src="../../../images/eval.png" class='evalimg'></image>
                                 </view>
-                                <text class='prostate color4 fr'>水电</text>
                             </view>
                             <view class='itemli statecontent'>
                                 <text class='statetext'>装修质量很满意，给师傅们点赞装修质量很满意，给师傅们点赞装修质量很满意，给师傅们点赞装修质量很满意，给师傅们点赞</text>
                             </view>
-                            <text class='protime'>2小时前</text>
+                            <view class='clearfix'>
+                                <text class='protime fl'>2小时前</text>
+                                <view class='deleteitem evaldelete fr' bindtap='isdelete'>
+                                    <image src="../../../images/delete.png" class='deleteimage'></image>
+                                </view>
+                            </view>
                         </view>
                     </view>
                 </view>
@@ -184,11 +186,8 @@
                         <image src="../../../images/uhead.png" class='uhead fl'></image>
                         <view class='rightname fl'>
                             <view class='topname clearfix'>
-                                <text class='uname fl'>张小姐</text>
-                                <view class='deleteitem evaldelete fr' bindtap='isdelete'>
-                                    <image src="../../../images/delete.png" class='deleteimage'></image>
-                                </view>
-                                
+                                <text class='uname fl'>王小姐</text>
+                                <text class='prostate color4 fr'>水电</text>
                             </view>
                             <view class='bottomname clearfix'>
                                 <view class='imagewrap fl'>
@@ -198,12 +197,16 @@
                                     <image src="../../../images/eval.png" class='evalimg'></image>
                                     <image src="../../../images/eval.png" class='evalimg'></image>
                                 </view>
-                                <text class='prostate color4 fr'>水电</text>
                             </view>
                             <view class='itemli statecontent'>
                                 <text class='statetext'>装修质量很满意，给师傅们点赞</text>
                             </view>
-                            <text class='protime'>2小时前</text>
+                            <view class='clearfix'>
+                                <text class='protime fl'>2小时前</text>
+                                <view class='deleteitem evaldelete fr' bindtap='isdelete'>
+                                    <image src="../../../images/delete.png" class='deleteimage'></image>
+                                </view>
+                            </view>
                         </view>
                     </view>
                 </view>
@@ -253,4 +256,6 @@
     <input class='zaninput fl' type='text' placeholder='评论'></input>
     <text class='send left10 fl' bindtap='closeinput'>发送</text>
 </view>
-<view class='backindex'><image src='../../../images/backindex.png'></image></view>
+<view class='backindex'>
+    <image src='../../../images/backindex.png'></image>
+</view>

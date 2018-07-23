@@ -1,6 +1,5 @@
 {
     "pages": [ 
-        
         "pages/index/index",
         "pages/index/prize",
         "pages/index/pricetip",

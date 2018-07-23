@@ -331,3 +331,15 @@ view {
 .color4 {
     background-color: #3c9; /**水电**/
 }
+/*返回首页按钮*/
+.backindex{
+    position: fixed;
+    top: 80%;
+    right: 20rpx;
+    z-index: 3000
+}
+.backindex image{
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 80rpx;
+}

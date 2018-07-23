@@ -253,3 +253,4 @@
     <input class='zaninput fl' type='text' placeholder='评论'></input>
     <text class='send left10 fl' bindtap='closeinput'>发送</text>
 </view>
+<view class='backindex'><image src='../../../images/backindex.png'></image></view>

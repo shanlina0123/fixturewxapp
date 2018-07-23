@@ -40,9 +40,10 @@
                 </view>
                 <view class='evalformitem clearfix'>
                     <view class='textareawrap fl'>
-                        <textarea class='evaltextarea' placeholder='您的评价很重要哦....'></textarea>
+                        <textarea class='evaltextarea' placeholder='您的评价很重要哦....' maxlength="300"></textarea>
                     </view>
                 </view>
+                <view class='textnumber'>0/300</view>
             </view>
             <button form-type='submit' class='submitbtn'>立即提交</button>
         </form>

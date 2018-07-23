@@ -57,3 +57,8 @@
     color: #FFFFFF;
     margin-top: 30rpx;
 }
+.textnumber{
+    color: #999;
+    text-align: right;
+    padding-top: 10rpx;
+}

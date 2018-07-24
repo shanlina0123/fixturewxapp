@@ -6,7 +6,8 @@ Page({
      */
     data: {
         popshow: false,
-        contentnumber:0
+        contentnumber:0,
+        textindex:1
     },
     /**显示遮罩 */
     showpop:function(e){
@@ -17,6 +18,19 @@ Page({
         })
     },
     closepop:function(e){
+        this.setData({
+            popshow: false
+        })
+    },
+    /**选中筛选条件 */
+    checkthis:function(e){
+        var textindex = e.currentTarget.dataset.textindex
+        this.setData({
+            textindex: textindex
+        })
+    },
+    /**选中筛选条件 */
+    makesure:function(){
         this.setData({
             popshow: false
         })

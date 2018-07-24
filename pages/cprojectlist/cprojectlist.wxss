@@ -1,16 +1,31 @@
 /* pages/cprojectlist/cprojectlist.wxss */
 /*筛选条件部分*/
 .sortwrap{
-    padding: 20rpx 20rpx;
+    padding: 0 20rpx;
     background-color: #FFFFFF;
 }
 .sortwrap .sortitem{
+    position: relative;
     display: inline-block;
     text-align: center;
     width: 25%;
+    padding: 20rpx 0;
+}
+.sortitem .trangle{
+    position: absolute;
+    left: 150rpx;
+    top: 40rpx;
+    width:0;
+    height:0;
+    border-left:10rpx solid transparent;
+    border-right:10rpx solid transparent;
+    border-top:10rpx solid #444444;
 }
 .sortwrap .sortitem.on{
     color: #01AAED;
+}
+.sortwrap .sortitem.on .trangle{
+    border-top:10rpx solid #01AAED;
 }
 .sortcontentwrap{
     position: absolute;
@@ -21,13 +36,17 @@
 }
 .sortcontent{
     padding: 10rpx 30rpx;
-    background-color: #FFFFFF;
+    height: 300rpx;
+    overflow: auto;
 }
 .contenttext{
     display: block;
     line-height: 60rpx;
-    padding-left: 20rpx;
-    border-top: 1px solid #DDDDDD;
+    padding: 10rpx 0 10rpx 20rpx;
+    border-bottom: 1px solid #DDDDDD;
+}
+.contenttext.on{
+    color: #01AAED;
 }
 /*列表数据部分*/
 .prolist {

@@ -3,17 +3,17 @@
     <!--筛选条件部分-->
     <view class='topsort'>
         <view class='sortwrap'>
-            <view class="sortitem {{contentnumber == 1 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="1">所在城市</view>
-            <view class="sortitem {{contentnumber == 2 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="2">户型选择</view>
-            <view class="sortitem {{contentnumber == 3 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="3">装修风格</view>
-            <view class="sortitem {{contentnumber == 4 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="4">装修阶段</view>
+            <view class="sortitem {{contentnumber == 1 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="1">所在城市<text class='trangle'></text></view>
+            <view class="sortitem {{contentnumber == 2 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="2">户型选择<text class='trangle'></text></view>
+            <view class="sortitem {{contentnumber == 3 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="3">装修风格<text class='trangle'></text></view>
+            <view class="sortitem {{contentnumber == 4 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="4">装修阶段<text class='trangle'></text></view>
         </view>
-        <view class="sortcontentwrap {{popshow ? '' : 'hide'}}" bindtap='closepop' style='background:url(../../images/headbg.png) left top;'>
+        <modal class="sortcontentwrap {{popshow ? '' : 'hide'}}" bindconfirm="makesure" bindcancel="closepop">
             <!--所在城市筛选-->
             <view class="sortcontent {{contentnumber == 1 ? '' :'hide'}}">
-                <text class='contenttext'>西安</text>
-                <text class='contenttext'>北京</text>
-                <text class='contenttext'>上海</text>
+                <text class="contenttext {{textindex == 1 ? 'on' : ''}}" data-textindex="1" catchtap='checkthis'>西安</text>
+                <text class="contenttext {{textindex == 2 ? 'on' : ''}}" data-textindex="2" catchtap='checkthis'>北京</text>
+                <text class="contenttext {{textindex == 3 ? 'on' : ''}}" data-textindex="3" catchtap='checkthis'>上海</text>
             </view>
             <!--户型选择筛选-->
             <view class="sortcontent {{contentnumber == 2 ? '' :'hide'}}">
@@ -35,7 +35,7 @@
                 <text class='contenttext'>水电</text>
                 <text class='contenttext'>入住</text>
             </view>
-        </view>
+        </modal>
     </view>
     <!--列表展示部分-->
     <view class='prolistwrap'>

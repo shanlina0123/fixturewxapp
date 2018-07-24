@@ -1,6 +1,6 @@
 {
     "pages": [
-        "pages/cprojectlist/cprojectlist",
+        
         "pages/index/index",
         "pages/index/prize",
         "pages/index/pricetip",
@@ -41,7 +41,7 @@
         "pages/eval/eval",
         "pages/videos/videos",
         "pages/dialog/dialog",
-        
+        "pages/cprojectlist/cprojectlist",
         "pages/removeuser/removeuser"
     ],
     "window": {

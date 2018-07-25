@@ -7,7 +7,7 @@ Page({
     data: {
         popshow: false,
         contentnumber:0,
-        textindex:1
+        cityname:"所在城市"
     },
     /**显示遮罩 */
     showpop:function(e){
@@ -23,16 +23,16 @@ Page({
         })
     },
     /**选中筛选条件 */
-    checkthis:function(e){
-        var textindex = e.currentTarget.dataset.textindex
-        this.setData({
-            textindex: textindex
-        })
-    },
-    /**选中筛选条件 */
     makesure:function(){
         this.setData({
             popshow: false
+        })
+    },
+    thistext:function(e){
+        var cityname = e.currentTarget.dataset.text;
+        this.setData({
+            popshow: false,
+            cityname: cityname
         })
     },
     /**

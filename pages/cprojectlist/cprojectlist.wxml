@@ -3,20 +3,23 @@
     <!--筛选条件部分-->
     <view class='topsort'>
         <view class='sortwrap'>
-            <view class="sortitem {{contentnumber == 1 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="1">所在城市<text class='trangle'></text></view>
-            <view class="sortitem {{contentnumber == 2 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="2">户型选择<text class='trangle'></text></view>
-            <view class="sortitem {{contentnumber == 3 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="3">装修风格<text class='trangle'></text></view>
-            <view class="sortitem {{contentnumber == 4 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="4">装修阶段<text class='trangle'></text></view>
+            <view class="sortitem {{contentnumber == 1 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="1"><text>{{cityname}}</text><text class='trangle'></text></view>
+            <view class="sortitem {{contentnumber == 2 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="2"><text>户型选择</text><text class='trangle'></text></view>
+            <view class="sortitem {{contentnumber == 3 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="3"><text>装修风格</text><text class='trangle'></text></view>
+            <view class="sortitem {{contentnumber == 4 ? 'on' : ''}}" bindtap='showpop' data-contentnumber="4"><text>装修预算</text><text class='trangle'></text></view>
         </view>
-        <modal class="sortcontentwrap {{popshow ? '' : 'hide'}}" bindconfirm="makesure" bindcancel="closepop">
+        <view class="contentwrap {{popshow ? '' : 'hide'}}"  bindtap="closepop" style='background:url(../../images/headbg.png) left top;'></view>
+        <view class="sortcontentwrap {{popshow ? '' : 'hide'}}" >
             <!--所在城市筛选-->
             <view class="sortcontent {{contentnumber == 1 ? '' :'hide'}}">
-                <text class="contenttext {{textindex == 1 ? 'on' : ''}}" data-textindex="1" catchtap='checkthis'>西安</text>
-                <text class="contenttext {{textindex == 2 ? 'on' : ''}}" data-textindex="2" catchtap='checkthis'>北京</text>
-                <text class="contenttext {{textindex == 3 ? 'on' : ''}}" data-textindex="3" catchtap='checkthis'>上海</text>
+                <text class="contenttext on" catchtap='thistext' data-text="全部">全部</text>
+                <text class="contenttext" catchtap='thistext' data-text="西安">西安</text>
+                <text class="contenttext" catchtap='thistext' data-text="北京">北京</text>
+                <text class="contenttext" catchtap='thistext' data-text="上海">上海</text>
             </view>
             <!--户型选择筛选-->
             <view class="sortcontent {{contentnumber == 2 ? '' :'hide'}}">
+                <text class='contenttext'>全部</text>
                 <text class='contenttext'>一室零厅</text>
                 <text class='contenttext'>一室一厅</text>
                 <text class='contenttext'>两室零厅</text>
@@ -25,17 +28,23 @@
             </view>
             <!--装修风格筛选-->
             <view class="sortcontent {{contentnumber == 3 ? '' :'hide'}}">
+                <text class='contenttext'>全部</text>
                 <text class='contenttext'>简约</text>
                 <text class='contenttext'>欧式</text>
                 <text class='contenttext'>地中海</text>
             </view>
             <!--装修阶段筛选-->
             <view class="sortcontent {{contentnumber == 4 ? '' :'hide'}}">
-                <text class='contenttext'>签约</text>
-                <text class='contenttext'>水电</text>
-                <text class='contenttext'>入住</text>
+                <text class='contenttext'>不限</text>
+                <text class='contenttext'>3万以下</text>
+                <text class='contenttext'>3-5万</text>
+                <text class='contenttext'>5-8万</text>
+                <text class='contenttext'>8-12万</text>
+                <text class='contenttext'>18-30万</text>
+                <text class='contenttext'>30-100万</text>
+                <text class='contenttext'>100万</text>
             </view>
-        </modal>
+        </view>
     </view>
     <!--列表展示部分-->
     <view class='prolistwrap'>

@@ -250,8 +250,8 @@
     <!--邀请业主弹窗-->
      <view class="popwrap {{inviteshow ? '' : 'hide'}}" bindtap='closepop' style='background:url(../../../images/headbg.png) left top;'>
         <view class="invitewrap">
-            <text class='inviteitem' bindtap='invitefriend'>邀请业主评价</text>
-            <text class='inviteitem' bindtap='inviteuser'>生成邀请码</text>
+            <button class='inviteitem' bindtap='invitefriend'>邀请业主评价</button>
+            <button class='inviteitem' bindtap='inviteuser'>生成邀请码</button>
         </view>
     </view> 
 </view>

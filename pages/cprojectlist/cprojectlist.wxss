@@ -1,54 +1,72 @@
 /* pages/cprojectlist/cprojectlist.wxss */
+
 /*筛选条件部分*/
-.sortwrap{
+
+.sortwrap {
     padding: 0 20rpx;
-    background-color: #FFFFFF;
+    background-color: #fff;
 }
-.sortwrap .sortitem{
-    position: relative;
+
+.sortwrap .sortitem {
     display: inline-block;
     text-align: center;
     width: 25%;
     padding: 20rpx 0;
 }
-.sortitem .trangle{
-    position: absolute;
-    left: 150rpx;
-    top: 40rpx;
-    width:0;
-    height:0;
-    border-left:10rpx solid transparent;
-    border-right:10rpx solid transparent;
-    border-top:10rpx solid #444444;
+
+.sortwrap .sortitem text {
+    display: inline-block;
 }
-.sortwrap .sortitem.on{
-    color: #01AAED;
+
+.sortitem .trangle {
+    margin-left: 10rpx;
+    width: 0;
+    height: 0;
+    border-left: 10rpx solid transparent;
+    border-right: 10rpx solid transparent;
+    border-top: 10rpx solid #444;
 }
-.sortwrap .sortitem.on .trangle{
-    border-top:10rpx solid #01AAED;
+
+.sortwrap .sortitem.on {
+    color: #01aaed;
 }
-.sortcontentwrap{
+
+.sortwrap .sortitem.on .trangle {
+    border-top: 10rpx solid #01aaed;
+}
+
+.contentwrap {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 78rpx;
     left: 0;
 }
-.sortcontent{
-    padding: 10rpx 30rpx;
-    height: 300rpx;
-    overflow: auto;
+
+.sortcontentwrap {
+    position: absolute;
+    width: 750rpx;
+    z-index: 30;
 }
-.contenttext{
+
+.sortcontent {
+    padding: 10rpx 30rpx;
+    background-color: #fff;
+}
+
+.contenttext {
     display: block;
     line-height: 60rpx;
     padding: 10rpx 0 10rpx 20rpx;
-    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #ddd;
 }
-.contenttext.on{
-    color: #01AAED;
+
+.contenttext.on {
+    color: #01aaed;
 }
+
 /*列表数据部分*/
+
 .prolist {
     margin-top: 20rpx;
     padding: 10px 20rpx;
@@ -62,24 +80,28 @@
 
 .proright {
     margin-left: 15rpx;
-    width:495rpx;
+    width: 495rpx;
 }
-.proright .pname{
+
+.proright .pname {
     font-size: 30rpx;
     font-weight: bold;
     line-height: 60rpx;
 }
-.proright .pname .prostate{
+
+.proright .pname .prostate {
     font-size: 28rpx;
     font-weight: normal;
 }
-.psytle{
-    color: #999999;
+
+.psytle {
+    color: #999;
     font-size: 24rpx;
     padding: 10rpx 0;
     padding-left: 10rpx;
 }
-.paddr{
+
+.paddr {
     line-height: 40rpx;
     padding-left: 10rpx;
 }

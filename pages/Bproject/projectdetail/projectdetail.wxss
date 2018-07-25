@@ -202,7 +202,7 @@
     margin-top: 26rpx;
 }
 /*邀请业主评价部分弹窗*/
-.popwrap{
+ .popwrap{
     position: fixed;
     width: 100%;
     height: 100%;
@@ -215,15 +215,17 @@
     width: 94%;
     bottom: 0;
     left: 0;
-    padding: 10rpx 3%;
+    padding: 20rpx 3%;
     background-color: #F8F8F8;
-}
-.invitewrap .inviteitem{
-    display: block;
-    padding: 30rpx 0;
+} 
+.inviteitem{
     text-align: center;
+    margin-top: 20rpx;
+    padding: 10rpx 0;
+    font-size: 28rpx;
     border-top: 1px solid #f0f0f0;
 }
-.invitewrap .inviteitem:first-child{
+.inviteitem:first-child{
     border-top: none;
+    margin-top: 0;
 }

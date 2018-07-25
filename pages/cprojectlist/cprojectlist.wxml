@@ -53,13 +53,13 @@
                 <image src='../../../images/state2.jpg' class='proimage fl' mode="aspectFill"></image>
                 <view class='proright fl'>
                     <view class='pname'>
-                        <text class='prostate color4'>水电</text>
                         <text class='left10'>中华世纪城</text>
                     </view>
                     <view class='psytle'>
                         <text class=''>西安</text>
                         <text class='left10'>两室一厅</text>
                         <text class='left10'>简约</text>
+                        <text class='left10'>6万</text>
                     </view>
                     <view class='paddr'>西安市莲湖区龙首原印象城西安市莲湖区龙首原印象城</view>
                 </view>
@@ -70,13 +70,13 @@
                 <image src='../../../images/state2.jpg' class='proimage fl' mode="aspectFill"></image>
                 <view class='proright fl'>
                     <view class='pname'>
-                        <text class='prostate color4'>入住</text>
                         <text class='left10'>中华世纪城</text>
                     </view>
                     <view class='psytle'>
                         <text class=''>渭南</text>
                         <text class='left10'>三室两厅</text>
                         <text class='left10'>简约</text>
+                        <text class='left10'>10万</text>
                     </view>
                     <view class='paddr'>莲湖区龙首原印象城西安市莲湖区龙首原印象城</view>
                 </view>

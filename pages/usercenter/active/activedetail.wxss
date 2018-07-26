@@ -5,6 +5,7 @@
     font-size: 32rpx;
     font-weight: bold;
     padding: 10rpx 20rpx;
+    background-color: #FFFFFF;
     border-bottom: 1px solid #f0f0f0;
 }
 .detailtime{
@@ -13,9 +14,21 @@
     color: #999;
     font-size: 24rpx;
     padding: 8rpx 20rpx;
+    background-color: #FFFFFF;
 }
-.activeimg{
+.activecontent{
+    padding: 10rpx 20rpx;
+    color: #333;
+    background-color: #FFFFFF;
+}
+.activeimg,.activetopimg{
     width: 100%;
+}
+.activetopimg{
+    max-height: 300rpx;
+}
+.activebtnwrap{
+    padding:20rpx;
 }
 .submitBtn{
     color: #fff;
@@ -23,7 +36,6 @@
     padding:18rpx 0;
     border-radius: 8rpx;
     background-color: #1e9fff;
-    margin: 20rpx auto;
 }
 .bottomimg{
     margin-top: 20rpx;

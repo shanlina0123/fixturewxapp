@@ -1,10 +1,18 @@
 <!--pages/usercenter/active/activedetail.wxml-->
 <view class='wrap'>
-    <image src='../../../images/default.jpg' class='activeimg' mode='widthFix'></image>
+    <image src='../../../images/default.jpg' class='activetopimg' mode='widthFix'></image>
     <view class='detailname'>云易装 家装大讲堂</view>
     <view class='detailtime'>活动日期：03.20-05.20</view>
-    <view class='bottomimg'>
-        <image src='../../../images/state2.jpg' class='activeimg'></image>
+    <view class='activecontent'>
+        到店即送电子秤一台，再送2000元专属效果图设计（限前10名）【花2小时解决装修难题】《家装大讲堂》由资深家装专家
+        现场指导如何用一分钱装出两分效果？品牌材料、设计搭配如何选对选不贵？水电木瓦油试工验收必须注意的7个关键点，并解读最新
+        家装环保标准，让装修小白秒变老司机！到店可安排滴滴专车免费接驾。
+        参与方式：点击下方【我要报名】按钮进行报名
     </view>
-    <navigator url='signin' class='submitBtn'>我要报名</navigator>
+    <view class='bottomimg'>
+        <image src='../../../images/state2.jpg' class='activeimg' mode='widthFix'></image>
+    </view>
+    <view class='activebtnwrap'>
+        <navigator url='signin' class='submitBtn'>我要报名</navigator>
+    </view>
 </view>

@@ -3,14 +3,9 @@
     padding: 0 20rpx;
     background-color: #FFFFFF;
 }
-.toptitle{
-    padding: 10rpx 0;
-    font-size: 32rpx;
-    margin-top: 20rpx;
-}
 .activeli{
     padding: 20rpx 0;
-    border-top: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
 }
 .activeul .activeleftimg{
     width: 150rpx;

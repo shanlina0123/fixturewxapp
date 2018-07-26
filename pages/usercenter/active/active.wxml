@@ -1,7 +1,6 @@
 <view class='wrap'>
     <!--首页推荐活动-->
     <view class='indexactivewrap'>
-        <view class='toptitle'>促销活动</view>
         <view class='activeul'>
             <navigator url='activedetail' hover-class='none' class='activeli clearfix'>
                 <image class='activeleftimg fl' src="../../../images/state1.jpg" mode='aspectFill'></image>

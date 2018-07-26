@@ -304,55 +304,22 @@
     width: 100%;
     height: 200rpx;
 }
-/*首页促销活动*/
+/*首页活动入口*/
 .indexactivewrap{
-    padding: 0 20rpx;
+    padding: 20rpx;
+    margin: 20rpx 0;
     background-color: #FFFFFF;
 }
-.toptitle{
-    padding: 10rpx 0;
-    margin-top: 20rpx;
+.saleimg{
+    width: 64rpx;
+    height: 64rpx;
+    margin-right: 10rpx;
 }
-.lefttitle{
-    font-size: 32rpx;
+.activetext{
+    line-height: 64rpx;
 }
-.moreactive{
-    color: #999999;
-    line-height: 48rpx;
-}
-.rightmore{
-    width: 28rpx;
-    height: 22rpx;
-}
-.activeli{
-    padding: 20rpx 0;
-    border-top: 1px solid #F0F0F0;
-}
-.activeul .activeleftimg{
-    width: 150rpx;
-    height: 150rpx;
-}
-.activeul .activeright{
-    width: 540rpx;
-    margin-left: 20rpx;
-}
-.activeright .activetitle{
-    font-size: 30rpx;
-    line-height: 40rpx;
-    color: #000000;
-}
-.activeright .activedes{
-    height: 60rpx;
-    font-size: 26rpx;
-    line-height: 60rpx;
-    color: #666666;
-    overflow: hidden;
-}
-.activeright .activetime{
-    font-size: 24rpx;
-    color: #999999;
-}
-.titleimg{
-    width: 30rpx;
-    height: 30rpx;
+.activeright{
+    width: 32rpx;
+    height: 32rpx;
+    margin-top: 16rpx;
 }

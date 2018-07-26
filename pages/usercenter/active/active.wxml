@@ -1,23 +1,32 @@
-<!--有列表时添加加wrap样式，列表为空时去除wrap样式-->
 <view class='wrap'>
-    <view class='activeul samepadding'>
-        <!--活动列表为空时显示-->
-        <!-- <view class='nonedata'>暂无相关数据</view>  -->
-         <navigator url='activedetail' class='activeli'>
-            <view class='activeimwrap'>
-                <image src='../../../images/state1.jpg' class='activeimg'></image>
-                <text class='seedetail'>查看详情</text>
-            </view>
-            <view class='activename samepadding'>母亲节活动</view>
-            <view class='activedes samepadding'>5月13母亲节这天</view>
-        </navigator>
-        <navigator url='activedetail' class='activeli'>
-            <view class='activeimwrap'>
-                <image src='../../../images/state2.jpg' class='activeimg'></image>
-                <text class='seedetail'>查看详情</text>
-            </view>
-            <view class='activename samepadding'>端午节活动</view>
-            <view class='activedes samepadding'>2018年的端午节马上就要来临啦！</view>
-        </navigator> 
+    <!--首页推荐活动-->
+    <view class='indexactivewrap'>
+        <view class='toptitle'>促销活动</view>
+        <view class='activeul'>
+            <navigator url='activedetail' hover-class='none' class='activeli clearfix'>
+                <image class='activeleftimg fl' src="../../../images/state1.jpg" mode='aspectFill'></image>
+                <view class='activeright fl'>
+                    <view class='activetitle'>用户年中特权活动</view>
+                    <view class='activedes'>装修要花多少钱？先量房再定价,四大专属服务，三项特权供您使用</view>
+                    <view class='activetime'>有效期：03.25-05.23</view>
+                </view>
+            </navigator>
+            <navigator url='activedetail' hover-class='none' class='activeli clearfix'>
+                <image class='activeleftimg fl' src="../../../images/state1.jpg" mode='aspectFill'></image>
+                <view class='activeright fl'>
+                    <view class='activetitle'>用户年中特权活动</view>
+                    <view class='activedes'>装修要花多少钱？先量房再定价,四大专属服务，三项特权供您使用</view>
+                    <view class='activetime'>有效期：03.25-05.23</view>
+                </view>
+            </navigator>
+            <navigator url='activedetail' hover-class='none' class='activeli clearfix'>
+                <image class='activeleftimg fl' src="../../../images/state1.jpg" mode='aspectFill'></image>
+                <view class='activeright fl'>
+                    <view class='activetitle'>用户年中特权活动</view>
+                    <view class='activedes'>装修要花多少钱？先量房再定价,四大专属服务，三项特权供您使用</view>
+                    <view class='activetime'>有效期：03.25-05.23</view>
+                </view>
+            </navigator>
+        </view>
     </view>
 </view>

@@ -1,12 +1,9 @@
 <!--pages/usercenter/active/activedetail.wxml-->
-<view class='content samepadding'>
-    <view class='detailname'>端午节活动</view>
-    <view class='detailtime'>
-        <text>2018-05-01</text>
-        <text class='left15'>熊先森</text>
-    </view>
-    <view class='activecontent'>
-        <image src='../../../images/state1.jpg' class='activeimg'></image>
+<view class='wrap'>
+    <image src='../../../images/default.jpg' class='activeimg' mode='widthFix'></image>
+    <view class='detailname'>云易装 家装大讲堂</view>
+    <view class='detailtime'>活动日期：03.20-05.20</view>
+    <view class='bottomimg'>
         <image src='../../../images/state2.jpg' class='activeimg'></image>
     </view>
     <navigator url='signin' class='submitBtn'>我要报名</navigator>

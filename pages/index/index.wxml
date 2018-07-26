@@ -34,54 +34,27 @@
             </navigator>
         </view>
     </view>
+    <!--活动入口-->
+    <navigator url='../../../../usercenter/active/active' class='indexactivewrap clearfix'>
+        <image src="../../images/sale.png" class='saleimg fl'></image>
+        <view class='activetext fl'>幸运抽大奖</view>
+        <image src="../../images/right.png" class='activeright fr'></image>
+    </navigator>
     <!--横幅活动-->
     <swiper class="activeswiper" indicator-dots="true" indicator-color="rgba(255, 255, 255,1)" indicator-active-color="#01AAED" autoplay="true"
     interval="3000">
         <swiper-item>
-            <image src="../../images/default.jpg" class="slideimg"></image>
+            <image src="../../images/timg1.jpg" class="slideimg"></image>
         </swiper-item>
         <swiper-item>
-            <image src="../../images/banner1.jpg" class="slideimg"></image>
+            <image src="../../images/timg2.jpg" class="slideimg"></image>
         </swiper-item>
         <swiper-item>
-            <image src="../../images/banner2.jpg" class="slideimg"></image>
+            <image src="../../images/timg1.jpg" class="slideimg"></image>
         </swiper-item>
     </swiper>
-    <!--首页推荐活动-->
-    <view class='indexactivewrap'>
-        <view class='toptitle clearfix'>
-            <view class='lefttitle fl'><image src="../../images/iconhuo.png" class='titleimg'></image> 促销活动</view>
-            <navigator url='../usercenter/active/active' class='moreactive fr' hover-class='none'>更多<image src="../../images/right.png" class='rightmore'></image></navigator>
-        </view>
-        <view class='activeul'>
-            <navigator url='../usercenter/active/activedetail' hover-class='none' class='activeli clearfix'>
-                <image class='activeleftimg fl' src="../../images/state1.jpg" mode='aspectFill'></image>
-                <view class='activeright fl'>
-                    <view class='activetitle'>用户年中特权活动</view>
-                    <view class='activedes'>装修要花多少钱？先量房再定价,四大专属服务，三项特权供您使用</view>
-                    <view class='activetime'>有效期：03.25-05.23</view>
-                </view>
-            </navigator>
-            <navigator url='../usercenter/active/activedetail' hover-class='none' class='activeli clearfix'>
-                <image class='activeleftimg fl' src="../../images/state1.jpg" mode='aspectFill'></image>
-                <view class='activeright fl'>
-                    <view class='activetitle'>用户年中特权活动</view>
-                    <view class='activedes'>装修要花多少钱？先量房再定价,四大专属服务，三项特权供您使用</view>
-                    <view class='activetime'>有效期：03.25-05.23</view>
-                </view>
-            </navigator>
-            <navigator url='../usercenter/active/activedetail' hover-class='none' class='activeli clearfix'>
-                <image class='activeleftimg fl' src="../../images/state1.jpg" mode='aspectFill'></image>
-                <view class='activeright fl'>
-                    <view class='activetitle'>用户年中特权活动</view>
-                    <view class='activedes'>装修要花多少钱？先量房再定价,四大专属服务，三项特权供您使用</view>
-                    <view class='activetime'>有效期：03.25-05.23</view>
-                </view>
-            </navigator>
-        </view>
-    </view>
     <view class="itemulwrap">
-        <view class='centertitle'><image src="../../images/icondongtai.png" class='titleimg'></image> 最新动态</view>
+        <view class='centertitle'>最新动态</view>
         <view class='itemul samepadding'>
             <view class='itemli clearfix'>
                 <image src="../../images/uhead.png" class='uhead fl'></image>

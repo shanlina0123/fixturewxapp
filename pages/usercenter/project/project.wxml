@@ -2,8 +2,8 @@
 <view class='wrap'>
     <view class='projectul'>
         <!--项目列表为空时显示-->
-         <view class='nonedata'>暂无相关数据</view> 
-        <!-- <navigator url='projectdetail' class='projectli clearfix' hover-class="none">
+        <!-- <view class='nonedata'>暂无相关数据</view>  -->
+        <navigator url='projectdetail' class='projectli clearfix' hover-class="none">
             <view class='leftimgwrap fl'>
                 <image src='../../../images/state1.jpg' class='projectimg'></image>
                 <text class='projectstate color4'>水电</text>
@@ -30,6 +30,6 @@
                     <text>关注：10</text>
                 </view>
             </view>
-        </navigator> -->
+        </navigator>
     </view>
 </view>

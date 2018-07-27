@@ -316,8 +316,9 @@
     height: 64rpx;
     margin-right: 10rpx;
 }
-.activetext{
+.activetitle{
     line-height: 64rpx;
+    padding-left: 18rpx;
 }
 .activeright{
     width: 32rpx;

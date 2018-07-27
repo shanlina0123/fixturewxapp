@@ -36,8 +36,8 @@
     </view>
     <!--活动入口-->
     <navigator url='../../../../usercenter/active/active' class='indexactivewrap clearfix'>
-        <image src="../../images/sale.png" class='saleimg fl'></image>
-        <view class='activetext fl'>劲爆活动火热进行中，不去看看？</view>
+        <image src="../../images/picon2.png" class='saleimg fl'></image>
+        <view class='activetitle fl'>促销活动火热进行中，不去看看？</view>
         <image src="../../images/right.png" class='activeright fr'></image>
     </navigator>
     <!--横幅活动-->

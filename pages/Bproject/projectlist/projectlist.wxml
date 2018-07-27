@@ -12,7 +12,7 @@
             <text class="tabbtn {{on2 ? 'on':''}}" bindtap='showover'>已完工</text>
         </view>
     </view>
-    <!-- <view class='showcontent'>
+    <view class='showcontent'>
         <view class="content {{on1 ? '':'hide'}}">
             <view class='prolist'>
                 <navigator url='../projectdetail/projectdetail' class='protop clearfix'>
@@ -54,7 +54,7 @@
                     <view class='updatebtn' bindtap='showsetting'>设置</view>
                 </view>
             </view>
-                        <view class='prolist'>
+            <view class='prolist'>
                 <navigator url='../projectdetail/projectdetail' class='protop clearfix'>
                     <image src='../../../images/state2.jpg' class='proimage fl' mode="aspectFill"></image>
                     <view class='proright fl'>
@@ -74,49 +74,9 @@
                     <view class='updatebtn' bindtap='showsetting'>设置</view>
                 </view>
             </view>
-                        <view class='prolist'>
+            <view class='prolist'>
                 <navigator url='../projectdetail/projectdetail' class='protop clearfix'>
                     <image src='../../../images/state2.jpg' class='proimage fl' mode="aspectFill"></image>
-                    <view class='proright fl'>
-                        <view> 中华世纪城
-                            <text class='prostate color8'>软装</text>
-                        </view>
-                        <view>西安市莲湖区龙首原印象城</view>
-                        <view>
-                            <text>浏览：10</text>
-                            <text>关注：10</text>
-                        </view>
-                    </view>
-                </navigator>
-                <view class='probottom'>
-                    <navigator url='proupdate' class='updatebtn'>更新</navigator>
-                    <view class='updatebtn'>分享</view>
-                    <view class='updatebtn' bindtap='showsetting'>设置</view>
-                </view>
-            </view>
-                        <view class='prolist'>
-                <navigator url='../projectdetail/projectdetail' class='protop clearfix'>
-                    <image src='../../../images/state2.jpg' class='proimage fl'></image>
-                    <view class='proright fl'>
-                        <view> 中华世纪城
-                            <text class='prostate color8'>软装</text>
-                        </view>
-                        <view>西安市莲湖区龙首原印象城</view>
-                        <view>
-                            <text>浏览：10</text>
-                            <text>关注：10</text>
-                        </view>
-                    </view>
-                </navigator>
-                <view class='probottom'>
-                    <navigator url='proupdate' class='updatebtn'>更新</navigator>
-                    <view class='updatebtn'>分享</view>
-                    <view class='updatebtn' bindtap='showsetting'>设置</view>
-                </view>
-            </view>
-                        <view class='prolist'>
-                <navigator url='../projectdetail/projectdetail' class='protop clearfix'>
-                    <image src='../../../images/state2.jpg' class='proimage fl'></image>
                     <view class='proright fl'>
                         <view> 中华世纪城
                             <text class='prostate color8'>软装</text>
@@ -157,7 +117,7 @@
                 </view>
             </view>
         </view>
-    </view> -->
+    </view>
     <!--项目为空时显示-->
     <!-- <navigator url='../newproject/newproject' class='noneproject bluecolor ctext' hover-class='none'>您还没有创建项目，点击开始创建>>></navigator>  -->
 </view>
@@ -181,7 +141,7 @@
             <image src="../../../images/h1.png" class='florimg'>></image>
             <view>删除</view>
         </view>
-        <navigator url='../proprofect/proprofect' class='update'  bindtap='closepop'>
+        <navigator url='../proprofect/proprofect' class='update' bindtap='closepop'>
             <image src="../../../images/h2.png" class='florimg'>></image>
             <view>完善</view>
         </navigator>

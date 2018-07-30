@@ -125,20 +125,21 @@
 }
 
 /*C端顶部按钮调整*/
+.ctopbtnwrap .ctopitem , .ctopbtnwrap .ctopitem image{
+    width: 350rpx;
+}
 .ctopbtnwrap .ctopitem:nth-child(3n){
     margin-left: 0;
     margin-top: 10rpx;
 }
 .ctopbtnwrap .ctopitem:first-child{
-    width: 340rpx;
+    width: 350rpx;
     height: 120rpx;
 }
 .topbtnwrap .ctopitem:first-child image {
-    width: 340rpx;
+    width: 350rpx;
     height: 120rpx;
 }
-
-
 .centerbtn {
     display: inline-block;
     width: 31%;

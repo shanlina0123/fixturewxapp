@@ -1,39 +1,22 @@
 <!--pages/adduser/adduser.wxml-->
 <view class='wrap'>
     <view class='userlistwrap'>
-        <navigator url='../Bproject/projectdetail/projectdetail' class='userlist'>
-            <view class='usertop clearfix'>
+        <view class='userlist'>
+            <navigator url='../Bproject/projectdetail/projectdetail' class='usertop clearfix'>
                 <image src="../../images/store.png" class='storeimg fl'></image>
                 <text class='left10 fl'>未央店</text>
-            </view>
+            </navigator>
             <view class='usermsg clearfix'>
                 <image src="../../images/uhead.png" class='uhead fl'></image>
-                <view class='userright left15 fl'>
+                <navigator url='../Bproject/projectdetail/projectdetail' class='userright left15 fl'>
                     <view class='namewrap'>
                         <text class='uname'>张俊俏</text>
                         <text class='ustate'>管理员</text>
                     </view>
                     <view class='uaddr'>龙首原印象城</view>
-                </view>
+                </navigator>
                 <image src='../../images/delete.png' class="addimage fr"></image>
             </view>
-        </navigator>
-        <navigator url='../Bproject/projectdetail/projectdetail' class='userlist'>
-            <view class='usertop clearfix'>
-                <image src="../../images/store.png" class='storeimg fl'></image>
-                <text class='left10 fl'>未央店</text>
-            </view>
-            <view class='usermsg clearfix'>
-                <image src="../../images/uhead.png" class='uhead fl'></image>
-                <view class='userright left15 fl'>
-                    <view class='namewrap'>
-                        <text class='uname'>张俊俏</text>
-                        <text class='ustate'>管理员</text>
-                    </view>
-                    <view class='uaddr'>龙首原印象城</view>
-                </view>
-                <image src='../../images/delete.png' class="addimage fr"></image>
-            </view>
-        </navigator>
+        </view>
     </view>
 </view>

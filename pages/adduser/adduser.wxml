@@ -1,27 +1,39 @@
 <!--pages/adduser/adduser.wxml-->
-<view class='samepadding'>
-    <navigator url='../invite/inviteuser/inviteuser' class='invitebtn' hover-class='none'>添加新成员</navigator>
+<view class='wrap'>
     <view class='userlistwrap'>
-        <view class='userlist clearfix'>
-            <text class='ustate fl'>管理员</text>
-            <text class='uname left10 fl'>张俊俏</text>
-            <image src='../../images/newuser.png' class="addimage fr {{isadd ? 'hide':''}}" bindtap='adduser'></image>
-            <!--点击已添加之后的文字显示-->
-            <text class="fr hadadd {{isadd ? '':'hide'}}">已添加</text>
-        </view>
-        <view class='userlist clearfix'>
-            <text class='ustate fl'>水电工</text>
-            <text class='uname left10 fl'>王俊俏</text>
-            <text  class="fr">邀请</text>
-            <!--点击已添加之后的文字显示-->
-            <!-- <text class="fr hadadd">已添加</text>   -->
-        </view>
-        <view class='userlist clearfix'>
-            <text class='ustate fl'>搬运工</text>
-            <text class='uname left10 fl'>李俊俏</text>
-            <!--未添加状态的图片按钮-->
-            <!-- <image src='../../images/newuser.png' class="addimage fr"></image>  -->
-            <text class="fr hadadd">已邀请</text>
-        </view>
+        <navigator url='../Bproject/projectdetail/projectdetail' class='userlist'>
+            <view class='usertop clearfix'>
+                <image src="../../images/store.png" class='storeimg fl'></image>
+                <text class='left10 fl'>未央店</text>
+            </view>
+            <view class='usermsg clearfix'>
+                <image src="../../images/uhead.png" class='uhead fl'></image>
+                <view class='userright left15 fl'>
+                    <view class='namewrap'>
+                        <text class='uname'>张俊俏</text>
+                        <text class='ustate'>管理员</text>
+                    </view>
+                    <view class='uaddr'>龙首原印象城</view>
+                </view>
+                <image src='../../images/delete.png' class="addimage fr"></image>
+            </view>
+        </navigator>
+        <navigator url='../Bproject/projectdetail/projectdetail' class='userlist'>
+            <view class='usertop clearfix'>
+                <image src="../../images/store.png" class='storeimg fl'></image>
+                <text class='left10 fl'>未央店</text>
+            </view>
+            <view class='usermsg clearfix'>
+                <image src="../../images/uhead.png" class='uhead fl'></image>
+                <view class='userright left15 fl'>
+                    <view class='namewrap'>
+                        <text class='uname'>张俊俏</text>
+                        <text class='ustate'>管理员</text>
+                    </view>
+                    <view class='uaddr'>龙首原印象城</view>
+                </view>
+                <image src='../../images/delete.png' class="addimage fr"></image>
+            </view>
+        </navigator>
     </view>
 </view>

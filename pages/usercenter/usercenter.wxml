@@ -1,14 +1,10 @@
 <!--pages/usercenter/usercenter.wxml-->
 <view class='warp'>
-    <!-- <view class='wehead'>
-        <image src='../../images/uhead.png' class='uhead fl'></image>
-        <text class='left15'>胖大海</text>
-    </view> -->
     <view class='userwrap'>
         <image src="../../images/userbg.jpg" class='headbg'></image>
         <view class='usermsgwrap'>
             <image class='uhead' src="../../images/head.png"></image>
-            <view>昵称：胖大海</view>
+            <view>胖大海 <image src="../../images/edit.png" class='editname' catchtap="showedit"></image></view>
         </view>
     </view>
     <view class='proul'>
@@ -80,3 +76,8 @@
         </navigator>
     </view>
 </view>
+<modal hidden="{{editshow}}" title="胖大海" bindcancel="closepop" bindconfirm="confirmbtn">
+    <view class="editwrap">
+        <input type='text' class='popinput' placeholder='请输入新姓名'></input>
+    </view>
+</modal>

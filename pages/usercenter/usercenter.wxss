@@ -13,7 +13,7 @@
     bottom: -50rpx;
     text-align: center;
 }
-.usermsgwrap image{
+.usermsgwrap >image{
     width: 128rpx;
     height: 128rpx;
     border-radius: 128rpx;
@@ -21,6 +21,13 @@
 }
 .usermsgwrap view{
     font-size: 30rpx;
+    line-height: 40rpx;
+}
+.editname{
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 10rpx;
+    margin-left: 16rpx;
 }
 .proul{
     padding: 0 30rpx;
@@ -37,4 +44,14 @@
     width: 45rpx;
     height: 45rpx;
     vertical-align: middle;
+}
+/*编辑用户姓名弹窗*/
+.editwrap{
+    padding: 20rpx;
+}
+.popinput{
+    height: 60rpx;
+    line-height: 60rpx;
+    padding: 0 10rpx;
+    border: 1px solid #e2e2e2;
 }

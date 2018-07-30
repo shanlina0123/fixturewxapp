@@ -27,4 +27,5 @@
 }
 .uaddr{
     margin-top: 6rpx;
+    color: #666666
 }

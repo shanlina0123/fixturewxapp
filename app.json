@@ -1,6 +1,5 @@
 {
     "pages": [
-        "pages/usercenter/usercenter",
         "pages/index/index",
         "pages/index/prize",
         "pages/index/pricetip",
@@ -9,7 +8,7 @@
         "pages/message/message",
         "pages/message/asklist/asklist",
         "pages/message/asklist/askdetail",
-        
+        "pages/usercenter/usercenter",
         "pages/usercenter/join",
         "pages/usercenter/question",
         "pages/usercenter/about",
